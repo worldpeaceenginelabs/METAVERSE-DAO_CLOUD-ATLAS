@@ -25,7 +25,7 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ## For end-users
 ### METAVERSE-GUN includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
 
-### It is made so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers. (More User = More Server!)
+### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers. (More User = More Server!)
 
 ### All meta-verses using 'METAVERSE-GUN' as their "game" engine allow the conversion of an account from one Seed-based world to another.
 
