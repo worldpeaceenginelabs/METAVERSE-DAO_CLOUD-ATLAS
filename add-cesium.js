@@ -13,14 +13,14 @@
 
 
 
-// 2. Clone /src/views/feed.ts
-// Insert the Cesium React or Typescript snippet into the cloned feed.ts and rename the file Cesium.ts
+// 2. Clone /src/views/feed.js
+// Insert the Cesium React or Typescript snippet into the cloned feed.js and rename the file Cesium.ts
 
-// Then link Cesium.ts to Home in /src/js/components/Menu.ts, and the existing feed.ts entry in Menu.ts
-// rename to "Feed", under the Cesium Homebutton. (still "Home")
+// Then link Cesium.ts to Home in /src/js/components/Menu.js, and the existing feed.js entry in Menu.js
+// please rename to "Feed", placed under the Cesium Homebutton. (still "Home")
 
-// 3. add <CesiumMap /> component to Main.ts
-// add Cesium.ts to router on Main.ts (Menu.ts "Home", now ./.)
+// 3. add <CesiumMap /> component to Main.js
+// add Cesium.ts to router on Main.js (Menu.js "Home", now ./.)
 
 // 4. Then npm i cesium.
 
