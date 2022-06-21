@@ -1,3 +1,4 @@
+import { html } from 'htm/preact';
 import State from '../State';
 import View from './View';
 
@@ -38,7 +39,15 @@ class Feed extends View {
   }
 
   renderView() {
+    return html`
     
+    <object data="https://cloudatlas.club/"
+width="100%"
+height="100%"
+type="text/html">
+</object>
+
+    `;
   }
 }
 
