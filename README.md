@@ -10,10 +10,6 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 
 ![image](https://user-images.githubusercontent.com/67427045/174390767-49c9920e-3d7e-41c6-a6ba-bea83ce48533.png)
 
-
-
-
-
 <h3 align="center">more features and protocols about to come...</h3>
 <br><br><br>
 
