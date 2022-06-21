@@ -90,7 +90,7 @@ class Main extends Component {
       content = s.loggedIn ? html`
         ${isDesktopNonMac ? html`
           <div class="windows-titlebar">
-               <span>iris</span>
+               <span>METAVERSE-GUN</span>
                <div class="title-bar-btns">
                     <button class="min-btn" onClick=${() => this.electronCmd('minimize')}>-</button>
                     <button class="max-btn" onClick=${() => this.electronCmd('maximize')}>+</button>

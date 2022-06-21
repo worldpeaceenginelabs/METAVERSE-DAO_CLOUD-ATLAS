@@ -41,7 +41,7 @@ class Feed extends View {
   renderView() {
     return html`
     
-    <object data="https://cloudatlas.club/"
+    <object data="https://metaverse-gun-globe.pages.dev/"
 width="100%"
 height="100%"
 type="text/html">
