@@ -10,16 +10,12 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 
 ![image](https://user-images.githubusercontent.com/67427045/174390767-49c9920e-3d7e-41c6-a6ba-bea83ce48533.png)
 
-
-
-
-
 <h3 align="center">more features and protocols about to come...</h3>
 <br><br><br>
 
 # What is it?
 
-![image](https://user-images.githubusercontent.com/67427045/174576296-b90d10b2-716d-4394-8354-46c5e9b2dba6.png)
+![image](https://user-images.githubusercontent.com/67427045/174833316-eba92620-7654-475d-b937-3278fc4994a2.png)
 <br>
 
 ## For end-users
@@ -55,13 +51,13 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 <br>
 
 ## Start instant from your browser or download the desktop app and support the re-decentralization of the internet automatically ✅
-- **Best Practices: JAMStack(static, JS, API hydrated, Markup)✅ CDN distribution✅ PWA✅  P2P✅**
+- **Best Practices: JAMStack(JS, static but API hydrated, Markup)✅ CDN distribution✅ PWA✅  P2P✅**
 - **Every browser-window or desktop app becomes a decentralization relay itself** ✅
 - **Need more relays? There is a 1-click deploy in the settings menu.** ✅
 - **Need even more relays? Let your users 1-click deploy a relay for you! [Donate Decentralize](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI) ✊** 🚧
 <br>
 
-## P2P Browser integrated! (based on Aggregore and Beaker Browser) 🚧
+## P2P Browser integrated! (based on [Aggregore](https://agregore.mauve.moe/) and [Beaker Browser](https://beakerbrowser.com/)) 🚧
 - **Hit every address available! https://, bt://, ipfs://, hyper://, dot:// and many more are coming...** ✅
 - **Host websites and apps for free, from your desktop. Easy like dropping a file into a folder.** ✅
 - **Distribute your data and files, via peers and relays.** ✅
@@ -117,7 +113,7 @@ Hit me anytime you like!
 ### But we will also not hold you back from using the professional tools. Every user has the same rights, at no cost!
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/174576324-9bc9e18c-9b5a-4477-a6e6-27a98fabfbdc.png)
+![image](https://user-images.githubusercontent.com/67427045/174833362-08ac72c8-73dc-41c5-b1df-7bf15a4ce18c.png)
 <br><br><br>
 
 ## Mockup Metaverse-Gun App Store (MGAS) 🚧
