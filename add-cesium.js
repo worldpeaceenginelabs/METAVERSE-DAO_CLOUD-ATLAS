@@ -18,9 +18,8 @@
 // This goes into /src/js/views Cesium.js; rename to Cesium.ts
 import {onMount} from 'svelte'
 import {Viewer} from 'cesium'
-  import * as Cesium from 'cesium';
-	import {  } from 'cesium';
-	import '../node_modules/cesium/Build/Cesium/Widgets/widgets.css'
+import * as Cesium from 'cesium';
+import {  } from 'cesium';
 
 
   // avoid "window not declared"
