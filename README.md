@@ -84,7 +84,7 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ## Downsized, digital versions of governments, banking-system and Web 2.0 🚧
 - **Digital government: Build a community with defined rules and goals** 🚧
 - **Banking-system: Buy and sell with crypto money** 🚧 (coming soon)
-- **Web 2.0: The best from this step in internet evolution. Brainstormings, online and in-person meetups, petitions and crowdfunding. In the metaverse you are able to do what the internet was supposed to be...** 🚧 (coming soon)
+- **Web 2.0: The best from this step in internet evolution. Online brainstormings, crowdsourcing and collaboration, online and in-person meetups, petitions and crowdfunding. In the metaverse you are able to do what the internet was supposed to be...** 🚧 (coming soon)
 <br><br><br>
 
 # Preamble for Developers
