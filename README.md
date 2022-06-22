@@ -54,7 +54,7 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 - **Best Practices: JAMStack(JS, static but API hydrated, Markup)✅ CDN distribution✅ PWA✅  P2P✅**
 - **Every browser-window or desktop app becomes a decentralization relay itself** ✅
 - **Need more relays? There is a 1-click deploy in the settings menu.** ✅
-- **Need even more relays? Let your users 1-click deploy a relay for you! [Donate Decentralize](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI) ✊** 🚧
+- **Need even more relays? Let your users 1-click deploy a relay for you! [Donate Decentralize](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI) ✊** 🚧 (coming soon)
 <br>
 
 ## P2P Browser integrated! (based on [Aggregore](https://agregore.mauve.moe/) and [Beaker Browser](https://beakerbrowser.com/)) 🚧
@@ -75,10 +75,16 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 - **Decentralized, Distributed, P2P** ✅
 - **Censorship resistent** ✅
 - **No corporate gatekeepers - No big tech companies that decide what you can post, what gets visibility and who gets to have an account** ✅
-- **Anonymous Authentication: Sign up and Login via Metamask Wallet + 4FA (Metamask works without name and payment, but we will know 1000% its YOU again)🚧**
+- **Anonymous Authentication: Sign up and Login via Metamask Wallet + 4FA (Metamask works without name and payment, but we will know 1000% its YOU again)🚧** (coming soon)
 - **Fully Encrypted** 🚧
-- **2FA🚧, [3FA](https://twitter.com/marknadal/status/1427715775838572545)✅, [4FA](https://traitware.com/up-to-4-factor-multifactor-authentication/) for Login & UI & Apps (Device, PhotoAuth, Biometric, Location) 🚧<br>(for instance, you can allow the use of login, or settings, or your online-banking, ONLY when your GPS location is at home, or in a dedicated room, or even an area(geofencing))**
+- **2FA🚧, [3FA](https://twitter.com/marknadal/status/1427715775838572545)✅, [4FA](https://traitware.com/up-to-4-factor-multifactor-authentication/) for Login & UI & Apps (Device, PhotoAuth, Biometric, Location)** 🚧 (coming soon)<br>**(for instance, you can allow the use of login, or settings, or your online-banking, ONLY when your GPS location is at home, or in a dedicated room, or even an area(geofencing))**
 - **[Secure Render](https://hackernoon.com/secure-rendering-a-new-browser-standard-for-user-privacy-dv783b9h) Secure Rendering means the ability to have for instance Facebook not even know what your data is, yet still render the same great user experience.** 🚧
+<br>
+
+## Downsized, digital versions of governments, banking-system and Web 2.0 🚧
+- **Digital government: Build a community with defined rules and goals** 🚧
+- **Banking-system: Buy and sell with crypto money** 🚧 (coming soon)
+- **Web 2.0: The best from this step in internet evolution. Brainstormings, online and in-person meetups, petitions and crowdfunding** 🚧 (coming soon)
 <br><br><br>
 
 # Preamble for Developers
