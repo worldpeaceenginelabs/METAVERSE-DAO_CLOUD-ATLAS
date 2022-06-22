@@ -98,7 +98,7 @@ A bit like dev hop on hop off, no strings attached.😎
 
 I found so many github repos, which if bootstrapped get you such awesome decentralization (not only) features. But they lay around, dust on them sometimes, single purposed, but waiting to be used. 
 
-Could you imagine something better than a gun+multipleProtocols based metaverse as a p2p playground for devs? I'm not 😅
+Could you imagine something better than a gun+multipleProtocols based metaverse as a decentralized playground for devs? I'm not 😅
 
 Thank you so much in advance (for contributing to your favorite libraries, as always) 😉🙏
 
