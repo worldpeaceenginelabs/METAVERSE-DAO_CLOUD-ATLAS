@@ -21,7 +21,7 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ## For end-users
 ### METAVERSE-GUN includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
 
-### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers. (More User = More Server!)
+### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers.<br>(More User = More Server!)
 
 ### All meta-verses using 'METAVERSE-GUN' as their "game" engine allow the conversion of an account from one Seed-based world to another.
 
@@ -34,9 +34,9 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ### A decentralised, open-sourced, interactive, digital twin of the real-world (CesiumJS), which connects to Unreal Engine 5.<br>
 ### Combined with decentralised, planet-wide, text, file, voice and video communication (Iris + GUN + Webtorrent) right from the start, at your command.
 
-### A Big Thank You to the Iris Community, the Cesium Community, and all the communities behind the mouthwatering libraries and protocols we use. 🙏
+### A Big Thank You to the Iris Community, the Cesium Community, the Gun Community, and all the communities behind the mouthwatering libraries and protocols we use. 🙏
 
-### With just adding [two snippets](https://github.com/worldpeaceenginelabs/METAVERSE-GUN/blob/master/add-cesiumjs.js) of CesiumJS code to Iris-Messenger you will get the following features instant:
+### What great libraries to start building an open source metaverse, don't you think?
 <br>
 
 #### ✅ Done, or works already from the start
@@ -85,8 +85,6 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 
 Hi there everybody,
 
-Please note all the already green checkmarks, which is 99% achieved by the Iris devs already🥳🤯 what a great library to start to build an open-source metaverse, dont you think?
-
 My offer to devs is, you just doing your thingy and contribute to iris, cesium, gun, webtorrent, and all the other p2p, security, privacy, spatial and other libs we use, like always, but which will arrive at metaverse-gun automatically.
 
 But metaverse-gun is sure a platform, were we can get stuff from the lab, into practice, together. 🥳
@@ -101,12 +99,7 @@ Thank you so much in advance (for contributing to your favorite libraries, as al
 Hit me anytime you like! 
 <br><br><br>
 
-# Mockups
-
-### In manufacturing and design, a mockup, or mock-up, is a scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion, and other purposes. A mockup may be a prototype if it provides at least part of the functionality of a system and enables testing of a design.
-<br>
-
-## Mockup Starterkit (coming soon) 🚧
+## Starterkit ✅
 
 ### Not an IT person? No worries, we got your back!
 ### Templates and UI are on its way, so you can start being creative, even without being a professional!
@@ -115,6 +108,11 @@ Hit me anytime you like!
 
 ![image](https://user-images.githubusercontent.com/67427045/174906539-a8f51575-f16c-42bd-8c8e-5243cf2bed1c.png)
 <br><br><br>
+
+# Mockups
+
+### In manufacturing and design, a mockup, or mock-up, is a scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion, and other purposes. A mockup may be a prototype if it provides at least part of the functionality of a system and enables testing of a design.
+<br>
 
 ## Mockup Metaverse-Gun App Store (MGAS) 🚧
 
