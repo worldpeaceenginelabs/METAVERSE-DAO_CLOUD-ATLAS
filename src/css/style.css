@@ -3,6 +3,11 @@
     src: url("./Futura-Medium.woff") format('woff');
 }
 
+@font-face {
+    font-family: "Metuo-Black";
+    src: url("./Metuo-Black.woff") format('woff');
+}
+
 :root {
     --body-bg: #2e3036;
     --text-color: #dbdcde;
@@ -14,7 +19,7 @@
     --chat-hover: #33363c;
     --msg-content-background: #2e3036;
     --msg-border: none;
-    --our-msg: #7074da;
+    --our-msg: #9E64FE;
     --notify: #5E02F6;
     --warning-background: #FE5493;
     --heart-color: #FC005D;
@@ -272,6 +277,10 @@ img, video {
 
 .application-list a.logo {
   padding: 15px 30px;
+}
+
+.application-list a.logo span {
+    margin-top: 2px;
 }
 
 .nav .connected-peers small {
@@ -873,6 +882,10 @@ header.footer .header-content {
 
 .application-list a.logo img:last-child {
   margin-left: 5px;
+}
+
+h1, .application-list a.logo span {
+    font-family: "Metuo-Black", Futura, Arial;
 }
 
 @media (min-width:626px) and (max-width:1268px) {

@@ -6,11 +6,11 @@ import Gun from 'gun';
 
 const MAX_PEER_LIST_SIZE = 10;
 const ELECTRON_GUN_URL = 'http://localhost:8767/gun';
-let maxConnectedPeers = Helpers.isElectron ? 2 : 1;
+let maxConnectedPeers = 3;
 const DEFAULT_PEERS = {};
 
 DEFAULT_PEERS['https://gun-rs.iris.to/gun'] = {};
-// DEFAULT_PEERS['https://gun-us.herokuapp.com/gun'] = {}; // disable for now
+DEFAULT_PEERS['https://gun-us.herokuapp.com/gun'] = {};
 const loc = window.location;
 const host = loc.host;
 const is_localhost_but_not_dev = host.startsWith('localhost') && host !== 'localhost:8080';
@@ -154,7 +154,7 @@ function checkGunPeerCount() {
     if (peer && peer.wire && peer.wire.constructor.name !== 'WebSocket') {
       console.log('WebRTC peer', peer);
     }
-    return peer && peer.wire && peer.wire.hied === 'hi' && peer.wire.constructor.name === 'WebSocket';
+    return peer && peer.wire && peer.wire.readyState === 1  && peer.wire.bufferedAmount === 0 && peer.wire.constructor.name === 'WebSocket';
   });
   if (connectedPeers.length < maxConnectedPeers) {
     let unconnectedPeers = _.filter(Object.keys(knownPeers), url => {
@@ -176,7 +176,7 @@ function init() {
   State.local.get('settings').get('maxConnectedPeers').on(n => {
     if (n !== undefined) maxConnectedPeers = n;
   });
-  setInterval(checkGunPeerCount, 10000);
+  setInterval(checkGunPeerCount, 2000);
 }
 
 export default {
