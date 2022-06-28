@@ -23,6 +23,7 @@ import Feed from './views/Feed';
 import About from './views/About';
 import Contacts from './views/Contacts';
 import Torrent from './views/Torrent';
+import Cesium from './views/Cesium';
 
 import Menu from './components/Menu';
 import VideoCall from './components/VideoCall';
@@ -130,7 +131,7 @@ class Main extends Component<Props,State> {
           <div className="overlay" onClick={() => this.onClickOverlay()}></div>
           <div className="view-area">
             <Router history={history as CustomHistory} onChange={e => this.handleRoute(e)}>
-              <Feed path="/"/>
+              <Cesium path="/"/>
               <Feed path="/feed"/>
               <Hashtags path="/hashtag"/>
               <Feed path="/hashtag/:hashtag+"/>

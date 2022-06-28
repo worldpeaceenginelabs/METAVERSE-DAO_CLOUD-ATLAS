@@ -9,19 +9,19 @@ import Icons from "../Icons";
 
 const APPLICATIONS = [ // TODO: move editable shortcuts to localState gun
   {url: '/', text: t('home'), icon: Icons.home},
+  {url: '/feed', text: t('feed'), icon: Icons.feed},
   {url: '/media', text: t('media'), icon: Icons.play},
   {url: '/chat', text: t('messages'), icon: Icons.chat},
-  {url: '/store', text: t('market'), icon: Icons.store, beta: true },
+  {url: '/store', text: t('market'), icon: Icons.store},
   {url: '/contacts', text: t('contacts'), icon: Icons.user},
   {url: '/settings', text: t('settings'), icon: Icons.settings},
-  {url: '/explorer', text: t('explorer'), icon: Icons.folder, beta: true },
+  {url: '/explorer', text: t('explorer'), icon: Icons.folder},
   {url: '/about', text: t('about'), icon: Icons.info},
 ];
 
 export default class Menu extends Component {
   componentDidMount() {
     State.local.get('unseenMsgsTotal').on(this.inject());
-    State.local.get('settings').get('showBetaFeatures').on(this.inject());
   }
 
   menuLinkClicked() {
@@ -40,7 +40,7 @@ export default class Menu extends Component {
           </a>
         `}
         ${APPLICATIONS.map(a => {
-          if (a.url && (!a.beta || this.state.showBetaFeatures)) {
+          if (a.url) {
             return html`
               <${a.native ? 'a' : Link} onClick=${() => this.menuLinkClicked()} activeClassName="active" href=${a.url}>
                 <span class="icon">
@@ -49,7 +49,9 @@ export default class Menu extends Component {
                 </span>
                 <span class="text">${a.text}</span>
               <//>`;
-          }
+          } 
+            return html`<br/><br/>`;
+          
         })}
       </div>
     `;
