@@ -22,9 +22,12 @@ import {Helmet} from "react-helmet";
 import {SMS_VERIFIER_PUB} from '../SMS';
 
 function deleteChat(pub) {
-  iris.Channel.deleteChannel(State.public, Session.getKey(), pub);
-  delete Session.channels[pub];
-  State.local.get('channels').get(pub).put(null);
+  if (confirm(`${t('delete_chat')}?`)) {
+    iris.Channel.deleteChannel(State.public, Session.getKey(), pub);
+    delete Session.channels[pub];
+    State.local.get('channels').get(pub).put(null);
+    route(`/chat`);
+  }
 }
 
 class Profile extends View {
@@ -113,7 +116,7 @@ class Profile extends View {
     let profilePhoto;
     if (this.isMyProfile) {
       profilePhoto = html`<${ProfilePhotoPicker} currentPhoto=${this.state.photo} placeholder=${this.props.id} callback=${src => this.onProfilePhotoSet(src)}/>`;
-    } else if (this.state.photo && !this.state.blocked) {
+    } else if (this.state.photo && !this.state.blocked && this.state.photo.indexOf('data:image') === 0) {
         profilePhoto = html`<${SafeImg} class="profile-photo" src=${this.state.photo}/>`
       } else {
         profilePhoto = html`<${Identicon} str=${this.props.id} hidePhoto=${this.state.blocked} width=250/>`
@@ -248,11 +251,8 @@ class Profile extends View {
         this.setState({followedUserCount: this.followedUsers.size});
       }
     ));
-    State.group().on(`follow/${pub}`, this.sub((following, a, b, e, user) => {
-      if (following) {
-        this.followers.add(user);
-        this.setState({followerCount: this.followers.size});
-      }
+    State.group().count(`follow/${pub}`, this.sub((followerCount) => {
+      this.setState({followerCount});
     }));
     State.public.user(pub).get('profile').get('name').on(this.sub(
       name => {

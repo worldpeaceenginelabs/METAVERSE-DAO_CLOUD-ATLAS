@@ -6,6 +6,7 @@ import LanguageSelector from '../../components/LanguageSelector';
 import {translate as t} from '../../Translation';
 import {setRTCConfig, getRTCConfig, DEFAULT_RTC_CONFIG} from '../../components/VideoCall';
 import CopyButton from '../../components/CopyButton';
+import Text from '../../components/Text';
 import View from '../View';
 import { route } from 'preact-router';
 import {ExistingAccountLogin} from '../Login';
@@ -101,6 +102,8 @@ class Settings extends View {
         <p><input type="checkbox" checked=${this.state.local.enableWebtorrent} onChange=${() => State.local.get('settings').get('enableWebtorrent').put(!this.state.local.enableWebtorrent)} id="enableWebtorrent"/><label for="enableWebtorrent">${t('automatically_load_webtorrent_attachments')}</label></p>
         <p><input type="checkbox" checked=${this.state.local.autoplayWebtorrent} onChange=${() => State.local.get('settings').get('autoplayWebtorrent').put(!this.state.local.autoplayWebtorrent)} id="autoplayWebtorrent"/><label for="autoplayWebtorrent">${t('autoplay_webtorrent_videos')}</label></p>
         <hr/>
+        <h3>Show beta features</h3>
+        <p><input type="checkbox" checked=${this.state.local.showBetaFeatures} onChange=${() => State.local.get('settings').get('showBetaFeatures').put(!this.state.local.showBetaFeatures)} id="showBetaFeatures"/><label for="showBetaFeatures">${t('show_beta_features')}</label></p>
         <h3>${t('webrtc_connection_options')}</h3>
         <p><small>${t('webrtc_info')}</small></p>
         <p><textarea rows="4" id="rtc-config" placeholder="${t('webrtc_connection_options')}" onChange=${e => this.rtcConfigChanged(e)}></textarea></p>
@@ -109,7 +112,7 @@ class Settings extends View {
         <h3>${t('blocked_users')}</h3>
         ${blockedUsers.map(user => {
           if (this.state.blockedUsers[user]) {
-            return html`<p><a href="/profile/${encodeURIComponent(user)}"><iris-text user=${user} path="profile/name" placeholder="User"/></a></p>`;
+            return html`<p><a href="/profile/${encodeURIComponent(user)}"><${Text} user=${user} path="profile/name" placeholder="User"/></a></p>`;
           }
         })}
         ${blockedUsers.length === 0 ? t('none') : ''}

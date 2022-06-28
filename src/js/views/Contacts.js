@@ -8,6 +8,7 @@ import View from './View';
 import Session from '../Session';
 import ScrollViewport from 'preact-scroll-viewport';
 
+// TODO: add group selector
 class Contacts extends View {
   constructor() {
     super();
@@ -72,13 +73,16 @@ class Contacts extends View {
       return html`
       <div class="centered-container">
         ${t('no_contacts_in_list')}
-      </div>
-      `
+      </div>`
     }
-    keys.sort((a,b) => {
-      const aF = this.contacts[a].followers && this.contacts[a].followers.size || 0;
-      const bF = this.contacts[b].followers && this.contacts[b].followers.size || 0;
-      return bF - aF;
+    // follower counts are broken, so just sort by name
+    keys.sort((aK,bK) => {
+      const a = this.contacts[aK];
+      const b = this.contacts[bK];
+      if (!a.name && !b.name) { return aK.localeCompare(bK); }
+      if (!a.name) { return 1; }
+      if (!b.name) { return -1; }
+      return a.name.localeCompare(b.name);
     });
     return html`
       <div class="centered-container">

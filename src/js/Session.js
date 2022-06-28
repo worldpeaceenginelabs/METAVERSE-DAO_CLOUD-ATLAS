@@ -35,11 +35,11 @@ const DEFAULT_SETTINGS = {
 
 const settings = DEFAULT_SETTINGS;
 
-const updateUserSearchIndex = _.debounce(() => {
+const updateUserSearchIndex = _.throttle(() => {
   const options = {keys: ['name'], includeScore: true, includeMatches: true, threshold: 0.3};
   const values = Object.values(_.omit(follows, Object.keys(State.getBlockedUsers())));
   userSearchIndex = new Fuse(values, options);
-}, 2000, {leading:true});
+}, 3000, {leading:true});
 
 function addFollow(callback, k, followDistance, follower) {
   if (follows[k]) {
@@ -71,24 +71,27 @@ function removeFollow(k, followDistance, follower) {
   }
 }
 
+// TODO: this is still a performance issue. With throttle, follower graph / counts are not correctly updated
+// without throttle, it hogs memory and cpu
 const getExtendedFollows = _.throttle((callback, k, maxDepth = 3, currentDepth = 1) => {
   k = k || key.pub;
 
+  const shouldQuery = !follows[k];
   addFollow(callback, k, currentDepth - 1);
 
-  let n = 0;
-  State.public.user(k).get('follow').map().on((isFollowing, followedKey) => { // TODO: unfollow
-    if (follows[followedKey] === isFollowing) { return; }
-    if (isFollowing) {
-      n = n + 1;
-      addFollow(callback, followedKey, currentDepth, k);
-      if (currentDepth < maxDepth) {
-        getExtendedFollows(callback, followedKey, maxDepth, currentDepth + 1);
+  if (shouldQuery) {
+    State.public.user(k).get('follow').map().on((isFollowing, followedKey) => { // TODO: unfollow
+      if (follows[followedKey] === isFollowing) { return; }
+      if (isFollowing) {
+        addFollow(callback, followedKey, currentDepth, k);
+        if (currentDepth < maxDepth) {
+          _.defer(() => getExtendedFollows(callback, followedKey, maxDepth, currentDepth + 1));
+        }
+      } else {
+        removeFollow(followedKey, currentDepth, k);
       }
-    } else {
-      removeFollow(followedKey, currentDepth, k);
-    }
-  });
+    });
+  }
 
   return follows;
 }, 2000);
@@ -265,6 +268,7 @@ function getMyName() { return myName; }
 function getMyProfilePhoto() { return myProfilePhoto; }
 
 async function logOut() {
+  route('/');
   if (State.electron) {
     State.electron.get('user').put(null);
   }
@@ -283,7 +287,6 @@ async function logOut() {
   }
   clearIndexedDB();
   localStorage.clear();
-  route('/');
   location.reload();
 }
 
