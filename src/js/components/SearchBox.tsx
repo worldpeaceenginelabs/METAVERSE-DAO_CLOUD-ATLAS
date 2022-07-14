@@ -1,9 +1,9 @@
 import Component from '../BaseComponent';
 import { route } from 'preact-router';
 import Helpers from '../Helpers';
-import { html } from 'htm/preact';
 import State from '../State';
 import Identicon from './Identicon';
+import Text from './Text';
 import {translate as t} from '../Translation';
 import Session from '../Session';
 import $ from 'jquery';
@@ -11,13 +11,40 @@ import _ from 'lodash';
 
 const suggestedFollow = 'hyECQHwSo7fgr2MVfPyakvayPeixxsaAWVtZ-vbaiSc.TXIp8MnCtrnW6n2MrYquWPcc-DTmZzMBmc2yaGv9gIU';
 
-class SearchBox extends Component {
+type Props = {
+  onSelect?: (result: Object) => void;
+  query?: string;
+  focus?: boolean;
+  resultsOnly?: boolean;
+  class?: string;
+};
+
+type Result = {
+  item: ResultItem;
+}
+
+type ResultItem = {
+    key: string;
+    followers: Map<string, any>;
+    followDistance: number;
+    name?: string;
+}
+
+type State = {
+  results: Array<Result>;
+  query: string;
+  noFollows: boolean;
+  offsetLeft: number;
+}
+
+class SearchBox extends Component<Props, State> {
+  debouncedIndexAndSearch = _.debounce(() => {
+    this.search();
+  }, 200);
+
   constructor() {
     super();
-    this.state = {results:[]};
-    this.debouncedIndexAndSearch = _.debounce(() => {
-      this.search();
-    }, 200);
+    this.state = {results:[], query: '', noFollows: true, offsetLeft: 0};
   }
 
   onInput() {
@@ -30,11 +57,7 @@ class SearchBox extends Component {
   }
 
   componentDidMount() {
-    State.local.get('groups').get('everyone').map().on(this.sub(
-      () => {
-        this.noFollows = this.noFollows || Object.keys(Session.getFollows()).length > 1;
-      }
-    ));
+    State.local.get('noFollows').on(this.inject());
     State.local.get('activeRoute').on(this.sub(
       () => {
         this.close();
@@ -57,7 +80,7 @@ class SearchBox extends Component {
   adjustResultsPosition() {
     const input = $(this.base).find('input');
     if (input.length) {
-      this.offsetLeft = input[0].offsetLeft;
+      this.setState({offsetLeft: input[0].offsetLeft});
     }
   }
 
@@ -71,7 +94,7 @@ class SearchBox extends Component {
   }
 
   search() {
-    const query = this.props.query || $(this.base).find('input').val();
+    const query = this.props.query || $(this.base).find('input')[0].value;
     if (!query) { return; }
 
     if (this.props.onSelect) {
@@ -112,51 +135,59 @@ class SearchBox extends Component {
   }
 
   render() {
-    return html`
-      <div class="search-box ${this.props.class}">
-        ${this.props.resultsOnly ? '' : html`
-          <form onSubmit=${e => this.onSubmit(e)}>
+    return (
+      <div class={`search-box ${this.props.class}`}>
+        {this.props.resultsOnly ? '' : (
+          <form onSubmit={e => this.onSubmit(e)}>
             <label>
-              <input type="text" placeholder=${t('search')} onInput=${() => this.onInput()}/>
+              <input type="text" placeholder={t('search')} onInput={() => this.onInput()}/>
             </label>
           </form>
-        `}
-        <div class="search-box-results" style="left: ${this.offsetLeft || ''}">
-          ${this.state.results.map(r => {
+        )}
+        <div class="search-box-results" style="left: ${this.state.offsetLeft || ''}">
+          {this.state.results.map(r => {
             const i = r.item;
             let followText = '';
             if (i.followDistance === 1) {
               followText = 'Following';
             }
             if (i.followDistance > 1) {
+              /*
               if (i.followers.size === 1 && Session.getFollows()[[...i.followers][0]] && Session.getFollows()[[...i.followers][0]].name) {
                 followText = `Followed by ${  Session.getFollows()[[...i.followers][0]].name}`;
               } else {
                 followText = `${  i.followers.size  } followers`;
               }
+              */
+              followText = `${  i.followers.size  } followers`;
             }
-            return html`
-              <a href="/profile/${i.key}" onClick=${e => this.onClick(e, i)}>
-                <${Identicon} key=${`${i.key  }ic`} str=${i.key} width=40/>
+            return (
+              <a href={`/profile/${i.key}`} onClick={e => this.onClick(e, i)}>
+                <Identicon key={`${i.key  }ic`} str={i.key} width={40} />
                 <div>
-                  ${i.name || ''}<br/>
+                  {i.name || ''}<br/>
                   <small>
-                    ${followText}
+                    {followText}
                   </small>
                 </div>
               </a>
-            `;
+            );
           })}
-          ${this.state.query && !this.noFollows ? html`
-            <a class="follow-someone">Follow someone to see more search results!</a>
-            <a href="/profile/${suggestedFollow}" class="suggested">
-              <${Identicon} str=${suggestedFollow} width=40/>
-              <i>Suggested</i>
-            </a>
-          ` : ''}
+          {this.state.query && this.state.noFollows ? (
+            <>
+              <a class="follow-someone">Follow someone to see more search results!</a>
+              <a href={`/profile/${suggestedFollow}`} class="suggested">
+                <Identicon str={suggestedFollow} width={40}/>
+                <div>
+                  <Text user={suggestedFollow} path="profile/name" /><br/>
+                  <small>Suggested</small>
+                </div>
+              </a>
+            </>
+          ) : ''}
         </div>
       </div>
-    `;
+    );
   }
 }
 

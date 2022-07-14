@@ -5,6 +5,7 @@ import Session from '../Session';
 import ProfilePhotoPicker from '../components/ProfilePhotoPicker';
 import { route } from 'preact-router';
 import SafeImg from '../components/SafeImg';
+import Text from '../components/Text';
 import Filters from '../components/Filters';
 import CopyButton from '../components/CopyButton';
 import FollowButton from '../components/FollowButton';
@@ -15,13 +16,11 @@ import OnboardingNotification from "../components/OnboardingNotification";
 class Store extends View {
   constructor() {
     super();
-    this.eventListeners = [];
     this.followedUsers = new Set();
     this.followers = new Set();
     this.cart = {};
     this.carts = {};
     this.state = {items:{}};
-    this.items = {};
     this.id = 'profile';
     this.class = 'public-messages-view';
   }
@@ -41,9 +40,9 @@ class Store extends View {
       profilePhoto = html`<${ProfilePhotoPicker} currentPhoto=${this.state.photo} placeholder=${user} callback=${src => this.onProfilePhotoSet(src)}/>`;
     } else if (this.state.photo) {
         profilePhoto = html`<${SafeImg} class="profile-photo" src=${this.state.photo}/>`
-      } else {
-        profilePhoto = html`<${Identicon} str=${user} width=250/>`
-      }
+    } else {
+      profilePhoto = html`<${Identicon} str=${user} width=250/>`
+    }
     return html`
       <div class="content">
         <div class="profile-top">
@@ -52,10 +51,10 @@ class Store extends View {
               ${profilePhoto}
             </div>
             <div class="profile-header-stuff">
-              <h3 class="profile-name"><iris-text path= ${t('profile_name')} placeholder= ${t('name')} user=${user}/></h3>
+              <h3 class="profile-name"><${Text} path= ${t('profile_name')} placeholder= ${t('name')} user=${user}/></h3>
               <div class="profile-about hidden-xs">
                 <p class="profile-about-content">
-                  <iris-text path="store/about" placeholder=${t('store_description')} attr="about" user=${user}/>
+                  <${Text} path="store/about" placeholder=${t('store_description')} attr="about" user=${user}/>
                 </p>
               </div>
               <div class="profile-actions">
@@ -83,7 +82,7 @@ class Store extends View {
           </div>
         </div>
 
-        <h3> ${t('store')}</h3>
+        <h3>${t('store')}</h3>
         ${this.renderItems()}
       </div>
     `;
@@ -110,10 +109,10 @@ class Store extends View {
           const i = this.state.items[k];
           return html`
             <div class="thumbnail-item store-item" onClick=${() => route(`/product/${k}/${i.from}`)}>
-              <${SafeImg} src=${i.photo}/>
-              <a href="/product/${k}/${i.from}" class="name">${i.name}</a>
+              <${SafeImg} src=${i.photo || ''}/>
+              <a href="/product/${k}/${i.from || this.props.store}" class="name">${i.name}</a>
               ${this.props.store ? '':html`
-                <small>by <iris-text path="profile/name" editable="false" placeholder="Name" user=${i.from}/></small>
+                <small>by <${Text} path="profile/name" editable="false" placeholder="Name" user=${i.from}/></small>
               `}
               <p class="description">${i.description}</p>
               <p class="price">${i.price}</p>
@@ -142,7 +141,7 @@ class Store extends View {
 
   updateTotalPrice() {
     const totalPrice = Object.keys(this.cart).reduce((sum, currentKey) => {
-      const item = this.items[currentKey];
+      const item = this.state.items[currentKey];
       const price = item && parseInt(item.price) || 0;
       return sum + price * this.cart[currentKey];
     }, 0);
@@ -156,7 +155,7 @@ class Store extends View {
   }
 
   getCartFromUser(user) {
-    State.local.get('cart').get(user).map().on(this.sub(
+    State.local.get('cart').get(user).map(this.sub(
       (v, k) => {
         if (k === '#') { return; } // blah
         this.cart[k + user] = v;
@@ -170,16 +169,17 @@ class Store extends View {
 
   onProduct(p, id, a, e, from) {
     this.eventListeners[`products${  from}`] = e;
-    if (p) {
+    const items = this.state.items;
+    if (p && typeof p === "object") { // TODO gun returning bad data (typeof p === "string")?
       const o = {};
       p.from = from;
       o[id] = p;
-      Object.assign(this.items, o);
+      Object.assign(items, o);
       this.updateTotalPrice();
     } else {
-      delete this.items[id];
+      delete items[id];
     }
-    this.setState({items: this.items});
+    this.setState({items});
   }
 
   getProductsFromUser(user) {
@@ -215,11 +215,9 @@ class Store extends View {
 
   componentDidMount() {
     const user = this.props.store;
-    this.eventListeners.forEach(e => e.off());
+    Object.values(this.eventListeners).forEach(e => e.off());
     this.cart = {};
-    this.items = {};
     this.isMyProfile = Session.getPubKey() === user;
-    this.setState({followedUserCount: 0, followerCount: 0, name: '', photo: '', about: '', totalPrice: 0, items: {}, cart: {}});
 
     if (user) {
       this.getCartFromUser(user);
@@ -227,12 +225,9 @@ class Store extends View {
     } else {
       let prevGroup;
       State.local.get('filters').get('group').on(this.sub(
-        (group,k,x,e) => {
-          if (group !== prevGroup) {
-            this.items = {};
-            this.setState({items:{}});
+        group => {
+          if (group && group !== prevGroup) {
             prevGroup = group;
-            this.eventListeners.push(e);
             this.getAllProducts(group);
           }
         }

@@ -11,7 +11,6 @@ class Message extends View {
   }
 
   renderView() {
-
     let content;
     if (this.props.hash === 'new') {
       content = html`
@@ -23,7 +22,7 @@ class Message extends View {
       `;
     }
     return html`
-      <div id="message-list" class="centered-container">
+      <div class="centered-container">
         ${content}
       </div>
     `;

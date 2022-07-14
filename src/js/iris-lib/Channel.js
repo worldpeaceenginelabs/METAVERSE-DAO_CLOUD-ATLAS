@@ -1132,6 +1132,8 @@ class Channel {
     const user = gun.user();
     user.auth(key);
 
+    // We create a new Gun user whose private key is shared with the chat link recipients.
+    // Chat link recipients can contact you by writing their public key to the shared key's user space.
     const sharedKey = await Gun.SEA.pair();
     const sharedKeyString = JSON.stringify(sharedKey);
     const sharedSecret = await Gun.SEA.secret(sharedKey.epub, sharedKey);
@@ -1217,6 +1219,18 @@ class Channel {
     const channelId = await Channel.getOurSecretChannelId(gun, pub, key);
     gun.user().get('channels').get(channelId).put(null);
     gun.user().get('channels').get(channelId).off();
+  }
+
+  /**
+  *
+  */
+  static async deleteGroup(gun, key, uuid) {
+    const mySecret = await Gun.SEA.secret(key.epub, key);
+    const mySecretHash = await util.getHash(mySecret);
+    const mySecretUuid = await util.getHash(mySecretHash + uuid);
+    gun.user().auth(key);
+    gun.user().get('channels').get(mySecretUuid).put(null);
+    gun.user().get('channels').get(mySecretUuid).off();
   }
 }
 
