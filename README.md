@@ -1,8 +1,8 @@
 ### https://metaverse-gun.pages.dev/ [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
-METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <br>
 
-# METAVERSE-GUN (Iris Messenger + CesiumJS)
+# METAVERSE-DAO
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
 <br>
 
@@ -19,11 +19,11 @@ METAVERSE GUN COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 <br>
 
 ## For end-users
-### METAVERSE-GUN includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
+### METAVERSE-DAO includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
 
 ### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers.<br>(More User = More Server!)
 
-### All meta-verses using 'METAVERSE-GUN' as their "game" engine allow the conversion of an account from one Seed-based world to another.
+### All meta-verses using 'METAVERSE-DAO' as their "game" engine allow the conversion of an account from one Seed-based world to another.
 
 ### It allows an account to transfer their data from one verse into another and keep their stats instead of having to start from scratch.
 
@@ -93,7 +93,7 @@ Hi there everybody,
 
 My offer to devs is, you just doing your thingy and contribute to iris, cesium, gun, webtorrent, and all the other p2p, security, privacy, spatial and other libs we use, like always, but which will arrive at metaverse-gun automatically.
 
-But metaverse-gun is sure a platform, were we can get stuff from the lab, into practice, together. 🥳
+But METAVERSE-DAO is sure a platform, were we can get stuff from the lab, into practice, together. 🥳
 A bit like dev hop on hop off, no strings attached.😎
 
 I found so many github repos, which if bootstrapped get you such awesome decentralization (not only) features. But they lay around, dust on them sometimes, single purposed, but waiting to be used. 
@@ -120,7 +120,7 @@ Hit me anytime you like!
 ### In manufacturing and design, a mockup, or mock-up, is a scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion, and other purposes. A mockup may be a prototype if it provides at least part of the functionality of a system and enables testing of a design.
 <br>
 
-## Mockup Metaverse-Gun App Store (MGAS) 🚧
+## Mockup METAVERSE-DAO App Store (MGAS) 🚧
 
 ### There is a store with UI and even logic already integrated into Iris. Lets use it as a base for MGAS.
 
@@ -237,10 +237,8 @@ GUN enables subscription to data changes, so message feeds and identity profiles
 
 ## Need a relay?
 
-#### ROD - Rust Object Database (non-wasm rust port of gun)<br>
-!!!The decentralized METAVERSE-GUN syncs over ROD peers by default!!!<br>
-https://heroku.com/deploy?template=https://github.com/mmalmi/rod<br>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mmalmi/rod)
+#### ROD - Rust Object Database (non-wasm rust port of gun)
+You can add them from within the iris.to settings  menu.
 
 ## Improving decentralisation
 Currently the weak point of Iris's decentralisation is the list of initial peers, which could easily be blocked by governments or ISPs. By default, the application connects to IPFS default peers and a couple GUN peers. You can always add peers manually on the [settings page](https://irislib.github.io/#settings), but that is cumbersome for the average user.
