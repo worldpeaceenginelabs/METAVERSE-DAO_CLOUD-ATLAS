@@ -6,7 +6,7 @@ METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/174354805-bdd15d98-461d-48cf-be2b-7768b2832059.png)
+![image](https://user-images.githubusercontent.com/67427045/196102288-27a565a5-79ba-4bc7-af04-530446aa5b65.png)
 
 ![image](https://user-images.githubusercontent.com/67427045/174390767-49c9920e-3d7e-41c6-a6ba-bea83ce48533.png)
 
