@@ -1,12 +1,14 @@
-### https://metaverse-dao.pages.dev/ [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
+### https://metaverse-dao.pages.dev/ Watch METAVERSE-DAO development [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<br>
+<br><br>
 
 # METAVERSE-DAO - Time to connect the dots...
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
 <br>
 
 ![image](https://user-images.githubusercontent.com/67427045/196102288-27a565a5-79ba-4bc7-af04-530446aa5b65.png)
+
+<br>
 
 ![image](https://user-images.githubusercontent.com/67427045/174390767-49c9920e-3d7e-41c6-a6ba-bea83ce48533.png)
 
