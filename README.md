@@ -2,7 +2,7 @@
 METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <br>
 
-# METAVERSE-DAO
+# METAVERSE-DAO - Time to connect the dots...
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
 <br>
 
