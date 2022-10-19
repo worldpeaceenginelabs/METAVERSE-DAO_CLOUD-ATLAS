@@ -1,11 +1,20 @@
 <script lang="ts">  
 import Cesium from "./Cesium.svelte"
+import Iris from "./Iris.svelte";
+import Lastupdate from "./Lastupdate.svelte";
+
+
 </script>
 
 <!-- Here starts the app-->
-<div>
+
+
+
+<main>
 <Cesium/>
-</div>
+<Lastupdate/>
+<Iris/>
+</main>
 
 <style></style>
 
