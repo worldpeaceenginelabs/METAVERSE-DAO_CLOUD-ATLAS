@@ -15,7 +15,8 @@ METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 
 # What is it?
 
-![image](https://user-images.githubusercontent.com/67427045/174906474-60ba87ac-a966-479a-b1ba-1b17725e7201.png)
+![image](https://user-images.githubusercontent.com/67427045/196626511-7961d2ec-787f-49c9-bddf-e95e7d457299.png)
+
 <br>
 
 ## For end-users
@@ -112,7 +113,7 @@ Hit me anytime you like!
 ### But we will also not hold you back from using the professional tools. Every user has the same rights, at no cost!
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/174906539-a8f51575-f16c-42bd-8c8e-5243cf2bed1c.png)
+![image](https://user-images.githubusercontent.com/67427045/196626511-7961d2ec-787f-49c9-bddf-e95e7d457299.png)
 <br><br><br>
 
 # Mockups
