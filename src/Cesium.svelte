@@ -17,9 +17,9 @@
 	import '../node_modules/cesium/Build/Cesium/Widgets/widgets.css'
   
   import Gun from 'gun';
- 
-
-  // Get user location from browser api
+  import { nanoid } from 'nanoid';
+  
+   // Get user location from browser api
   const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
     return new Promise((resolve, reject) => {
       if (navigator.geolocation) {
@@ -233,10 +233,10 @@ const createPulsatingPoint = (
 onMount(async () => {
 
 // Initialize GUN and tell it we will be storing all data under the key 'test'.
-var db = Gun(['http://localhost:8765/gun']).get('test')
+var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
 
 
-// fetch latitude, longitude on click
+// fetch latitude, longitude on click and save to Gun
 let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
 handler.setInputAction(function(result) {
 
@@ -247,10 +247,13 @@ handler.setInputAction(function(result) {
                                         
                                         // convert from Cartesian to Degrees and shorten the numbers to 7 digits after comma
                                         const longitudeString = Cesium.Math.toDegrees(cartographic.longitude).toFixed(7);
-                                        const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);                                  
-                                        
+                                        const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);
+
+                                        // Generate random ID
+                                        var randomid = nanoid(); 
+
                                         // Save coordinates to Gun                                        
-                                        db.put({longitude: longitudeString, latitude: latitudeString});
+                                        db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
                                         
                                         },
 Cesium.ScreenSpaceEventType.LEFT_CLICK);
@@ -261,8 +264,8 @@ db.on(data => {
 
 // Cesium constructor
 
-let bluebox = viewer.entities.add({
-			name: "Green box",
+let reddot = viewer.entities.add({
+			name: "red dot",
 			position: Cartesian3.fromDegrees(
                                       Number(data.longitude),
                                       Number(data.latitude),

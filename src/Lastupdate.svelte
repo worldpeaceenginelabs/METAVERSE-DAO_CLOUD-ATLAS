@@ -4,14 +4,33 @@
 <div>
 
     <h4>
-        - added Iris.to, working on avoiding the reload - 19th October 2022, 09:45 AM<br>
-        
+        Want to support decentralization?<br><br>
+        Get involved:<br>
+        <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">Metaverse-DAO@Github</a> 
+    </h4>
+
+
+    <h4>
+        - added Iris.to, stuck on avoiding the reload of the Iframe - 20th November 2022, 10:38AM<br>
+        Do you know how to avoid the reload? Leave it at<a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO/issues" target="blank">Github/Metaverse-Dao/issues</a>, please!<br>
+        Thanks in advance!
     </h4>
 
 </div>
 
 
 <style>
+    a{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-align: center;
+            color: white;
+            padding: 1%;
+            font-size: large;        
+        }
+
     h4 {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
             'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;

@@ -13,7 +13,7 @@ import Lastupdate from "./Lastupdate.svelte";
 <main>
 <Cesium/>
 <Lastupdate/>
-<Iris/>
+<div align="center"><Iris/></div>
 </main>
 
 <style></style>
