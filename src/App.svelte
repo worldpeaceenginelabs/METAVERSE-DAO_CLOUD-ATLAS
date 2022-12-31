@@ -6,7 +6,7 @@ import Cesium from "./Cesium.svelte";
 
 <!-- Here starts the app-->
 
-<!-- <Cesium/> -->
+<Cesium/>
 <main>
 <Appsearch/>
 </main>

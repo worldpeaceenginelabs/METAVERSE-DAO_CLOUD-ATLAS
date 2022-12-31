@@ -14,12 +14,15 @@
 	
 </script>
 
-<div class="searchfield" align="center">
-	<input placeholder="Fuzzy Filter" bind:value={searchTerm} />
-</div>
+
 
 
 <div class='container'>
+	
+	<div class="searchfield">
+		<input placeholder="Fuzzy Filter" bind:value={searchTerm} />
+	</div>
+
 	{#if searchTerm}
 	<VirtualList items={filteredList} bind:start bind:end let:item>
 		<ListItem {...item}/>
@@ -34,6 +37,9 @@
 		height: calc(100vh - 15em);
 	}
 	.searchfield {
-		background: white;
+		margin-top: 1em;
+		text-align: center;
+		position: relative;
+		background: black;
 	}
 </style>
