@@ -2,6 +2,7 @@
 	import VirtualList from './VirtualList.svelte';
 	import ListItem from './ListItem.svelte';
 	import items from './data.js'
+	import { clickOutside } from "./click_outside.js";
 
 	let searchTerm = "";
 
@@ -20,12 +21,12 @@
 <div class='container'>
 	
 	<div class="searchcontainer">
-		<input class="searchfield" placeholder="Fuzzy Filter" bind:value={searchTerm} on:focus={() => isFocused = true} on:blur={() => isFocused = false}/>
+		<input class="searchfield" placeholder="Fuzzy Filter" bind:value={searchTerm} on:focus={() => isFocused = true} use:clickOutside on:outclick={() => (isFocused = false)}/>
 	</div>
 
 	{#if isFocused}
-	<VirtualList items={filteredList} bind:start bind:end let:item>
-		<ListItem {...item}/>
+	<VirtualList items={filteredList} bind:start bind:end let:item on:click={() => isFocused = false}>
+		<ListItem {...item} />
 	</VirtualList>
 	{/if}
 </div>
