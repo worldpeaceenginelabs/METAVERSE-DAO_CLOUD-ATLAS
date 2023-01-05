@@ -1,17 +1,16 @@
-<!-- https://github.com/sveltejs/svelte-virtual-list -->
-
 <script>
 	import VirtualList from './VirtualList.svelte';
-	import items from './data.js';
 	import ListItem from './ListItem.svelte';
+	import items from './data.js'
 
 	let searchTerm = "";
-	
-	// Original
-	$: filteredList = items.filter(item => item.name.indexOf(searchTerm) !== -1).sort((a, b) => a.name.localeCompare(b.name));	
 
-  let start;
-  let end;
+	$: filteredList = items.filter(item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1).sort((a, b) => a.name.localeCompare(b.name));	
+
+	let isFocused = false;
+
+	let start;
+  	let end;
 	
 </script>
 
@@ -21,10 +20,10 @@
 <div class='container'>
 	
 	<div class="searchcontainer">
-		<input class="searchfield" placeholder="Fuzzy Filter" bind:value={searchTerm} />
+		<input class="searchfield" placeholder="Fuzzy Filter" bind:value={searchTerm} on:focus={() => isFocused = true} on:blur={() => isFocused = false}/>
 	</div>
 
-	{#if searchTerm}
+	{#if isFocused}
 	<VirtualList items={filteredList} bind:start bind:end let:item>
 		<ListItem {...item}/>
 	</VirtualList>

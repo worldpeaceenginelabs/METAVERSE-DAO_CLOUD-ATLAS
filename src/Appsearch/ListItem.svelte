@@ -2,12 +2,16 @@
 	export let avatar;
 	export let name;
 	export let content;
+	export let href;
+	export let target;
 </script>
 
 <div class='card'>
+	<a href="{href}" target="{target}">
 	<span class='avatar' style='background: url({avatar})' ></span>
 	<h2>{name}</h2>
 	<p>{content}</p>
+	</a>
 </div>
 
 <style>
