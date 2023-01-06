@@ -6,13 +6,19 @@
 	export let target;
 </script>
 
+
+
+<a href="{href}" target="{target}">
 <div class='card'>
-	<a href="{href}" target="{target}">
-	<span class='avatar' style='background: url({avatar})' ></span>
+	
+	<img class="avatar" src="{avatar}">
 	<h2>{name}</h2>
 	<p>{content}</p>
-	</a>
+	
 </div>
+</a>
+
+
 
 <style>
 	.card {
@@ -37,20 +43,28 @@
 		height: 5em;
 		left: 0.5em;
 		top: 0.5em;
-		border-radius: 50%;
 		background: no-repeat 50% 50%;
 		background-size: cover;
+		border: 0px;
 	}
 
 	h2 {
 		color: black;
 		margin: 0 0 0.5em 0;
-		font-size: 16px;
+		font-size: 14px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;            
 	}
 
 	p {
 		color: black;
-		margin: 0;
-		font-size: 14px;
+		margin: 0 0 0.5em 0;
+		font-size: 11px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 	}
 </style>
