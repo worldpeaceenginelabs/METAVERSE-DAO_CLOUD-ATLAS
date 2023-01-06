@@ -28,14 +28,14 @@ export default
 
     { key: `2`,
     title: "Report Deceptive Packaging (coming soon)",
-    content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, the inside not visible, and filled with air. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
+    content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, but the inside not visible. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
     target: '_blank',
     avatar: 'fuzzy-avatar/key2.jpg?auto=compress'
     },
     
     { key: `3`,
     title: 'Evolve this digital twin of the real-world to evolve the real-world',
-    content: 'Are you a creative, a developer, a maker, a supporter, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a webapp/component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your webapp to this menu or make your component part of the basic apps (for now manually)',
+    content: 'Are you a creative, a developer, a maker, a supporter, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a webapp/component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your webapp to this menu or make your dapp/component part of the basic apps (for now manually)',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress'},
@@ -44,7 +44,7 @@ export default
 
     { key: `4`,
     title: 'Want to see more stuff thats on the future roadmap?',
-    content: 'A collection of ideas and concepts which will be implemented as dapps into the Metaverse-DAO / CLOUD ATLAS',
+    content: 'A collection of ideas and concepts which will be implemented as dapps into METAVERSE-DAO | CLOUD ATLAS. Feel free to copy-cat and develop whatever you want, but dont forget to hit me with the results.',
     href: 'https://worldpeaceengine.pubpub.org/pub/futurefeatures/release/82',
     target: '_blank',
     avatar: 'fuzzy-avatar/key4.jpg?auto=compress'
@@ -54,7 +54,7 @@ export default
 
     { key: `5`,
     title: 'WORLD PEACE ENGINE LABS',
-    content: 'WORLD PEACE ENGINE LABS is a public, radical-transparent, open-source, non-profit organization and home of Metaverse-DAO and CLOUD ATLAS',
+    content: 'WORLD PEACE ENGINE LABS is a public, radical-transparent, open-source, non-profit organization and home of METAVERSE-DAO | CLOUD ATLAS',
     href: 'https://worldpeaceenginelabs.org',
     target: '_blank',
     avatar: 'fuzzy-avatar/key5.jpg?auto=compress'
