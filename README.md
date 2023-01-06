@@ -158,6 +158,10 @@ Built on open formats, CesiumJS is designed for robust interoperability and scal
 
 <br>
 
+![image](https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png)
+
+<br>
+
 ## Bring the real world to Unreal Engine 5 and then back into the real world (web and desktop app, game, software, vr, webvr...)
 
 ### See Cesium for Unreal in action: https://cesium.com/platform/cesium-for-unreal/ (video)
@@ -172,7 +176,11 @@ Built on open standards and APIs, Cesium for Unreal combines the 3D geospatial c
 - Integrated with Unreal Engine Editor, Actors and Components, Blueprints, and other UE features to enable a high degree of interactivity, physical realism, and photorealism to create amazing experiences
 - Optional subscription to Cesium ion for one-click access to global curated 3D content including terrain, imagery, 3D cities, and photogrammetry
 
-<br><br><br>
+<br>
+
+![image](https://metaverse-dao.pages.dev/fuzzy-avatar/3f213087732422818ea1f7bfc2345c5a.png)
+
+<br>
 
 # Iris Messenger ✅
 
