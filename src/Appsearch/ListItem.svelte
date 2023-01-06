@@ -1,6 +1,6 @@
 <script>
 	export let avatar;
-	export let name;
+	export let title;
 	export let content;
 	export let href;
 	export let target;
@@ -12,7 +12,7 @@
 <div class='card'>
 	
 	<img class="avatar" src="{avatar}">
-	<h2>{name}</h2>
+	<h2>{title}</h2>
 	<p>{content}</p>
 	
 </div>
@@ -51,20 +51,26 @@
 	h2 {
 		color: black;
 		margin: 0 0 0.5em 0;
-		font-size: 14px;
+		font-size: 16px;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;            
+        -moz-osx-font-smoothing: grayscale;           
 	}
 
 	p {
 		color: black;
 		margin: 0 0 0.5em 0;
-		font-size: 11px;
+		font-size: 14px;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 	}
+
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration:none; }
+	a:active { text-decoration: none; }
+
 </style>

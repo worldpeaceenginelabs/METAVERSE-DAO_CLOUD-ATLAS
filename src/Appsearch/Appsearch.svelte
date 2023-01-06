@@ -6,7 +6,7 @@
 
 	let searchTerm = "";
 
-	$: filteredList = items.filter(item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1).sort((a, b) => a.name.localeCompare(b.name));	
+	$: filteredList = items.filter(item => item.title.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1).sort((a, b) => a.title.localeCompare(b.title));	
 
 	let isFocused = false;
 
