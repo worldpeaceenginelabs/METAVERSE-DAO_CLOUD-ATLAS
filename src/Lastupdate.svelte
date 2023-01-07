@@ -5,7 +5,7 @@
 
     <h4>
         Want to support decentralization?<br><br>
-        Get involved into METAVERSE-DAO | CLOUD ATLAS<br>
+        Get involved...<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">@Github</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
         <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
