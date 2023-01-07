@@ -4,6 +4,8 @@ METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 
 # METAVERSE-DAO | CLOUD ATLAS - Time to connect the dots...
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
+
+### ...more about CLOUD ATLAS on https://github.com/worldpeaceenginelabs/CLOUD-ATLAS readme
 <br>
 
 ![image](https://user-images.githubusercontent.com/67427045/196102288-27a565a5-79ba-4bc7-af04-530446aa5b65.png)
