@@ -58,5 +58,13 @@ export default
     href: 'https://worldpeaceenginelabs.org',
     target: '_blank',
     avatar: 'fuzzy-avatar/key5.jpg?auto=compress'
+    },
+
+
+
+    { key: `6`,
+    title: 'GEOLOCATED NEWS',
+    content: '“We carry devices that know a lot about us and know exactly where we are all the time, so why not deliver news, information and content based on who we are, what we like and where we are?” “Just by geolocating the fires and the events in the Amazon, many people felt closer” Credits: Eduardo Acquarone',
+    avatar: 'fuzzy-avatar/key6.jpg?auto=compress'
     }
   ];

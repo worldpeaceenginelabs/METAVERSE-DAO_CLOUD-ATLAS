@@ -27,7 +27,7 @@
 	</div>
 
 	{#if isFocused}
-	<VirtualList items={filteredList} bind:start bind:end let:item on:click={() => isFocused = false}>
+	<VirtualList items={filteredList} bind:start bind:end let:item>
 		<ListItem {...item} />
 	</VirtualList>
 	{/if}
