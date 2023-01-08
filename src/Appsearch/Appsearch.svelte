@@ -23,7 +23,7 @@
 <div class='container'>
 	
 	<div class="searchcontainer">
-		<input class="searchfield" placeholder="MENU | SEARCH" bind:value={searchTerm} on:focus={() => isFocused = true} use:clickOutside on:outclick={() => (isFocused = false)}/>
+		<input class="searchfield" placeholder="DAPP-STORE | SEARCH" bind:value={searchTerm} on:focus={() => isFocused = true} use:clickOutside on:outclick={() => (isFocused = false)}/>
 	</div>
 
 	{#if isFocused}
