@@ -7,8 +7,9 @@
         Want to support decentralization?<br><br>
         Get involved...<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">@Github</a>
+        <a href="https://gitter.im/METAVERSE-GUN/community" target="_blank">@Gitter</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
-        <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank" rel="">@YouTube</a>
+        <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
         
     </h4>
 </div>
@@ -23,7 +24,7 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: white;
-        padding: 1%;        
+        padding: 0%;        
         text-decoration: none;           
         }
 
@@ -41,7 +42,7 @@
 		* otherwise the text is too close to the radius.
 		* on a smaller radius/font it may not be necessary
 		*/
-		padding: 0px 20px;
+		padding: 0px 25px;
 		
 		/* only needed for webkit browsers which show a rectangular outline;
 		* others do not do outline when radius used.

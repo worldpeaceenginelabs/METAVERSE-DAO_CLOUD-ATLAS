@@ -1,15 +1,14 @@
 <script lang="ts">  
 import Appsearch from "./Appsearch/Appsearch.svelte";
 import Cesium from "./Cesium.svelte";
-  import Lastupdate from "./Lastupdate.svelte";
-
+import Infobox from "./Infobox.svelte";
 </script>
 
 <!-- Here starts the app-->
 
 <Cesium/>
 <Appsearch/>
-<Lastupdate/>
+<Infobox/>
 
 <style>
 </style>
