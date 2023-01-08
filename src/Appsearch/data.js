@@ -35,7 +35,7 @@ export default
     
     { key: `3`,
     title: 'Evolve this digital twin of the real-world to evolve the real-world',
-    content: 'Are you a creative, a developer, a maker, a supporter, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack (preferably JAMstack)? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the basic dapps (for now manually)',
+    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack (preferably JAMstack)? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the basic dapps (for now manually)',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress'},
