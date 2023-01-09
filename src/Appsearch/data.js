@@ -27,14 +27,14 @@ export default
 
 
     { key: `2`,
-    title: "Report Deceptive Packaging (coming soon)",
+    title: "REPORT DECEPTIVE PACKAGING (coming soon / help wanted)",
     content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, but the inside not visible. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
     target: '_blank',
     avatar: 'fuzzy-avatar/key2.jpg?auto=compress'
     },
     
     { key: `3`,
-    title: 'Evolve this digital twin of the real-world to evolve the real-world',
+    title: 'Evolve this digital twin of the real-world to evolve the real-world...',
     content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack (preferably JAMstack)? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the basic dapps (for now manually)',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
@@ -63,8 +63,18 @@ export default
 
 
     { key: `6`,
-    title: 'GEOLOCATED NEWS (coming soon)',
+    title: 'GEOLOCATED D-NEWS - News made by the people, for the people... (coming soon / help wanted)',
     content: '“We carry devices that know a lot about us and know exactly where we are all the time, so why not deliver news, information and content based on who we are, what we like and where we are?” “Just by geolocating the fires and the events in the Amazon, many people felt closer” Credits: Eduardo Acquarone',
     avatar: 'fuzzy-avatar/key6.jpg?auto=compress'
-    }
+    },
+
+
+
+    { key: `7`,
+    title: 'GUN JS - An open source cybersecurity protocol for syncing decentralized graph data',
+    content: 'GUN is an ecosystem of tools that let you build community operated and encrypted applications - like an open-source, decentralized Firebase or a decentralized Dropbox. The METAVERSE-DAO | CLOUD ATLAS back-end and the back-ends of the upcoming dapps are based on so-called GUN-Relays. Except the domainname (cloudatlas.club), we already run everything else decentralized from GUN-Relays and over 200 CDNs world-wide.',
+    href: 'https://gun.eco',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key7.jpg?auto=compress'  
+  }
   ];
