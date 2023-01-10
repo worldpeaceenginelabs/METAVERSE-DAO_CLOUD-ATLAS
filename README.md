@@ -1,6 +1,36 @@
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-### [QUICKSTART FOR DEVS](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
+
+<br>
+
+# [QUICKSTART FOR DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
+
+### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler. ```npm vite@latest``` and choose Svelte/TS in the installation prompt (not Svelte-kit!!!)
+
+
+### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Typescript, HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍
+
+```
+../App.svelte
+
+// every page is also a component, and every component is also a page.
+// page/component files (.svelte) are seperated into script, markup and css
+
+<script lang="ts">Typescript (logic) goes here</script>
+
+<markup>html goes here</html>
+
+<css>css goes here</css>),
+```
+ 
+### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
+### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
+
+### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
+
+<br>
+
+# GUN Relays
 ### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
 ### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
 ### [Gun Relay Donation Tool (Donate Decentralize UI)](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI)
@@ -52,14 +82,14 @@
 
 # Quickstart for components and dapps (the decentralized back-end)
 
-## This is pretty much the core of everything. Take a look how i connect my front-end code with the graph database GUN.
+## This is pretty much the core of everything. Notice how easy it is to connect your front-end code with the graph database GUN.
 ## This script saves a long/lat pair to the GUN graph, and renders a point on the globe, if the local clients graph or a connected graph (GUN-Relay) gets a new entry. (the ```.on``` subscribes to the GUN graph, everything new to the graph (local client graph and/or relay graph) will automatically be rendered on the globe)
 ## Notice that no matter how complex your function is: You just drop the result in a variable and connect it to the GUN write function (green boxes).
 ## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on (data => {//your function here});``` and get the data that you wrote to GUN before (red arrows)
 
 ![image](https://user-images.githubusercontent.com/67427045/211544277-2e2e6e90-dd3a-46c4-82f7-614e812363f5.png)
 
-# Sounds maybe complicated, but this bundled package which I am offering you here is actually pretty mighty, even for beginners! (last bullet point) 
+# This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
 - If Cesium JS is your thing, you can easily customize the above object blueprint (// Cesium constructor) to render something else ([CesiumJS is a mighty lib](https://cesium.com/learn/ion-sdk/ref-doc/))
 - But from my experience, i prefer to use the point as a postion and a tag, on which i render something else the usual JS way. For instance i connect a canvas or rather a modal, button, link, or whatever, with the point via markup (HTML) or/and JS(Document.getElementById() for instance), and keep it close to the point with CSS.
@@ -70,7 +100,10 @@
 He says today:
 "Yes, I am still using Blueprints to work on my game development. Because I have only worked as a 3D environment artist but I have no programming experience. So I am also very grateful that the Unreal engine supports a strong Blueprints system."
 
-## So if coder or not, have fun and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question.
+## You can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
+## And then connect it to that dot (point) on the globe (long/lat, in Cesium for Unreal Engine long/lat and/or x,y,z) 🤯🥳
+
+## So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
 
 <br><br>
 
