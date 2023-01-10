@@ -3,7 +3,7 @@
 
 <br>
 
-# [QUICKSTART FOR DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
+# [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
 ### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler. ```npm vite@latest``` and choose Svelte/TS in the installation prompt (not Svelte-kit!!!)
 
@@ -22,7 +22,10 @@
 
 <css>css goes here</css>),
 ```
- 
+# QUICKSTART FOR UNREAL ENGINE
+
+### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
+
 ### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
 ### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
 
@@ -80,7 +83,7 @@
 <br>
 
 
-# Quickstart for components and dapps (the decentralized back-end)
+# QUICKSTART for components and dapps (the decentralized back-end)
 
 ## This is pretty much the core of everything. Notice how easy it is to connect your front-end code with the graph database GUN.
 ## This script saves a long/lat pair to the GUN graph, and renders a point on the globe, if the local clients graph or a connected graph (GUN-Relay) gets a new entry. (the ```.on``` subscribes to the GUN graph, everything new to the graph (local client graph and/or relay graph) will automatically be rendered on the globe)
@@ -99,12 +102,16 @@
 
 He says today:
 "Yes, I am still using Blueprints to work on my game development. Because I have only worked as a 3D environment artist but I have no programming experience. So I am also very grateful that the Unreal engine supports a strong Blueprints system."
+<br>
 
-## You can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
-## And then connect it to that dot (point) on the globe (long/lat, in Cesium for Unreal Engine long/lat and/or x,y,z) 🤯🥳
+# QUICKSTART FOR UNREAL ENGINE
 
-## So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
+### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
 
+### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
+### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
+
+### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
 <br><br>
 
 # same as above, but copy-pasteable...
