@@ -13,6 +13,17 @@ key2name = "Mogelpackung melden";
 key2name = "Report Deceptive Packaging";
 }
 
+
+# Empty template
+{ key: `10`,
+    title: 'flixxo',
+    content: '',
+    href: 'https://app.code4socialgood.org/project/view/3356',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key7.jpg?auto=compress'  
+  }
+
+
 */
 
 export default
@@ -29,13 +40,14 @@ export default
     { key: `2`,
     title: "REPORT DECEPTIVE PACKAGING (coming soon / help wanted)",
     content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, but the inside not visible. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
+    href: 'https://app.code4socialgood.org/project/view/3356',
     target: '_blank',
     avatar: 'fuzzy-avatar/key2.jpg?auto=compress'
     },
     
     { key: `3`,
-    title: 'Evolve this digital twin of the real-world to evolve the real-world...',
-    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or any other stack (preferably JAMstack)? Hit me with both on https://github.com/worldpeaceenginelabs/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the basic dapps (for now manually)',
+    title: 'AAA like a polymath, even if you aren\'t one, until now! The emerging story of our time... Evolve this digital twin of the real-world to evolve the real-world, and your self...',
+    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Not a coder? No problem! Hit the readme on Github (Quickstart for Unreal) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or just your favorite stack? Hit me with both on /METAVERSE-DAO-CLOUD-ATLAS/issues/ on Github and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the upcoming basic dapps (for now manually)',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress'},
@@ -65,6 +77,8 @@ export default
     { key: `6`,
     title: 'GEOLOCATED D-NEWS - News made by the people, for the people... (coming soon / help wanted)',
     content: '“We carry devices that know a lot about us and know exactly where we are all the time, so why not deliver news, information and content based on who we are, what we like and where we are?” “Just by geolocating the fires and the events in the Amazon, many people felt closer” Credits: Eduardo Acquarone',
+    href: 'https://app.code4socialgood.org/project/view/3356',
+    target: '_blank',
     avatar: 'fuzzy-avatar/key6.jpg?auto=compress'
     },
 
@@ -76,5 +90,45 @@ export default
     href: 'https://gun.eco',
     target: '_blank',
     avatar: 'fuzzy-avatar/key7.jpg?auto=compress'  
+  },
+
+
+
+  { key: `8`,
+    title: 'DTube',
+    content: 'DTube is a community powered video sharing platform where users vote on videos to reward creators, curators, influencers and viewers in cryptocurrency.',
+    href: 'https://d.tube/',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key8.jpg?auto=compress'  
+  },
+
+
+
+  { key: `9`,
+    title: 'LBRY - LBRY does to publishing, what Bitcoin did to money...',
+    content: 'Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.',
+    href: 'https://odysee.com/',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key9.jpg?auto=compress'  
+  },
+
+
+
+  { key: `10`,
+    title: 'Flixxo',
+    content: 'Original short-form series from all around the world.',
+    href: 'https://www.flixxo.com/',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key10.jpg?auto=compress'  
+  },
+
+
+
+  { key: `11`,
+    title: 'AAA like a polymath, even if you aren\'t one?',
+    content: 'The science-fiction like, planetary collective-computer this project is planned to be is dependant on only two main factors: First: The coding and design community adding dapps, webapps and components. (decentralized or sustainable or both) And second: The Game! (coming / help wanted) Story: The Cloud Atlas (this webapp), which is a distorted dimension (click this dapp card to have a look, we share the same map-tiles), informatically not connected, somewhere distributed on the internet. Your task: Photograph places to fight the distortion and to create detail. Connect places, objects and materials with its Wikipedia article counterparts. Connect timelapses back in time on the globe with its historical Wikipedia articles. Render Wikipedia articles (animals, plants, objects) at its right locations on the globe. Connect physics, chemistry and even !psychology! ;) articles to its counterparts on the globe, amm. Don\'t forget to keep the Wikipedia articles uptodate and accountable! Lets compile a language model from the Cloud Atlas then (or just use ChatGPT) so the Cloud Atlas will be able to describe itself on command (Oracle AI - pre-AGI - friendly AI complete) Let\'s feed it with the human rights, the laws and the sustainable development goals, and then let it compare our authorities behaviour and decisions with these rules, live when it happens (government and police, your judge, your boss, your teacher, your parents, even your friend). No penalties, just who is right! (AGI - friendly AI complete(both AI and user)) "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
+    href: 'https://youtu.be/JneJa7aOk8I',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key11.jpg?auto=compress'  
   }
   ];
