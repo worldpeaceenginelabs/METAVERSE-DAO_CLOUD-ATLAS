@@ -1,6 +1,6 @@
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-### [QUICKSTART FOR DEVS](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
+### [QUICKSTART FOR DEVS](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 ### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
 ### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
 ### [Gun Relay Donation Tool (Donate Decentralize UI)](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI)
