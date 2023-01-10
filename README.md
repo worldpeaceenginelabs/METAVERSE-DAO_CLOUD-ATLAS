@@ -1,6 +1,44 @@
-### https://metaverse-dao.pages.dev/ Watch METAVERSE-DAO development [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
-METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<br><br>
+### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
+### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+<br>
+
+# [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
+
+### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler. ```npm vite@latest``` and choose Svelte/TS in the installation prompt (not Svelte-kit!!!)
+
+
+### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Typescript, HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍
+
+```
+../App.svelte
+
+// every page is also a component, and every component is also a page.
+// page/component files (.svelte) are seperated into script, markup and css
+
+<script lang="ts">Typescript (logic) goes here</script>
+
+<markup>html goes here</html>
+
+<css>css goes here</css>),
+```
+# QUICKSTART FOR UNREAL ENGINE
+
+### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
+
+### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
+### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
+
+### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
+
+<br>
+
+# GUN Relays
+### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
+### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
+### [Gun Relay Donation Tool (Donate Decentralize UI)](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI)
+
+<br>
 
 # METAVERSE-DAO | CLOUD ATLAS <br> - Time to connect the dots...
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
@@ -44,6 +82,93 @@ METAVERSE DAO COMMUNITY [![Join the chat at https://gitter.im/METAVERSE-GUN/comm
 ### What great libraries to start building an open source metaverse, don't you think?
 <br>
 
+
+# QUICKSTART for components and dapps (the decentralized back-end)
+
+## This is pretty much the core of everything. Notice how easy it is to connect your front-end code with the graph database GUN.
+## This script saves a long/lat pair to the GUN graph, and renders a point on the globe, if the local clients graph or a connected graph (GUN-Relay) gets a new entry. (the ```.on``` subscribes to the GUN graph, everything new to the graph (local client graph and/or relay graph) will automatically be rendered on the globe)
+## Notice that no matter how complex your function is: You just drop the result in a variable and connect it to the GUN write function (green boxes).
+## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on (data => {//your function here});``` and get the data that you wrote to GUN before (red arrows)
+
+![image](https://user-images.githubusercontent.com/67427045/211544277-2e2e6e90-dd3a-46c4-82f7-614e812363f5.png)
+
+# This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
+
+- If Cesium JS is your thing, you can easily customize the above object blueprint (// Cesium constructor) to render something else ([CesiumJS is a mighty lib](https://cesium.com/learn/ion-sdk/ref-doc/))
+- But from my experience, i prefer to use the point as a postion and a tag, on which i render something else the usual JS way. For instance i connect a canvas or rather a modal, button, link, or whatever, with the point via markup (HTML) or/and JS(Document.getElementById() for instance), and keep it close to the point with CSS.
+- If you go for Cesium for Unreal Engine 5, you can make these points your reference points.
+- For beginners? Well, in Unreal Engine 5, you can code games, applications etc. in C#, or you wire the so called [UE blueprints](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/GettingStarted/)
+- [This guy](https://wccftech.com/bright-memory-infinite-interview-zeng-on-raytracing-next-gen-and-december-target-release-date/) made a whole game with Blueprints (you can combine this with Cesium for Unreal, since its just another asset on the UE market, an extension)
+
+He says today:
+"Yes, I am still using Blueprints to work on my game development. Because I have only worked as a 3D environment artist but I have no programming experience. So I am also very grateful that the Unreal engine supports a strong Blueprints system."
+<br>
+
+# QUICKSTART FOR UNREAL ENGINE
+
+### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
+
+### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
+### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
+
+### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
+<br><br>
+
+# same as above, but copy-pasteable...
+
+```
+// Start Svelte Lifecycle
+onMount(async () => {
+
+// Initialize GUN and tell it we will be storing all data under the key 'test'.
+var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
+
+// fetch latitude, longitude on click and save to Gun
+let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+handler.setInputAction(function(result) {
+                                        // pick position
+                                        const cartesian = viewer.scene.pickPosition(result.position);
+                                        // save Cartesian coordinates (x,y,z)
+                                        const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
+                                        
+                                        // convert from Cartesian to Degrees and shorten the numbers to 7 digits after comma
+                                        const longitudeString = Cesium.Math.toDegrees(cartographic.longitude).toFixed(7);
+                                        const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);
+                                        
+                                        // Generate random ID
+                                        var randomid = nanoid();
+                                        
+                                        // Save coordinates to Gun                                        
+                                        db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
+                                        
+                                        },
+Cesium.ScreenSpaceEventType.LEFT_CLICK);
+
+// Fetch Gun data
+db.on(data => { 
+
+// Cesium constructor
+let reddot = viewer.entities.add({
+			name: "red dot",
+			position: Cartesian3.fromDegrees(
+                                      Number(data.longitude),
+                                      Number(data.latitude),
+                                      0
+                                      ),
+                                      
+point: {pixelSize : 10, color : Cesium.Color.RED, outlineColor : Cesium.Color.GREEN, outlineWidth : 3},
+});
+});
+});
+```
+
+
+
+# Basic feature bucket list (updated January 2023)
+
+First Release v0.0.1 January 2023
+
+## Done or not
 #### ✅ Done, or works already from the start
 #### 🚧 to do, or on its way
 <br>
@@ -248,10 +373,10 @@ GUN enables subscription to data changes, so message feeds and identity profiles
 
 [WEBTORRENT](https://github.com/webtorrent/webtorrent) is used to store file attachments and message backups.
 
-## Need a relay?
+## Iris relay
 
 #### ROD - Rust Object Database (non-wasm rust port of gun)
-You can add them from within the iris.to settings  menu.
+You can add them from within the iris.to settings  menu. Sourcecode: https://github.com/mmalmi/rod
 
 ## Improving decentralisation
 Currently the weak point of Iris's decentralisation is the list of initial peers, which could easily be blocked by governments or ISPs. By default, the application connects to IPFS default peers and a couple GUN peers. You can always add peers manually on the [settings page](https://irislib.github.io/#settings), but that is cumbersome for the average user.
@@ -260,21 +385,7 @@ Currently the weak point of Iris's decentralisation is the list of initial peers
 
 On the wide area network level, trusted contacts could exchange network addresses privately to avoid having them blocked or tracked. WebRTC's NAT traversal capabilities can enable direct connections between typical network endpoint users, but you still need a firewall-opened/port-forwarded rendez-vous node for them, and in some cases a relay node.
 
-## How to help
-**Donations** help keep the project going and are very much appreciated. You can donate via [Open Collective](https://opencollective.com/iris-social) or using bitcoin: 3GopC1ijpZktaGLXHb7atugPj9zPGyQeST
-
-You can promote Iris by [creating an account](https://iris.to) and **sharing your profile link on your existing social networks**!
-
-Contributions to the [browser application](https://github.com/irislib/iris-messenger) and the underlying [iris-lib](https://github.com/irislib/iris-lib) are very much appreciated.
-
-If you want to integrate Iris with your product or service, please check out [iris-lib](https://github.com/irislib/iris-lib) and create Github issues if needed.
-
-## Contact
-Join our [Discord](https://discord.gg/4CJc74JEUY) (will be moved onto Iris when group chat is ready) or send me a message on [Iris](https://iris.to/?chatWith=hyECQHwSo7fgr2MVfPyakvayPeixxsaAWVtZ-vbaiSc.TXIp8MnCtrnW6n2MrYquWPcc-DTmZzMBmc2yaGv9gIU&s=HlzYzNrhUsrn2PLi4yuRt6DiFUNM3hOmN8nFpgw6T-g&k=zvDfsInsMOI1).
-
-## License
-
-Iris is released under the terms of the MIT license. See `COPYING` for more information or see http://opensource.org/licenses/MIT.
+If you want to integrate Iris with your product or service, please check out [iris-lib](https://github.com/irislib/iris-lib) and create Github issues if needed
 
 ---
 
