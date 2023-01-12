@@ -15,12 +15,12 @@ key2name = "Report Deceptive Packaging";
 
 
 # Empty template
-{ key: `10`,
-    title: 'flixxo',
+{ key: `12`,
+    title: 'T.E.A.C.H.E.R.',
     content: '',
-    href: 'https://app.code4socialgood.org/project/view/3356',
+    href: 'https://www.unrealengine.com/metahuman',
     target: '_blank',
-    avatar: 'fuzzy-avatar/key7.jpg?auto=compress'  
+    avatar: 'fuzzy-avatar/key112.jpg?auto=compress'  
   }
 
 
@@ -126,9 +126,22 @@ export default
 
   { key: `11`,
     title: 'AAA like a polymath, even if you aren\'t one? The emerging story of our time... ',
-    content: 'The science-fiction-like, planetary collective-computer this project is destined to be is dependent on only two main factors: First: The coding and design community adding dapps, web apps, and components (decentralized or sustainable or both), and second: The World Peace Game! (coming/help wanted) Story: The Cloud Atlas (this web app), which is a distorted dimension (click this dapp card to have a look), informatically not connected, somewhere distributed around the internet. Your task: Photograph places to fight the distortion and to create detail. Connect and render playful from Wikipedia articles (places, POIs, animals, plants, objects, materials, physics, chemistry, psychology articles and history) to its right counterparts / locations on the globe and in time (spatial timelapse), and check visually if the contents of the articles match reality. Don\'t forget to keep the Wikipedia articles up to date and reliable! Let us compile a language model from the Cloud Atlas then, or we just use ChatGPT, so the Virtual Encyclopedia will be able to describe itself on command (Oracle AI - pre-AGI - friendly AI-complete) Let\'s feed it with human rights, the laws and the sustainable development goals, medicinal records, etc., and then let it compare our daily authorities\' behavior and decisions with these rules, as a service on your mobile, right when it happens (government and police, your judge, your boss, your doctor, your teacher, your parents, even your friend...). No penalties, because it\'s only about clearing the question of who is right! The following decisions are up to the participants but this time based on impartial truth (AGI - friendly AI-complete(both AI and user)) "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
+    content: 'The science-fiction-like, planetary collective-computer this project is destined to be is dependent on only two main factors: FIRST: The coding and design community adding dapps, web apps, and components (decentralized or sustainable or both), and SECOND: The World Peace Game! (coming/help wanted) STORY: The Cloud Atlas (this web app), which is a distorted dimension (click this dapp card to have a look), informatically not connected, somewhere distributed all over the internet. YOUR TASK: Photograph and describe places to fight the distortion and to create detail. Connect and render playful from Wikipedia articles (places, POIs, animals, plants, objects, materials, physics, chemistry, psychology articles and history) to its right counterparts / locations on the globe and in time (spatial timelapse), and check visually if the contents of the articles match reality. Don\'t forget to keep the Wikipedia articles up to date and reliable! Let\'s add ChatGPT, in turn the Virtual Encyclopedia will be able to describe itself on command (Oracle AI - pre-AGI - friendly AI-complete) Let\'s feed it with the human rights, the laws and the sustainable development goals, medical records, etc., and then let it compare our daily authorities\' behavior and decisions with these rules, as a service on your mobile, right when it happens (government and police, your judge, your boss, your doctor, your teacher, your parents, even your friend...). No penalties, because it\'s only about clearing the question of who is right! The following decisions are up to the participants but this time based on impartial truth (AGI - friendly AI-complete(both AI and user)) "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
     href: 'https://youtu.be/JneJa7aOk8I',
     target: '_blank',
     avatar: 'fuzzy-avatar/key11.jpg?auto=compress'  
+  },
+
+
+
+  { key: `12`,
+    title: 'T.E.A.C.H.E.R. - The school system is dead, long live the school system... (coming soon / help wanted)',
+    content: 'In most countries, home schooling is allowed under certain conditions, generally speaking, if the teacher is qualified. What could be more obvious than a Digital Teacher that can be programmed to meet these qualifications? And why not complete 13 school years in just 5 years and then do some quantum physics for fun or become a 14 years old doctor? After all, lessons are fun now and the teacher answers all questions without  exception, and even brain-storms the kid\'s / student\'s ideas with them. ADVANTAGES: 1. The curriculum is accessible online to parents and the public, commentable, democratized. (survey, petition, crowd-funding) 2. Child-friendliness is now verifiable. 3. Social circles are not compulsively mixed, which brings problems and bullying (rich vs. poor children, national vs. foreign, strong vs. weak, loud vs. quiet, extrovert vs. introvert etc.) Such social mixing is very important for the natural development of the adolescent, but should be voluntary and with the possibility to leave the scene, which today\'s school does not provide. 4. And most importantly, their own social circle is strengthened. Kids don\'t have to go to school anymore, so they spend much more time with their family and friends. What a rich and beautiful experience for the maturing soul. 🥰  ULTIMATE FEATURE FOR THE KIDS: The teacher\'s look can be designed with Unreal\'s META-HUMAN by the kids themself. Their first contact with information-technology and AI, which they will develop from day one.',
+    href: 'https://www.unrealengine.com/metahuman',
+    target: '_blank',
+    avatar: 'fuzzy-avatar/key12.jpg?auto=compress'  
   }
+
+
+
   ];
