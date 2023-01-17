@@ -232,7 +232,7 @@ const createPulsatingPoint = (
 // Start Svelte Lifecycle
 onMount(async () => {
 
-// Initialize GUN and tell it we will be storing all data under the key 'test'.
+// Initialize GUN and tell it we will be storing all data local, and sync with relay http://localhost:8765/gun, and under the node 'mapmarker' in the graph.
 var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
 
 
@@ -252,14 +252,15 @@ handler.setInputAction(function(result) {
                                         // Generate random ID
                                         var randomid = nanoid(); 
 
-                                        // Save coordinates to Gun                                        
+                                        // Save coordinates to Gun - in this example under mapmarker.randomid.longitude:number&latitude:number(pseudocode)
+                                        // The random ID is generated every time the function is executed. This equals naming every file or every tablename of every record differently.                                       
                                         db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
                                         
                                         },
 Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
 
-// Fetch Gun data
+// Fetch Gun data db.on(data => {//your function here});
 db.on(data => { 
 
 // Cesium constructor
