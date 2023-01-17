@@ -1,6 +1,6 @@
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-### This is a working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏 https://mobile.twitter.com/peace_engine/status/1581332959273299968
+### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://mobile.twitter.com/peace_engine/status/1581332959273299968
 <br>
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
