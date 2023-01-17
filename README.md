@@ -5,10 +5,14 @@
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
-### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler. ```npm vite@latest``` and choose Svelte/TS in the installation prompt (not Svelte-kit!!!)
+### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler.
+##### (Started this repo with ```npm install vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builts and fast hot-reload)
 
 
-### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Typescript, HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍
+### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Typescript, HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍<br>
+
+### The back-end is splitted on 200 CDNs (domain and build files) and decentralized GUNJS DB Relays(graph-database). How-to use GUN? Hit (jump to Quickstart) and don't forget to spin up a [GUN Relay](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#gun-relays)...
+<br>
 
 ```
 ../App.svelte
@@ -95,10 +99,10 @@
 # This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
 - If Cesium JS is your thing, you can easily customize the above object blueprint (// Cesium constructor) to render something else ([CesiumJS is a mighty lib](https://cesium.com/learn/ion-sdk/ref-doc/))
-- But from my experience, i prefer to use the point as a postion and a tag, on which i render something else the usual JS way. For instance i connect a canvas or rather a modal, button, link, or whatever, with the point via markup (HTML) or/and JS(Document.getElementById() for instance), and keep it close to the point with CSS.
+- But from my experience, i prefer to use the point as a position and a tag, on which i render something else the usual JS way. For instance i connect a canvas or rather a modal, button, link, or whatever, with the point via markup (HTML) or/and JS(Document.getElementById() for instance), and keep it close to the point with CSS.
 - If you go for Cesium for Unreal Engine 5, you can make these points your reference points.
 - For beginners? Well, in Unreal Engine 5, you can code games, applications etc. in C#, or you wire the so called [UE blueprints](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/GettingStarted/)
-- [This guy](https://wccftech.com/bright-memory-infinite-interview-zeng-on-raytracing-next-gen-and-december-target-release-date/) made a whole game with Blueprints (you can combine this with Cesium for Unreal, since its just another asset on the UE market, an extension)
+- [This guy](https://wccftech.com/bright-memory-infinite-interview-zeng-on-raytracing-next-gen-and-december-target-release-date/) made a whole game with Blueprints only (you can combine this with Cesium for Unreal, since its just another plug-in on the UE market for UE, a real-world map/level import for your UE game /application)
 
 He says today:
 "Yes, I am still using Blueprints to work on my game development. Because I have only worked as a 3D environment artist but I have no programming experience. So I am also very grateful that the Unreal engine supports a strong Blueprints system."
