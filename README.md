@@ -91,14 +91,10 @@
 
 ## This is pretty much the core of everything. Notice how easy it is to connect your front-end code with the graph database GUN.
 ## This script saves a long/lat pair to the GUN graph, and renders a point on the globe, if the local clients graph or a connected graph (GUN-Relay) gets a new entry. (the ```.on``` subscribes to the GUN graph, everything new to the graph (local client graph and/or relay graph) will automatically be rendered on the globe)
-## Notice that no matter how complex your function is: You just drop the result in a variable and connect it to the GUN write function (green boxes).
-## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on(data => {//your function here});``` and get the data that you wrote to GUN before (red arrows)
+## Notice that no matter how complex your function is: You just drop the result in a variable and connect it to the GUN write function (green boxes, green lines).
+## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on(data => {//your function here});``` and get the data that you wrote to GUN before (red boxes, red lines)
 
-![image](https://user-images.githubusercontent.com/67427045/212808310-26342005-a735-4af4-9cc5-5aba4f6d3976.png)
-
-# More detailed comments (updated in Cesium.svelte)
-
-![image](https://user-images.githubusercontent.com/67427045/212808748-f677f431-ea09-4a66-a3f1-7e6d4bfe27f2.png)
+![image](https://user-images.githubusercontent.com/67427045/212865152-88544d46-f46b-4cd5-9d2e-4f2571dfb80b.png)
 
 # This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
