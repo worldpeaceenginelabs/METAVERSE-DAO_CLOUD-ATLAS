@@ -253,7 +253,7 @@ handler.setInputAction(function(result) {
                                         var randomid = nanoid(); 
 
                                         // Save coordinates to Gun - in this example under mapmarker.randomid.longitude:number&latitude:number(pseudocode)
-                                        // The random ID is generated every time the function is executed. This equals naming every file or every tablename of every record differently.                                       
+                                        // The random ID is generated every time the function is executed. This equals naming every record differently.                                       
                                         db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
                                         
                                         },
