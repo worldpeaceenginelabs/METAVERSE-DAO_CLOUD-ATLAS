@@ -61,7 +61,7 @@
 
 # What is it?
 
-![image](https://user-images.githubusercontent.com/67427045/196626511-7961d2ec-787f-49c9-bddf-e95e7d457299.png)
+![image](https://user-images.githubusercontent.com/67427045/212804886-dfec97ea-0d1e-4c63-af37-24d0c3543092.png)
 
 <br>
 
@@ -92,9 +92,13 @@
 ## This is pretty much the core of everything. Notice how easy it is to connect your front-end code with the graph database GUN.
 ## This script saves a long/lat pair to the GUN graph, and renders a point on the globe, if the local clients graph or a connected graph (GUN-Relay) gets a new entry. (the ```.on``` subscribes to the GUN graph, everything new to the graph (local client graph and/or relay graph) will automatically be rendered on the globe)
 ## Notice that no matter how complex your function is: You just drop the result in a variable and connect it to the GUN write function (green boxes).
-## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on (data => {//your function here});``` and get the data that you wrote to GUN before (red arrows)
+## Last, you can easily receive the data in any function, again, no matter how complex, by ```db.on(data => {//your function here});``` and get the data that you wrote to GUN before (red arrows)
 
-![image](https://user-images.githubusercontent.com/67427045/211544277-2e2e6e90-dd3a-46c4-82f7-614e812363f5.png)
+![image](https://user-images.githubusercontent.com/67427045/212808310-26342005-a735-4af4-9cc5-5aba4f6d3976.png)
+
+# More detailed comments (updated in Cesium.svelte)
+
+![image](https://user-images.githubusercontent.com/67427045/212808748-f677f431-ea09-4a66-a3f1-7e6d4bfe27f2.png)
 
 # This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
@@ -246,25 +250,13 @@ Hit me anytime you like!
 ### But we will also not hold you back from using the professional tools. Every user has the same rights, at no cost!
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/196626511-7961d2ec-787f-49c9-bddf-e95e7d457299.png)
+![image](https://user-images.githubusercontent.com/67427045/212804932-801bec16-db6f-43d6-9221-93cfd49836e8.png)
 <br><br><br>
 
 # Mockups
 
 ### In manufacturing and design, a mockup, or mock-up, is a scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion, and other purposes. A mockup may be a prototype if it provides at least part of the functionality of a system and enables testing of a design.
 <br>
-
-## Mockup METAVERSE-DAO App Store (MGAS) 🚧
-
-### There is a store with UI and even logic already integrated into Iris. Lets use it as a base for MGAS.
-
-### I was already thinking about, integrating a webapp store.<br>
-### Like an AppStore, but with the webversions of apps.<br>
-### Its basicly logos with a link (maybe a description behind the link) but powerful like a typical webstore. (power that belongs to the people, and not to a monopoly of something alone)<br>
-### Here is an example of such an AppStore: https://pwa.bar/
-
-![image](https://user-images.githubusercontent.com/67427045/173530828-d5528d86-9371-4170-8d12-4b79bbc66d4d.png)
-<br><br><br>
 
 ## Mockup of Live Coding Console with hot reloading 🚧
 ### Every example you can do in Cesium Sandcastle and more...
