@@ -25,7 +25,7 @@
 	{/if}
 	
 	{#if categorytext}
-	<p>{categorytext}</p>
+	<p style:font-weight="bold">{categorytext}</p>
 	{/if}
 
 	</div>
