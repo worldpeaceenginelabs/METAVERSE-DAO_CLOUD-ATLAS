@@ -34,8 +34,8 @@ export default
     href: 'https://iris.to',
     target: '_blank',
     avatar: 'fuzzy-avatar/key1.png?auto=compress',
-    color: '#008450'
-    },
+    color: '#008450',    
+    categorytext:'OPEN'},
 
 
     { key: `2`,
@@ -44,7 +44,8 @@ export default
     href: 'https://app.code4socialgood.org/project/view/3396',
     target: '_blank',
     avatar: 'fuzzy-avatar/key2.jpg?auto=compress',
-    color: '#efb700'},
+    color: '#efb700',
+    categorytext:'DEVELOP'},
     
     { key: `3`,
     title: 'AAA like a polymath, even if you aren\'t one, until now! Evolve this digital twin of the real-world to evolve the real-world, and your self...',
@@ -52,7 +53,8 @@ export default
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress',
-    color: '#ffffff'},
+    color: '#ffffff',
+    categorypic:'./fuzzy-category/globe.jpg'},
 
 
 
@@ -62,7 +64,8 @@ export default
     href: 'https://worldpeaceengine.pubpub.org/pub/futurefeatures/release/82',
     target: '_blank',
     avatar: 'fuzzy-avatar/key4.jpg?auto=compress',
-    color: '#ffffff'},
+    color: '#ffffff',
+    categorypic:'./fuzzy-category/globe.jpg'},
 
 
 
@@ -72,7 +75,8 @@ export default
     href: 'https://worldpeaceenginelabs.org',
     target: '_blank',
     avatar: 'fuzzy-avatar/key5.jpg?auto=compress',
-    color: '#ffffff'},
+    color: '#ffffff',
+    categorypic:'./fuzzy-category/globe.jpg'},
 
 
 
@@ -82,7 +86,8 @@ export default
     href: 'https://app.code4socialgood.org/project/view/3396',
     target: '_blank',
     avatar: 'fuzzy-avatar/key6.jpg?auto=compress',
-    color: '#efb700'},
+    color: '#efb700',
+    categorytext:'DEVELOP'},
 
 
 
@@ -92,7 +97,8 @@ export default
     href: 'https://gun.eco',
     target: '_blank',
     avatar: 'fuzzy-avatar/key7.jpg?auto=compress',
-    color: '#4f4f4f'},
+    color: '#4f4f4f',
+    categorytext:'DEV'},
 
 
 
@@ -102,7 +108,8 @@ export default
     href: 'https://d.tube/',
     target: '_blank',
     avatar: 'fuzzy-avatar/key8.jpg?auto=compress',
-    color: '#008450'  
+    color: '#008450',
+    categorytext:'OPEN'  
   },
 
 
@@ -113,7 +120,8 @@ export default
     href: 'https://odysee.com/',
     target: '_blank',
     avatar: 'fuzzy-avatar/key9.jpg?auto=compress',
-    color: '#008450'  
+    color: '#008450',
+    categorytext:'OPEN'  
   },
 
 
@@ -124,7 +132,8 @@ export default
     href: 'https://www.flixxo.com/',
     target: '_blank',
     avatar: 'fuzzy-avatar/key10.jpg?auto=compress',
-    color: '#008450'  
+    color: '#008450',
+    categorytext:'OPEN'  
   },
 
 
@@ -135,7 +144,8 @@ export default
     href: 'https://youtu.be/JneJa7aOk8I',
     target: '_blank',
     avatar: 'fuzzy-avatar/key11.jpg?auto=compress',
-    color: '#ffffff'},
+    color: '#ffffff',
+    categorypic:'./fuzzy-category/globe.jpg'},
 
 
 
@@ -145,7 +155,8 @@ export default
     href: 'https://www.unrealengine.com/metahuman',
     target: '_blank',
     avatar: 'fuzzy-avatar/key12.jpg?auto=compress',
-    color: '#efb700'},
+    color: '#efb700',
+    categorytext:'DEVELOP'},
 
 
 
@@ -156,7 +167,8 @@ export default
   href: 'https://sandcastle.cesium.com/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key13.jpg?auto=compress',
-  color: '#4f4f4f'},
+  color: '#4f4f4f',
+  categorytext:'DEV'},
 
 
 
@@ -166,7 +178,8 @@ export default
   href: 'https://blog.google/products/google-plus/introducing-helpouts-help-when-you-need/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key14.jpg?auto=compress',
-  color: '#efb700'},
+  color: '#efb700',
+  categorytext:'DEVELOP'},
 
 
 
@@ -176,7 +189,8 @@ export default
   href: 'https://app.code4socialgood.org/project/view/3396',
   target: '_blank',
   avatar: 'fuzzy-avatar/key15.jpg?auto=compress',
-  color: '#efb700'},
+  color: '#efb700',
+  categorytext:'DEVELOP'},
 
 
 
@@ -186,7 +200,8 @@ export default
   href: 'https://app.code4socialgood.org/project/view/3396',
   target: '_blank',
   avatar: 'fuzzy-avatar/key16.jpg?auto=compress',
-  color: '#efb700'}
+  color: '#efb700',
+  categorytext:'DEVELOP'}
 
 
 

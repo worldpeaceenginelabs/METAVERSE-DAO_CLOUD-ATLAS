@@ -5,6 +5,8 @@
 	export let href;
 	export let target;
 	export let color;
+	export let categorypic;
+	export let categorytext;
 </script>
 
 
@@ -13,9 +15,21 @@
 <div class='card' style:background-color={color}>
 	
 	<img class="avatar" src="{avatar}">
+	
 	<h2>{title}</h2>
 	<p>{content}</p>
 	
+	<div style:text-align="right">
+	{#if categorypic}
+	<img width="20px" height="20px" src="{categorypic}">
+	{/if}
+	
+	{#if categorytext}
+	<p>{categorytext}</p>
+	{/if}
+
+	</div>
+
 </div>
 </a>
 
