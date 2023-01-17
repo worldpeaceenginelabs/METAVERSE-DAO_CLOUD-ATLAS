@@ -156,7 +156,17 @@ export default
   href: 'https://sandcastle.cesium.com/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key13.jpg?auto=compress',
-  color: '#4f4f4f'}
+  color: '#4f4f4f'},
+
+
+
+  { key: `14`,
+  title: 'Helpout Decentralized - Help when you need it over live video (coming soon / help wanted)',
+  content: 'What if getting help for a computer glitch, a leaky pipe, or a homework problem was as easy as clicking a button? What if you could connect via real-time video to a music teacher or a yoga instructor from the comfort of your home? What if you could get someone knowledgeable to get you “unstuck” when you really need it? And why did Google not continue this project? Ours is pushing for the free sessions many individuals offered back then, but you allowed to add a price tag too',
+  href: 'https://blog.google/products/google-plus/introducing-helpouts-help-when-you-need/',
+  target: '_blank',
+  avatar: 'fuzzy-avatar/key14.jpg?auto=compress',
+  color: '#efb700'}
 
 
 
