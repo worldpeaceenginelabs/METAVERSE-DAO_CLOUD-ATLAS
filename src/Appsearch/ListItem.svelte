@@ -4,12 +4,13 @@
 	export let content;
 	export let href;
 	export let target;
+	export let color;
 </script>
 
 
 
 <a href="{href}" target="{target}">
-<div class='card'>
+<div class='card' style:background-color={color}>
 	
 	<img class="avatar" src="{avatar}">
 	<h2>{title}</h2>
@@ -22,7 +23,7 @@
 
 <style>
 	.card {
-		background-color: white;
+		
 		position: relative;
 		margin: 0.5em;
 		padding: 0.5em 0.5em 0.5em 6em;
