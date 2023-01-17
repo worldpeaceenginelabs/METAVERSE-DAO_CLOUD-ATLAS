@@ -1,6 +1,6 @@
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-### This is a working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏 https://mobile.twitter.com/peace_engine/status/1581332959273299968
+### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://mobile.twitter.com/peace_engine/status/1581332959273299968
 <br>
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
@@ -118,51 +118,58 @@ He says today:
 ### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
 <br><br>
 
-# same as above, but copy-pasteable...
-
+# same as above, but copy-pasteable... [see original file](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/src/Cesium.svelte#L232)
 ```
 // Start Svelte Lifecycle
 onMount(async () => {
 
-// Initialize GUN and tell it we will be storing all data under the key 'test'.
+// Initialize GUN and tell it we will be storing all data local, and sync with relay http://localhost:8765/gun, and under the node 'mapmarker' in the graph.
 var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
+
 
 // fetch latitude, longitude on click and save to Gun
 let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
 handler.setInputAction(function(result) {
+
                                         // pick position
                                         const cartesian = viewer.scene.pickPosition(result.position);
+					
                                         // save Cartesian coordinates (x,y,z)
                                         const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
                                         
                                         // convert from Cartesian to Degrees and shorten the numbers to 7 digits after comma
                                         const longitudeString = Cesium.Math.toDegrees(cartographic.longitude).toFixed(7);
                                         const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);
-                                        
+
                                         // Generate random ID
-                                        var randomid = nanoid();
-                                        
-                                        // Save coordinates to Gun                                        
+                                        var randomid = nanoid(); 
+
+                                        // Save coordinates to Gun - in this example under mapmarker.randomid.longitude:number&latitude:number(pseudocode)
+                                        // The random ID is generated every time the function is executed. This equals naming every record differently.            
                                         db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
                                         
                                         },
 Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
-// Fetch Gun data
+
+// Fetch Gun data db.on(data => {//your function here});
 db.on(data => { 
 
 // Cesium constructor
 let reddot = viewer.entities.add({
 			name: "red dot",
 			position: Cartesian3.fromDegrees(
-                                      Number(data.longitude),
-                                      Number(data.latitude),
-                                      0
-                                      ),
-                                      
-point: {pixelSize : 10, color : Cesium.Color.RED, outlineColor : Cesium.Color.GREEN, outlineWidth : 3},
+							Number(data.longitude),
+							Number(data.latitude),
+							0
+							),
+
+			point: {pixelSize : 10, color : Cesium.Color.RED, outlineColor : Cesium.Color.GREEN, outlineWidth : 3},
+
 });
+
 });
+
 });
 ```
 
