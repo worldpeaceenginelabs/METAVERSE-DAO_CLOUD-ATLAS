@@ -98,7 +98,7 @@
 
 # More detailed comments (updated in Cesium.svelte)
 
-![image](https://user-images.githubusercontent.com/67427045/212808017-92756ab1-0236-4524-ab0f-25d94c00fcf6.png)
+![image](https://user-images.githubusercontent.com/67427045/212808748-f677f431-ea09-4a66-a3f1-7e6d4bfe27f2.png)
 
 # This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
