@@ -161,11 +161,31 @@ export default
 
 
   { key: `14`,
-  title: 'Helpout Decentralized - Help when you need it over live video (coming soon / help wanted)',
+  title: 'HELPOUT Decentralized - Help when you need it over live video (coming soon / help wanted)',
   content: 'What if getting help for a computer glitch, a leaky pipe, or a homework problem was as easy as clicking a button? What if you could connect via real-time video to a music teacher or a yoga instructor from the comfort of your home? What if you could get someone knowledgeable to get you “unstuck” when you really need it? And why did Google not continue this project? Ours is pushing for the free sessions many individuals offered back then, but you are allowed to add a price tag too.',
   href: 'https://blog.google/products/google-plus/introducing-helpouts-help-when-you-need/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key14.jpg?auto=compress',
+  color: '#efb700'},
+
+
+
+  { key: `15`,
+  title: 'SPONTACTS Decentralized - Spontacts is a social discovery application that connects various users for joint activities in a vicinity. (coming soon / help wanted)',
+  content: 'On the leisure platform Spontacts you can discover numerous leisure activities in your area every day and join friendly people in your neighborhood. Whether you want to go out for a nice meal, drink a beer together after work, jog through the park together on the weekend, or spend a relaxing evening at the movies or a concert. All this and much more you can discover on Spontacts and experience with great leisure partners. Take part in meetings safely and easily or organize your own activities.',
+  href: 'https://spontacts.com/',
+  target: '_blank',
+  avatar: 'fuzzy-avatar/key15.jpg?auto=compress',
+  color: '#efb700'},
+
+
+
+  { key: `16`,
+  title: 'COUCHSURFING Decentralized - Meet locals around the world and stay overnight with them! (coming soon / help wanted)',
+  content: 'CouchSurfing is a hospitality exchange service by which users can request homestays or interact with other people who are interested in travel. Hosts are not allowed to charge for lodging.',
+  href: 'https://couchsurfing.com/',
+  target: '_blank',
+  avatar: 'fuzzy-avatar/key16.jpg?auto=compress',
   color: '#efb700'}
 
 
