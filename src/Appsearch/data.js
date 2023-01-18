@@ -206,9 +206,9 @@ export default
 
 
   { key: `17`,
-  title: 'JAMLEARN - "JamLEARN" was originally cased as "JAMLEARN" where "JAM" stood for JavaScript, API & Markup',
+  title: 'JAMstack - "Jamstack" was originally cased as "JAMstack" where "JAM" stood for JavaScript, API & Markup',
   content: 'JavaScript: Dynamic functionalities are handled by JavaScript. There is no restriction on which framework or library you must use. APIs: Server side operations are abstracted into reusable APIs and accessed over HTTPS with JavaScript. These can be third party services or your custom function. MARKUP: Websites are served as static HTML files. These can be generated from source files, such as Markdown, using a Static Site Generator.',
-  href: 'https://jamLEARN.wtf/',
+  href: 'https://jamstack.wtf/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key17.jpg?auto=compress',
   color: '#c9c6d0',
@@ -218,7 +218,7 @@ export default
 
   { key: `18`,
   title: 'Svelte - Forget frameworks, forget even the Svelte specifics',
-  content: 'I actually "abuse" Svelte as a compiler only. I always start like npm install vite@latest, choose Svelte/TS, and use Typescript only (JAMLEARN) and NOTHING Svelte specific but the bindings 😍 The bundler rewards me with Vanilla JS at the end which can be dropped on edge(static but reactive), and npm run dev hot-reload does load in just milliseconds, even if the project gets bigger. The app itself is small and lightspeed.',
+  content: 'I actually "abuse" Svelte as a compiler only. I always start like npm install vite@latest, choose Svelte/TS, and use Typescript only (JAMstack) and NOTHING Svelte specific but the bindings 😍 The bundler rewards me with Vanilla JS at the end which can be dropped on edge(static but reactive), and npm run dev hot-reload does load in just milliseconds, even if the project gets bigger. The app itself is small and lightspeed.',
   href: 'https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#quickstart-for-coding-devs-jump-to-quickstart',
   target: '_blank',
   avatar: 'fuzzy-avatar/key18.jpg?auto=compress',
