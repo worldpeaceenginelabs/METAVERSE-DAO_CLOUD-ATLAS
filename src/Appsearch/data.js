@@ -49,7 +49,7 @@ export default
     
     { key: `3`,
     title: 'AAA like a polymath, even if you aren\'t one, until now! Evolve this digital twin of the real-world to evolve the real-world, and your self...',
-    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Not a coder? No problem! Hit the readme on Github (Quickstart for Unreal) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or just your favorite stack? Hit me with both on /METAVERSE-DAO-CLOUD-ATLAS/issues/ on Github and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the upcoming basic dapps (for now manually)',
+    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Not a coder? No problem! Hit the readme on Github (Quickstart for Unreal) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or just your favorite LEARN? Hit me with both on /METAVERSE-DAO-CLOUD-ATLAS/issues/ on Github and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the upcoming basic dapps (for now manually)',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress',
@@ -97,8 +97,8 @@ export default
     href: 'https://gun.eco',
     target: '_blank',
     avatar: 'fuzzy-avatar/key7.jpg?auto=compress',
-    color: '#4f4f4f',
-    categorytext:'STACK'},
+    color: '#c9c6d0',
+    categorytext:'LEARN'},
 
 
 
@@ -167,8 +167,8 @@ export default
   href: 'https://sandcastle.cesium.com/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key13.jpg?auto=compress',
-  color: '#4f4f4f',
-  categorytext:'STACK'},
+  color: '#c9c6d0',
+  categorytext:'LEARN'},
 
 
 
@@ -206,24 +206,24 @@ export default
 
 
   { key: `17`,
-  title: 'JAMstack - "Jamstack" was originally cased as "JAMstack" where "JAM" stood for JavaScript, API & Markup',
+  title: 'JAMLEARN - "JamLEARN" was originally cased as "JAMLEARN" where "JAM" stood for JavaScript, API & Markup',
   content: 'JavaScript: Dynamic functionalities are handled by JavaScript. There is no restriction on which framework or library you must use. APIs: Server side operations are abstracted into reusable APIs and accessed over HTTPS with JavaScript. These can be third party services or your custom function. MARKUP: Websites are served as static HTML files. These can be generated from source files, such as Markdown, using a Static Site Generator.',
-  href: 'https://jamstack.wtf/',
+  href: 'https://jamLEARN.wtf/',
   target: '_blank',
   avatar: 'fuzzy-avatar/key17.jpg?auto=compress',
-  color: '#4f4f4f',
-  categorytext:'STACK'},
+  color: '#c9c6d0',
+  categorytext:'LEARN'},
 
 
 
   { key: `18`,
   title: 'Svelte - Forget frameworks, forget even the Svelte specifics',
-  content: 'I actually "abuse" Svelte as a compiler only. I always start like npm install vite@latest, choose Svelte/TS, and use Typescript only (JAMstack) and NOTHING Svelte specific but the bindings 😍 The bundler rewards me with Vanilla JS at the end which can be dropped on edge(static but reactive), and npm run dev hot-reload does load in just milliseconds, even if the project gets bigger. The app itself is small and lightspeed.',
+  content: 'I actually "abuse" Svelte as a compiler only. I always start like npm install vite@latest, choose Svelte/TS, and use Typescript only (JAMLEARN) and NOTHING Svelte specific but the bindings 😍 The bundler rewards me with Vanilla JS at the end which can be dropped on edge(static but reactive), and npm run dev hot-reload does load in just milliseconds, even if the project gets bigger. The app itself is small and lightspeed.',
   href: 'https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#quickstart-for-coding-devs-jump-to-quickstart',
   target: '_blank',
   avatar: 'fuzzy-avatar/key18.jpg?auto=compress',
-  color: '#4f4f4f',
-  categorytext:'STACK'}
+  color: '#c9c6d0',
+  categorytext:'LEARN'}
 
 
 
