@@ -29,8 +29,8 @@ key2name = "Report Deceptive Packaging";
 export default
   [
     { key: `1`,
-    title: 'Iris.to - Social Networking Freedom',
-    content: 'Here comes Iris. Iris is a social networking application that stores and indexes everything on the devices of its users and connects directly with peers who run the application - no corporate gatekeepers needed. Interface-wise, Iris is not too different from some existing social media. You can post texts, photos, videos, audio or other types of files into your feed.',
+    title: 'DAPP/Iris.to - Social Networking Freedom',
+    content: 'Here comes Iris. Iris is a social networking application that stores and indexes everything on the devices of its users and connects directly with peers who run the application - no corporate gatekeepers needed. Interface-wise, Iris is not too different from some existing social media. You can post texts, photos, videos, audio or other types of files into your feed. Funfact: This app is made by Martti Malmi. Without Martti Malmi, Bitcoin and cryptocurrencies may never have been developed. Malmi was the second developer behind Bitcoin after Satoshi Nakamoto, putting him at the forefront of the cryptocurrency movement.',
     href: 'https://iris.to',
     target: '_blank',
     avatar: 'fuzzy-avatar/key1.png?auto=compress',
@@ -39,7 +39,7 @@ export default
 
 
     { key: `2`,
-    title: "REPORT DECEPTIVE PACKAGING (coming soon / help wanted)",
+    title: "DAPP/REPORT DECEPTIVE PACKAGING (coming soon / help wanted)",
     content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, but the inside not visible. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
     href: 'https://app.code4socialgood.org/project/view/3396',
     target: '_blank',
@@ -81,7 +81,7 @@ export default
 
 
     { key: `6`,
-    title: 'GEOLOCATED D-NEWS - News made by the people, for the people... (coming soon / help wanted)',
+    title: 'DAPP/D-NEWS (geolocated) - News made by the people, for the people... (coming soon / help wanted)',
     content: '“We carry devices that know a lot about us and know exactly where we are all the time, so why not deliver news, information and content based on who we are, what we like and where we are?” “Just by geolocating the fires and the events in the Amazon, many people felt closer” Credits: Eduardo Acquarone',
     href: 'https://app.code4socialgood.org/project/view/3396',
     target: '_blank',
@@ -92,7 +92,7 @@ export default
 
 
     { key: `7`,
-    title: 'GUN JS - An open source cybersecurity protocol for syncing decentralized graph data',
+    title: 'LEARN/GUN JS - An open source cybersecurity protocol for syncing decentralized graph data',
     content: 'GUN is an ecosystem of tools that let you build community operated and encrypted applications - like an open-source, decentralized Firebase or a decentralized Dropbox. The METAVERSE-DAO | CLOUD ATLAS back-end and the back-ends of the upcoming dapps are based on so-called GUN-Relays. Except the domainname (cloudatlas.club), we already run everything else decentralized from GUN-Relays and over 200 CDNs world-wide.',
     href: 'https://gun.eco',
     target: '_blank',
@@ -103,7 +103,7 @@ export default
 
 
   { key: `8`,
-    title: 'DTube - A full-featured video sharing website, decentralized',
+    title: 'DAPP/D-Tube - A full-featured video sharing website, decentralized',
     content: 'DTube is a community powered video sharing platform where users vote on videos to reward creators, curators, influencers and viewers in cryptocurrency.',
     href: 'https://d.tube/',
     target: '_blank',
@@ -115,7 +115,7 @@ export default
 
 
   { key: `9`,
-    title: 'LBRY - LBRY does to publishing, what Bitcoin did to money...',
+    title: 'DAPP/LBRY - LBRY does to publishing, what Bitcoin did to money...',
     content: 'Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.',
     href: 'https://odysee.com/',
     target: '_blank',
@@ -127,7 +127,7 @@ export default
 
 
   { key: `10`,
-    title: 'Flixxo - Original short-form series from all around the world',
+    title: 'DAPP/Flixxo - Original short-form series from all around the world',
     content: 'Flixxo is a platform for microseries from around the world. The distribution and monetization model in Flixxo is different from everything that exists.',
     href: 'https://www.flixxo.com/',
     target: '_blank',
@@ -150,7 +150,7 @@ export default
 
 
   { key: `12`,
-    title: 'T.E.A.C.H.E.R. - The school system is dead, long live the school system... (coming soon / help wanted)',
+    title: 'DAPP/T.E.A.C.H.E.R. - The school system is dead, long live the school system... (coming soon / help wanted)',
     content: 'In most countries, home schooling is allowed under certain conditions, generally speaking, if the teacher is qualified. What could be more obvious than a Digital Teacher that can be programmed to meet these qualifications? And why not complete 13 school years in just 5 years and then do some quantum physics for fun or become a 14 years old doctor? After all, lessons are fun now and the teacher answers all questions without  exception, and even brain-storms the kid\'s / student\'s ideas with them. ADVANTAGES: 1. The curriculum is accessible online to parents and the public, commentable, democratized. (survey, petition, crowd-funding) 2. Child-friendliness is now verifiable. 3. Social circles are not compulsively mixed, which brings problems and bullying (rich vs. poor children, national vs. foreign, strong vs. weak, loud vs. quiet, extrovert vs. introvert etc.) Such social mixing is very important for the natural development of the adolescent, but should be voluntary and with the possibility to leave the scene, which today\'s school does not provide. 4. And most importantly, their own social circle is strengthened. Kids don\'t have to go to school anymore, so they spend much more time with their family and friends. What a rich and beautiful experience for the maturing soul. 🥰  ULTIMATE FEATURE FOR THE KIDS: The teacher\'s look can be designed with Unreal\'s META-HUMAN by the kids themself. Their first contact with information-technology and AI, which they will develop from day one.',
     href: 'https://www.unrealengine.com/metahuman',
     target: '_blank',
@@ -162,7 +162,7 @@ export default
 
     
   { key: `13`,
-  title: 'CesiumJS - 3D geospatial visualization for the web (Want to try out every feature live on the globe? Hit this card!)',
+  title: 'LEARN/CesiumJS - 3D geospatial visualization for the web (Want to try out every feature live on the globe? Hit this card!)',
   content: 'CesiumJS is an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use. Developers across industries, from aerospace to smart cities to drones, use CesiumJS to create interactive web apps for sharing dynamic geospatial data. Built on open formats, CesiumJS is designed for robust interoperability and scaling for massive datasets.',
   href: 'https://sandcastle.cesium.com/',
   target: '_blank',
@@ -173,7 +173,7 @@ export default
 
 
   { key: `14`,
-  title: 'HELPOUT Decentralized - Help when you need it over live video (coming soon / help wanted)',
+  title: 'DAPP/D-HELPOUTS - Help when you need it over live video (coming soon / help wanted)',
   content: 'What if getting help for a computer glitch, a leaky pipe, or a homework problem was as easy as clicking a button? What if you could connect via real-time video to a music teacher or a yoga instructor from the comfort of your home? What if you could get someone knowledgeable to get you “unstuck” when you really need it? And why did Google not continue this project? Ours is pushing for the free sessions many individuals offered back then, but you are allowed to add a price tag too.',
   href: 'https://blog.google/products/google-plus/introducing-helpouts-help-when-you-need/',
   target: '_blank',
@@ -184,7 +184,7 @@ export default
 
 
   { key: `15`,
-  title: 'SPONTACTS Decentralized - Spontacts is a social discovery application that connects various users for joint activities in a vicinity. (coming soon / help wanted)',
+  title: 'DAPP/D-SPONTACTS - Spontacts is a social discovery application that connects various users for joint activities in a vicinity. (coming soon / help wanted)',
   content: 'On the leisure platform Spontacts you can discover numerous leisure activities in your area every day and join friendly people in your neighborhood. Whether you want to go out for a nice meal, drink a beer together after work, jog through the park together on the weekend, or spend a relaxing evening at the movies or a concert. All this and much more you can discover on Spontacts and experience with great leisure partners. Take part in meetings safely and easily or organize your own activities.',
   href: 'https://app.code4socialgood.org/project/view/3396',
   target: '_blank',
@@ -195,7 +195,7 @@ export default
 
 
   { key: `16`,
-  title: 'COUCHSURFING Decentralized - Meet locals around the world and stay overnight with them! (coming soon / help wanted)',
+  title: 'DAPP/D-COUCHSURFING - Meet locals around the world and stay overnight with them! (coming soon / help wanted)',
   content: 'CouchSurfing is a hospitality exchange service by which users can request homestays or interact with other people who are interested in travel. Hosts are not allowed to charge for lodging.',
   href: 'https://app.code4socialgood.org/project/view/3396',
   target: '_blank',
@@ -206,7 +206,7 @@ export default
 
 
   { key: `17`,
-  title: 'JAMstack - "Jamstack" was originally cased as "JAMstack" where "JAM" stood for JavaScript, API & Markup',
+  title: 'LEARN/JAMstack - "Jamstack" was originally cased as "JAMstack" where "JAM" stood for JavaScript, API & Markup',
   content: 'JavaScript: Dynamic functionalities are handled by JavaScript. There is no restriction on which framework or library you must use. APIs: Server side operations are abstracted into reusable APIs and accessed over HTTPS with JavaScript. These can be third party services or your custom function. MARKUP: Websites are served as static HTML files. These can be generated from source files, such as Markdown, using a Static Site Generator.',
   href: 'https://jamstack.wtf/',
   target: '_blank',
@@ -217,7 +217,7 @@ export default
 
 
   { key: `18`,
-  title: 'Svelte - Forget frameworks, forget even the Svelte specifics',
+  title: 'LEARN/Svelte - Forget frameworks, forget even the Svelte specifics',
   content: 'I actually "abuse" Svelte as a compiler only. I always start like npm install vite@latest, choose Svelte/TS, and use Typescript only (JAMstack) and NOTHING Svelte specific but the bindings 😍 The bundler rewards me with Vanilla JS at the end which can be dropped on edge(static but reactive), and npm run dev hot-reload does load in just milliseconds, even if the project gets bigger. The app itself is small and lightspeed.',
   href: 'https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#quickstart-for-coding-devs-jump-to-quickstart',
   target: '_blank',
