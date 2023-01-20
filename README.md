@@ -1,15 +1,15 @@
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://gitter.im/METAVERSE-GUN/community) [![Join the chat at https://gitter.im/METAVERSE-GUN/community](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://mobile.twitter.com/peace_engine/status/1581332959273299968
+### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
 <br>
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
-### This project is made with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and the Svelte compiler.
-##### (Started this repo with ```npm install vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builts and fast hot-reload)
+### This project is build with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and Svelte as a compiler only.
+##### (Started this repo with ```npm install vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builds and fast hot-reload)
 
 
-### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Typescript, HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍<br>
+### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Javascript(ts file but nothing Typescript specific neccessary here), HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍<br>
 
 ### The back-end is splitted on 200 CDNs (domain and build files) and decentralized GUNJS DB Relays(graph-database). How-to use GUN? Hit (jump to Quickstart) and don't forget to spin up a [GUN Relay](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#gun-relays)...
 <br>
