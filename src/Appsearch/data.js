@@ -184,7 +184,7 @@ export default
 
 
   { key: `15`,
-  title: 'DAPP/D-SPONTACTS - Spontacts is a social discovery application that connects various users for joint activities in a vicinity. (coming soon / help wanted)',
+  title: 'DAPP/D-SPONTACTS (Spontaneous Contacts) - Spontacts is a social discovery application that connects various users for joint activities in a vicinity. (coming soon / help wanted)',
   content: 'On the leisure platform Spontacts you can discover numerous leisure activities in your area every day and join friendly people in your neighborhood. Whether you want to go out for a nice meal, drink a beer together after work, jog through the park together on the weekend, or spend a relaxing evening at the movies or a concert. All this and much more you can discover on Spontacts and experience with great leisure partners. Take part in meetings safely and easily or organize your own activities.',
   href: 'https://app.code4socialgood.org/project/view/3396',
   target: '_blank',

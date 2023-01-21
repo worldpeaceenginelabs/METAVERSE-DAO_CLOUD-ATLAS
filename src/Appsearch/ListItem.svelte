@@ -15,20 +15,21 @@
 <div class='card' style:background-color={color}>
 	
 	<img class="avatar" src="{avatar}">
-	
+
 	<h2>{title}</h2>
 	<p>{content}</p>
 	
-	<div style:text-align="right">
-	{#if categorypic}
-	<img width="20px" height="20px" src="{categorypic}">
-	{/if}
+	<div class="category">
 	
-	{#if categorytext}
-	<p style:font-weight="bold">{categorytext}</p>
-	{/if}
-
-	</div>
+		{#if categorypic}
+		<img width="20px" height="20px" src="{categorypic}">
+		{/if}
+		
+		{#if categorytext}
+		<p style:font-weight="bold">{categorytext}</p>
+		{/if}
+	
+	</div>	
 
 </div>
 </a>
@@ -36,6 +37,10 @@
 
 
 <style>
+	.category {
+		text-align: right;
+	}
+
 	.card {
 		
 		position: relative;
