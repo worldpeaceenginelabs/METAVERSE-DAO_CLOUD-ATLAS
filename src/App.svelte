@@ -5,11 +5,8 @@ import Infobox from "./Infobox.svelte";
 </script>
 
 <!-- Here starts the app-->
-
 <Cesium/>
 <Appsearch/>
 <Infobox/>
 
-<style>
-</style>
-
+<style></style>
