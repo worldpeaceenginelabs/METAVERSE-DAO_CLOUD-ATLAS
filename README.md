@@ -6,7 +6,7 @@
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
 ### This project is build with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and Svelte as a compiler only.
-##### (Started this repo with ```npm install vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builds and fast hot-reload)
+##### (Started this repo with ```npm create vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builds and fast hot-reload)
 
 
 ### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Javascript(ts file but nothing Typescript specific neccessary here), HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍<br>
