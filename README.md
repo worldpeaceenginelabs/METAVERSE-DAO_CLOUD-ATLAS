@@ -3,6 +3,13 @@
 ### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
 <br>
 
+#### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING)
+##### Everything you need to know to develop dapps for METAVERSE-DAO
+
+#### NEW! [DAPP Blueprints](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/dapps.md)
+##### Helpful templates to inspire you
+<br>
+
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
 ### This project is build with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and Svelte as a compiler only.
