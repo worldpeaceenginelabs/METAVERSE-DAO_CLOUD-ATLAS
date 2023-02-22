@@ -1,12 +1,16 @@
 <script lang="ts">  
-import Appsearch from "./Appsearch/Appsearch.svelte";
-import Cesium from "./Cesium.svelte";
-import Infobox from "./Infobox.svelte";
+    
+    import Cesium from "./Cesium.svelte";
+    import Appsearch from "./Appsearch/Appsearch.svelte";
+    import LoginPopUp from "./LoginPopUp.svelte";
+    import Infobox from "./Infobox.svelte";
+    
 </script>
 
 <!-- Here starts the app-->
+<div>
 <Cesium/>
 <Appsearch/>
+<LoginPopUp/>
 <Infobox/>
-
-<style></style>
+</div>
