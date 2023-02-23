@@ -1,6 +1,6 @@
 <script lang="ts">  
     
-    import Cesium from "./Cesium.svelte";
+    import Cesium from "./Cesium/Cesium.svelte";
     import Appsearch from "./Appsearch/Appsearch.svelte";
     import LoginPopUp from "./LoginPopUp.svelte";
     import Infobox from "./Infobox.svelte";
