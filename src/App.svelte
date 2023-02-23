@@ -7,8 +7,8 @@
 </script>
 
 <!-- Here starts the app-->
+<div>
 <Cesium/>
 <Appsearch/>
 <Infobox/>
-
-<style></style>
+</div>
