@@ -1,6 +1,6 @@
-# ATTENTION
-#### Cesium changed the way they import modules, i am on it...
-#### More info https://github.com/CesiumGS/cesium/pull/10824
+# News 23.02.2023
+#### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in!
+#### CesiumJS is now published alongside two smaller packages (this repo was updated today to 1.102.0)
 <br>
 
 # GENERAL
