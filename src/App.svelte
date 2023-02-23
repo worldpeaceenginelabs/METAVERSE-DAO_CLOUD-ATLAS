@@ -1,8 +1,9 @@
 <script lang="ts">  
     
-    import Cesium from "./Cesium/Cesium.svelte";
-    import Appsearch from "./Appsearch/Appsearch.svelte";
-    import Infobox from "./Infobox.svelte";
+import Cesium from "./Cesium/Cesium.svelte";
+import Appsearch from "./Dappstore/Appsearch.svelte";
+import Infobox from "./Infobox.svelte";
+import LoginPopUp from "./Auth/LoginPopUp.svelte";
     
 </script>
 
@@ -10,5 +11,6 @@
 <div>
 <Cesium/>
 <Appsearch/>
+<LoginPopUp/>
 <Infobox/>
 </div>
