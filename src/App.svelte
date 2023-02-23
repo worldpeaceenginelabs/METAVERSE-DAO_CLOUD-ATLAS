@@ -1,7 +1,9 @@
 <script lang="ts">  
-import Appsearch from "./Appsearch/Appsearch.svelte";
-import Cesium from "./Cesium.svelte";
-import Infobox from "./Infobox.svelte";
+    
+    import Cesium from "./Cesium/Cesium.svelte";
+    import Appsearch from "./Appsearch/Appsearch.svelte";
+    import Infobox from "./Infobox.svelte";
+    
 </script>
 
 <!-- Here starts the app-->

@@ -1,20 +1,19 @@
 <script lang="ts">
 
-	import { onMount, tick } from 'svelte';
-	
-  import {
-  Viewer, Cartesian3,
+	import {onMount} from 'svelte';
+
+  import {Viewer,
+  Cartesian3,
   ClockRange,
   Color,
   Entity,
   HermitePolynomialApproximation,
   JulianDate,
   SampledProperty,
-  } from 'cesium'
+  } from 'cesium';
 
   import * as Cesium from 'cesium';
-	import {  } from 'cesium';
-	import '../node_modules/cesium/Build/Cesium/Widgets/widgets.css'
+  import "cesium/Build/Cesium/Widgets/widgets.css";
   
   import Gun from 'gun';
   import { nanoid } from 'nanoid';
