@@ -1,7 +1,16 @@
+# ATTENTION
+#### Cesium changed the way they import modules, i am on it...
+#### More info https://github.com/CesiumGS/cesium/pull/10824
+<br>
+
+# GENERAL
+
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im) [![Join the chat at https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
 <br>
+
+# STARTERKIT
 
 #### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING)
 ##### Everything you need to know to develop dapps for METAVERSE-DAO
