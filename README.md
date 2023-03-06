@@ -1,11 +1,19 @@
 # News 23.02.2023
 #### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in!
-#### CesiumJS is now published alongside two smaller packages (this repo was updated today to 1.102.0)
+#### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0)
+<br>
+
+# PITCH
+
+World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, and desktop devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information.
+
+Cloud Atlas also provides a social network where people from different social circles can collaborate to brainstorm solutions to local and global issues. They can then bring these solutions to life through in-person meetups, crowdfunding, and petitions. Additionally, they can livestream their efforts on MissionTV, a decentralized platform similar to YouTube or Twitch, but focused on showcasing good deeds. MissionTV includes built-in live-chat and donation options.
+
 <br>
 
 # GENERAL
 
-### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://metaverse-gun.pages.dev/)
+### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://metaverse-dao.pages.dev/) [![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)](https://cloudatlas.club/)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im) [![Join the chat at https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
 <br>
