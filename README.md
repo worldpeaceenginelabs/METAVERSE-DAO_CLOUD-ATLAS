@@ -12,6 +12,10 @@
 
 # STARTERKIT
 
+#### NEW! [Webcontainers - NodeJS in browser](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app)
+
+#### NEW! [WASM - Write C/C++/Rust for browser](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
 #### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING)
 ##### Everything you need to know to develop dapps for METAVERSE-DAO
 
