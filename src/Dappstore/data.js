@@ -49,7 +49,7 @@ export default
     
     { key: `3`,
     title: 'AAA like a polymath, even if you aren\'t one, until now! Evolve this digital twin of the real-world to evolve the real-world, and your self...',
-    content: 'Are you a creative, a developer, a maker, an activist, or a non-profit or for-profit entrepreneur? Bring the real world to Unreal Engine 5 and then back into the real world (Web and Desktop -App, -Game, -Software + VR, WebVR...) Not a coder? No problem! Hit the readme on Github (Quickstart for Unreal) Did you already create a dapp / webapp / component with Cesium for Unreal Engine, our Metaverse starterkit on Github, or just your favorite LEARN? Hit me with both on /METAVERSE-DAO-CLOUD-ATLAS/issues/ on Github and use the green label "DAPP STORE" so i can add your dapp / webapp / component to this dapp-store or make it even part of the upcoming basic dapps (for now manually)',
+    content: 'Are you a creative, developer, maker, activist, or non-profit/for-profit entrepreneur? Bring the real world into Unreal Engine 5 and then back into reality, whether it\'s through browser, mobile, desktop, VR or WebVR -apps, -games. Don\'t know how to code? No problem! You can code whole games and application without knowing to code at all. Have you already created a DApp? Submit it on https://github.com/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so that I can add it to our DApp store or make it part of our upcoming basic DApps (for now, manually).',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
     avatar: 'https://user-images.githubusercontent.com/67427045/210920326-292ee3e5-2262-4378-900c-430ab82aa388.png?auto=compress',
@@ -140,7 +140,7 @@ export default
 
   { key: `11`,
     title: 'AAA like a polymath, even if you aren\'t one? The emerging story of our time... ',
-    content: 'The science-fiction-like, planetary collective-computer this project is destined to be is dependent on only two main factors: FIRST: The coding and design community adding dapps, web apps, and components (decentralized or sustainable or both), and SECOND: The World Peace Game! (coming/help wanted) STORY: The Cloud Atlas (this web app), which is a distorted dimension (click this dapp card to have a look), informatically not connected, somewhere distributed all over the internet. YOUR TASK: Photograph and describe places to fight the distortion and to create detail. Connect and render playful from Wikipedia articles (places, POIs, animals, plants, objects, materials, physics, chemistry, even psychology and history articles) to its right counterparts / locations on the globe, objects and in time (spatial timelapse), and check visually if the contents of the articles match reality. Don\'t forget to keep the Wikipedia articles up to date and reliable! Let\'s add ChatGPT, in turn the Virtual Encyclopedia will be able to describe itself on command (Oracular non-AI - QA - friendly AI-complete) Let\'s feed it with the human rights, the laws and the sustainable development goals, medical records, STEM, HASS, and crafting etc., and then let it compare our daily authorities\' behavior and decisions with these rules, as a service on your mobile, right when it happens (government and police, your judge, your boss, your doctor, your teacher, your parents, even your friend...). No penalties, because it\'s only about clearing the question of who is right! The following decisions are up to the participants but this time based on impartial truth (True Oracular AI - friendly AI-complete(both AI and user)) "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
+    content: 'The planetary collective-computer envisioned in this science-fiction-like project is dependent on only two main factors: FIRST, the coding and design community adding dapps, web apps, and components (decentralized or sustainable or both); and SECOND, the World Peace Game! (coming/help wanted) STORY: The Cloud Atlas (this web app), which is a distorted dimension (click this dapp card to have a look), is informatically not connected and is distributed all over the internet. YOUR TASK: Photograph and describe places to fight the distortion and to create detail. Connect and render playful from Wikipedia articles (places, POIs, animals, plants, objects, materials, physics, chemistry, even psychology and history articles) to their right counterparts/locations on the globe, to the right objects, and to the right places in time (spatial timelapse), and visually verify that the contents of the articles match reality. Don\'t forget to keep the Wikipedia articles up to date and reliable! Let\'s add ChatGPT, in turn, the Virtual Encyclopedia will be able to describe itself on command (Oracular non-AI - QA - friendly AI-complete). Let\'s feed it with human rights, laws, sustainable development goals, medical records, STEM, HASS, and crafting, etc., and then let it compare our daily authorities\' behavior and decisions with these rules as a service on your mobile, right when it happens (government and police, your judge, your boss, your doctor, your teacher, your parents, even your friend...). There are no penalties, because it\'s only about clearing the question of who is right! The following decisions are up to the participants, but this time based on impartial truth (True Oracular AI - friendly AI-complete (both AI and user)). "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
     href: 'https://youtu.be/JneJa7aOk8I',
     target: '_blank',
     avatar: 'fuzzy-avatar/key11.jpg?auto=compress',
@@ -234,8 +234,16 @@ export default
   target: '_blank',
   avatar: 'fuzzy-avatar/key7.jpg?auto=compress',
   color: '#c9c6d0',
-  categorytext:'LEARN'}
+  categorytext:'LEARN'},
 
-
+  { key: `20`,
+  title: 'AAA - Access all areas...',
+  content: 'World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, desktop and VR devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information. Cloud Atlas also provides a social network where people from different social circles can collaborate to brainstorm solutions to local and global issues. They can then bring these solutions to life through in-person meetups, crowdfunding, and petitions. Additionally, they can livestream their efforts on MissionTV, a decentralized platform similar to YouTube or Twitch, but focused on showcasing good deeds. MissionTV includes built-in live-chat and donation options. Click on the card to read the conversation of Eliza (AI) and me talking about the whole concept.',
+  avatar: 'fuzzy-avatar/key20.jpg?auto=compress',
+  color: '#ffffff',
+  categorypic:'./fuzzy-category/globe.jpg',
+  href: 'https://docs.google.com/presentation/d/1ggUIgoxqwPpXG3FYWsmeZadG5xHifqq3HwUNmn1cvjo/edit?usp=sharing',
+  target: '_blank'
+}
 
   ];
