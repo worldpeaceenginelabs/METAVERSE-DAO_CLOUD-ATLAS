@@ -14,7 +14,7 @@ export let showLogin = false;
 
 {:else}
 <div>
-    <button class="SignUpLoginText"  on:click="{() => {showLogin = true}}" on:keydown="{() => {showLogin = true}}">Sign up | Login</button>
+    <button class="SignUpLoginText"  on:click="{() => {showLogin = false}}" on:keydown="{() => {showLogin = false}}">Sign up | Login</button>
 </div>
 {/if}
 
