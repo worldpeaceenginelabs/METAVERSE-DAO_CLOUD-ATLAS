@@ -5,7 +5,7 @@
 
 # PITCH
 
-World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, and desktop devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information.
+World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, desktop and VR devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information.
 
 Cloud Atlas also provides a social network where people from different social circles can collaborate to brainstorm solutions to local and global issues. They can then bring these solutions to life through in-person meetups, crowdfunding, and petitions. Additionally, they can livestream their efforts on MissionTV, a decentralized platform similar to YouTube or Twitch, but focused on showcasing good deeds. MissionTV includes built-in live-chat and donation options.
 
