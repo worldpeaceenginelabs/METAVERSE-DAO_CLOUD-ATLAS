@@ -1,14 +1,23 @@
-# News 23.02.2023
-#### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in!
-#### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0)
-<br>
-
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 
+# STARTERKIT NEWS (last updated 23.02.2023)
+#### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in! (23.02.2023)
+#### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0) (23.02.2023)
+<br>
+
+# NEW FEATURES (last updated 07.03.2023)
+#### NEW! [Webcontainers](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app) - NodeJS in browser
+
+#### NEW! [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly)  - Write C/C++/Rust for browser
+
+#### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING) - Everything you need to know to develop dapps for METAVERSE-DAO
+
+#### NEW! [DAPP Blueprints](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/dapps.md) - Helpful templates to inspire you
+<br>
 
 # PITCH
 
-World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, desktop and VR devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information.
+World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, desktop and VR devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information, which they will forward to the Wikipedia community as pull-requests.
 
 Cloud Atlas also provides a social network where people from different social circles can collaborate to brainstorm solutions to local and global issues. They can then bring these solutions to life through in-person meetups, crowdfunding, and petitions. Additionally, they can livestream their efforts on MissionTV, a decentralized platform similar to YouTube or Twitch, but focused on showcasing good deeds. MissionTV includes built-in live-chat and donation options.
 
@@ -19,19 +28,6 @@ Cloud Atlas also provides a social network where people from different social ci
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://cloudatlas.club/) ![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)
 ### [METAVERSE DAO | CLOUD ATLAS COMMUNITY](https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im) [![Join the chat at https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im](https://badges.gitter.im/METAVERSE-GUN/community.svg)](https://gitter.im/METAVERSE-GUN/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
-<br>
-
-# STARTERKIT
-
-#### NEW! [Webcontainers - NodeJS in browser](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app)
-
-#### NEW! [WASM - Write C/C++/Rust for browser](https://developer.mozilla.org/en-US/docs/WebAssembly)
-
-#### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING)
-##### Everything you need to know to develop dapps for METAVERSE-DAO
-
-#### NEW! [DAPP Blueprints](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/dapps.md)
-##### Helpful templates to inspire you
 <br>
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
