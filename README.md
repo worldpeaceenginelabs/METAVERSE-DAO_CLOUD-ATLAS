@@ -3,6 +3,8 @@
 #### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0)
 <br>
 
+![image](https://user-images.githubusercontent.com/67427045/223436546-4b1164b9-bf4c-4399-a775-9628a69f0a26.png)
+
 # PITCH
 
 World Peace Engine Labs has developed a Digital Earth called Cloud Atlas, which is essentially a decentralized version of Google Earth. Cloud Atlas can render UE5 content, games, and applications on browser, mobile, desktop and VR devices. Furthermore, it can render Wikipedia articles as 3D objects and assign each article an artificial identity. This allows the articles to communicate with each other and potentially identify conflicting information.
