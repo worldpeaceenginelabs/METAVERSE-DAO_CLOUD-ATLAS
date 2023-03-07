@@ -3,7 +3,8 @@
 #### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0)
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/223436546-4b1164b9-bf4c-4399-a775-9628a69f0a26.png)
+![AGI](https://user-images.githubusercontent.com/67427045/223441053-ca0a5484-9787-48fc-a94b-03701982b5ed.png)
+
 
 # PITCH
 
