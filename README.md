@@ -93,6 +93,15 @@ Cloud Atlas also provides a social network where people from different social ci
 <br>
 
 ## For end-users
+### A decentralised, open-sourced, interactive, digital twin of the real-world (CesiumJS), which connects to Unreal Engine 5.<br>
+### Combined with decentralised, planet-wide, text, file, voice and video communication (Iris + GUN + Webtorrent) right from the start, at your command.
+
+### A Big Thank You to the Iris Community, the Cesium Community, the Gun Community, and all the communities behind the mouthwatering libraries and protocols we use. 🙏
+
+### Such great projects to start building an open-source metaverse from, don't you think?
+<br>
+
+## For developers and creators
 ### METAVERSE-DAO includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
 
 ### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers.<br>(More User = More Server!)
@@ -103,16 +112,6 @@ Cloud Atlas also provides a social network where people from different social ci
 
 ### The whole interconnected network of meta-(uni)verses is called META-VERSE-NEXUS.
 <br>
-
-## For developers and creators
-### A decentralised, open-sourced, interactive, digital twin of the real-world (CesiumJS), which connects to Unreal Engine 5.<br>
-### Combined with decentralised, planet-wide, text, file, voice and video communication (Iris + GUN + Webtorrent) right from the start, at your command.
-
-### A Big Thank You to the Iris Community, the Cesium Community, the Gun Community, and all the communities behind the mouthwatering libraries and protocols we use. 🙏
-
-### What great libraries to start building an open source metaverse, don't you think?
-<br>
-
 
 # QUICKSTART for components and dapps (the decentralized back-end)
 
