@@ -80,7 +80,7 @@ Cloud Atlas also provides a social network where people from different social ci
 ### ...more about CLOUD ATLAS on https://github.com/worldpeaceenginelabs/CLOUD-ATLAS readme
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/196102288-27a565a5-79ba-4bc7-af04-530446aa5b65.png)
+![image](https://user-images.githubusercontent.com/67427045/224838761-0d85c62a-607d-4c1d-a326-efb44e2c0d43.png)
 
 <br>
 
