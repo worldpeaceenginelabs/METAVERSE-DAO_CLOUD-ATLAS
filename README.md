@@ -1,4 +1,5 @@
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
+![image](https://user-images.githubusercontent.com/67427045/224611376-e2120949-5487-4735-b62e-4c7990e78dec.png)
 
 # STARTERKIT NEWS (last updated 23.02.2023)
 #### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in! (23.02.2023)
