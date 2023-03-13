@@ -1,3 +1,5 @@
+# We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
+
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 ![image](https://user-images.githubusercontent.com/67427045/224611376-e2120949-5487-4735-b62e-4c7990e78dec.png)
 
