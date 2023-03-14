@@ -100,7 +100,7 @@ Best regards, Bo
 # METAVERSE-DAO | CLOUD ATLAS <br> - Time to connect the dots...
 ### [aka "The Seed" aka "World Seed"](https://youtu.be/TlpZr5BedEc) 🧙‍♂️💬=>⚔️🎨@
 
-### ...more about CLOUD ATLAS on https://github.com/worldpeaceenginelabs/CLOUD-ATLAS readme
+### ...more about CLOUD ATLAS on https://github.com/worldpeaceenginelabs/CLOUD-ATLAS
 <br>
 
 ![image](https://user-images.githubusercontent.com/67427045/224838761-0d85c62a-607d-4c1d-a326-efb44e2c0d43.png)
