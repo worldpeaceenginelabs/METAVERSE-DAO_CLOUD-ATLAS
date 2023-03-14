@@ -3,6 +3,18 @@
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 ![image](https://user-images.githubusercontent.com/67427045/224830577-50399658-cdc9-456e-8454-6656d2cf8f1a.png)
 
+# ATTENTION
+
+### We are currently in the Beta phase of developing our platform and creating the first decentralized applications (dApps). We are eagerly awaiting the developer community to join us with their ideas and concepts. During this Beta phase, the globe will only be displayed as a 2D surface. However, once we or our users release dApps, we will unlock the map data in accordance with the needs of the dApp with the most demand for spatial detail. This means that if a 2D model is sufficient for the intended use of a dApp, we will not unlock the more resource-intensive 3D option, which "costs" bandwidth in terms of performance and sustainability. We are working on a step-by-step realization of our [DTile](https://github.com/worldpeaceenginelabs/DTILE) concept.
+
+##### This is the globe in 3D
+![image](https://user-images.githubusercontent.com/67427045/225013124-ccad6c06-bbea-4d6c-b47d-5ed9dea4392d.png)
+<br>
+
+##### This is your application in 3D
+![image](https://user-images.githubusercontent.com/67427045/225017637-b003e5c2-ace2-4dfb-ac30-3d74747bd116.png)
+<br>
+
 # STARTERKIT NEWS (last updated 23.02.2023)
 #### CesiumJS now defaults to using a WebGL2 context for rendering, which feels much smoother when zooming in! (23.02.2023)
 #### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0) (23.02.2023)
