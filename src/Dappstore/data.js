@@ -40,7 +40,7 @@ export default
 
     { key: `2`,
     title: "DAPP/REPORT DECEPTIVE PACKAGING (coming soon / help wanted)",
-    content: 'Deceptive packaging is when a product\'s packaging misleads the customer on various fronts \(in terms of quantity, size, shapes, content etc.\) A classic example is the packaging that is only half filled, but the inside not visible. A disappointment when unpacking for the customer, and twice as much waste as necessary. \(unnecessary environmental pollution\)',
+    content: 'Deceptive packaging occurs when a product\'s packaging misleads the customer in various ways, such as by providing incorrect information regarding quantity, size, shape, or content. A common example of deceptive packaging is when a product is packaged in a container that appears to be full, but is only half-filled and the empty space is not visible from the outside. This can be a disappointing experience for the customer upon opening the packaging, and does result in unnecessary waste and environmental pollution.)',
     href: 'https://app.code4socialgood.org/project/view/3396',
     target: '_blank',
     avatar: 'fuzzy-avatar/key2.jpg?auto=compress',
