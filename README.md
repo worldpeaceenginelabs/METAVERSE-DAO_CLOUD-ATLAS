@@ -43,6 +43,20 @@ Cloud Atlas also provides a social network where people from different social ci
 ### Watch the working proof of concept for a decentralized, open-source Google Earth clone 🥳🥳🥳 Made with GUN JS and CesiumJS 🥰🙏(this repo is made from that POC) https://twitter.com/peace_engine/status/1615317374009511937
 <br>
 
+# Prologue for METAVERSE-DAO DEVS
+Hi fellow developers,
+
+I would like to offer an opportunity for you to continue doing what you do best - contributing to various libraries such as iris, cesium, gun, webtorrent, and other p2p, security, privacy, and spatial libraries that we use regularly. Your contributions will be automatically integrated into METAVERSE-DAO, a platform where we can collaborate and bring ideas from the lab to practice together. Think of it like a dev hop-on hop-off concept with no strings attached.
+
+I have discovered many Github repositories that, if bootstrapped, can provide incredible decentralization features. However, they often remain unused, collecting dust and waiting to be utilized for their intended purpose.
+
+Can you imagine anything better than an open-source, multipleProtocols based metaverse as a decentralized playground for developers? I know I can't!
+
+Thank you in advance for contributing to your favorite libraries, and feel free to contact me anytime.
+
+Best regards, Bo
+<br><br>
+
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
 ### This project is built using the JAMstack, which stands for Javascript, API, and Markup (HTML and CSS).
@@ -65,11 +79,13 @@ Cloud Atlas also provides a social network where people from different social ci
 
 <css>css goes here</css>),
 ```
-# QUICKSTART FOR UNREAL ENGINE
+# QUICKSTART FOR UNREAL ENGINE DEVS
+
+#### NEW! [Unreal Engine 5 Guide](https://github.com/mikeroyal/Unreal-Engine-Guide) - There is an awesome compendium available on Github that describes everything about UE5 in detail.
 
 ### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
 
-### If you choose to use Unreal Engine, you can create high-quality content with real-world environments using Cesium for Unreal, even if you don't know how to code at all. This is already impressive, but if you are a coder, it's even more mind-blowing! You can then connect your creation to a specific location on the globe using longitude and latitude coordinates with a tap or a mouseclick, as explained in the Quickstart section.
+### If you choose to use Unreal Engine, you can create high-quality content with real-world environments using Cesium for Unreal, even if you don't know how to code at all. This is already impressive, but if you are a coder, it's even more mind-blowing! You can then connect your creation to a specific location on the globe using longitude and latitude coordinates with a tap or a mouseclick, as explained in the Quickstart for Coding Devs section.
 
 ### Whether you're an experienced coder or just starting out, you can have fun being creative and join the  [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any questions or want to share your component or dapp.
 <br>
@@ -125,6 +141,8 @@ Cloud Atlas also provides a social network where people from different social ci
 
 ![image](https://user-images.githubusercontent.com/67427045/212865152-88544d46-f46b-4cd5-9d2e-4f2571dfb80b.png)
 
+[see original file](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/src/Cesium.svelte#L232)
+
 # This starter-kit is actually pretty mighty, but easy to create with, even for coding-beginners and for people who do not code at all! (last bullet point) 
 
 - If Cesium JS is your thing, you can easily customize the above object blueprint (// Cesium constructor) to render something else ([CesiumJS is a mighty lib](https://cesium.com/learn/ion-sdk/ref-doc/))
@@ -139,73 +157,6 @@ He says today:
 
 ![image](https://user-images.githubusercontent.com/67427045/225004923-6be4b90f-095a-45a4-bf26-fd863ebe30ca.png)
 <br>
-
-# QUICKSTART FOR UNREAL ENGINE
-
-### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
-
-### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
-### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
-
-### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
-<br><br>
-
-# same as above, but copy-pasteable... [see original file](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/src/Cesium.svelte#L232)
-```
-// Start Svelte Lifecycle
-onMount(async () => {
-
-// Initialize GUN and tell it we will be storing all data local, and sync with relay http://localhost:8765/gun, and under the node 'mapmarker' in the graph.
-var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
-
-
-// fetch latitude, longitude on click and save to Gun
-let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-handler.setInputAction(function(result) {
-
-                                        // pick position
-                                        const cartesian = viewer.scene.pickPosition(result.position);
-					
-                                        // save Cartesian coordinates (x,y,z)
-                                        const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
-                                        
-                                        // convert from Cartesian to Degrees and shorten the numbers to 7 digits after comma
-                                        const longitudeString = Cesium.Math.toDegrees(cartographic.longitude).toFixed(7);
-                                        const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);
-
-                                        // Generate random ID
-                                        var randomid = nanoid(); 
-
-                                        // Save coordinates to Gun - in this example under mapmarker.randomid.longitude:number&latitude:number(pseudocode)
-                                        // The random ID is generated every time the function is executed. This equals naming every record differently.            
-                                        db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
-                                        
-                                        },
-Cesium.ScreenSpaceEventType.LEFT_CLICK);
-
-
-// Fetch Gun data db.on(data => {//your function here});
-db.on(data => { 
-
-// Cesium constructor
-let reddot = viewer.entities.add({
-			name: "red dot",
-			position: Cartesian3.fromDegrees(
-							Number(data.longitude),
-							Number(data.latitude),
-							0
-							),
-
-			point: {pixelSize : 10, color : Cesium.Color.RED, outlineColor : Cesium.Color.GREEN, outlineWidth : 3},
-
-});
-
-});
-
-});
-```
-
-
 
 # Basic feature bucket list (updated January 2023)
 
@@ -258,24 +209,6 @@ First Release v0.0.1 January 2023
 - **Digital government: Build a community with defined rules and goals** 🚧
 - **Banking-system: Buy and sell with crypto money** 🚧 (coming soon)
 - **Web 2.0: The best from this step in internet evolution. Online brainstormings, crowdsourcing and collaboration, online and in-person meetups, petitions and crowdfunding. In the metaverse you are able to do what the internet was supposed to be...** 🚧 (coming soon)
-<br><br><br>
-
-# Preamble for Developers
-
-Hi there everybody,
-
-My offer to devs is, you just doing your thingy and contribute to iris, cesium, gun, webtorrent, and all the other p2p, security, privacy, spatial and other libs we use, like always, but which will arrive at metaverse-gun automatically.
-
-But METAVERSE-DAO is sure a platform, were we can get stuff from the lab, into practice, together. 🥳
-A bit like dev hop on hop off, no strings attached.😎
-
-I found so many github repos, which if bootstrapped get you such awesome decentralization (not only) features. But they lay around, dust on them sometimes, single purposed, but waiting to be used. 
-
-Could you imagine something better than a gun+multipleProtocols based metaverse as a decentralized playground for devs? I'm not 😅
-
-Thank you so much in advance (for contributing to your favorite libraries, as always) 😉🙏
-
-Hit me anytime you like! 
 <br><br><br>
 
 ## Starterkit ✅
