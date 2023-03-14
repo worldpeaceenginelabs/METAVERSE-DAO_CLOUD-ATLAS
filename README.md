@@ -35,13 +35,12 @@ Cloud Atlas also provides a social network where people from different social ci
 
 # [QUICKSTART FOR CODING DEVS (jump to Quickstart)](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#quickstart-for-components-and-dapps-the-decentralized-back-end)
 
-### This project is build with the JAMstack (Javascript, API, Markup(HTML,CSS)) plus it uses the Vite bundler and Svelte as a compiler only.
-##### (Started this repo with ```npm create vite@latest```, Svelte/TS in the installation prompt (not Svelte-kit!!!) It comes pre-configured for edge-builds and fast hot-reload)
+### This project is built using the JAMstack, which stands for Javascript, API, and Markup (HTML and CSS).
+#### It also uses the Vite bundler and Svelte as a compiler(not as a language!). The project was started by running ```npm create vite@latest``` and choosing Svelte/TS in the installation prompt (not Svelte-kit!). It is pre-configured for edge-builds and fast hot-reload.
 
+### By using Svelte, you can take advantage of its logic, like page=component and it's built-in reactivity. This allows you to create single-page applications [SPA](https://en.wikipedia.org/wiki/Single-page_application) without the need for DOM manipulation. Instead of routing you're using imports, links and modals. Some of the Svelte [bindings](https://svelte.dev/tutorial/text-inputs) are also available for use. However, you won't need Svelte specific features like slots or stores. The project is written in TypeScript, but nothing TypeScript-specific is required. Its just Vanilla JS at the end, and the project is compiled statically, but without loosing reactivity, so it can be dropped on the edge(CDN) without the need for a node server. The project also has fast hot-reload, even as it gets larger. (dev dream 🤤👍)
 
-### This way you can make use of the Svelte logic (page=component, built-in reactivity, [SPA](https://en.wikipedia.org/wiki/Single-page_application) but no DOM: forget routing! you pretty much navigate with links and modals), some of the Svelte bindings([pretty self-explaining](https://svelte.dev/tutorial/text-inputs)) but nothing else(no slots, no stores, nothing svelte specific), and just go for Javascript(ts file but nothing Typescript specific neccessary here), HTML and CSS. The bundler rewards you with Vanilla JS at the end (the project gets compiled static but without loosing reactivity, so you can drop it on edge, without a node server(cheaper(free), faster(CDN))), and npm run dev hot-reload loads in milliseconds, even if the project gets bigger. 🤤👍<br>
-
-### The back-end is splitted on 200 CDNs (domain and build files) and decentralized GUNJS DB Relays(graph-database). How-to use GUN? Hit (jump to Quickstart) and don't forget to spin up a [GUN Relay](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#gun-relays)...
+### The back-end of the project is split into 200 CDNs (domain and build files) and decentralized GUNJS DB Relays (graph-database). To use GUN, refer to the guide at "jump to Quickstart" and don't forget to spin up a [GUN Relay.](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/README.md#gun-relays)
 <br>
 
 ```
@@ -60,11 +59,9 @@ Cloud Atlas also provides a social network where people from different social ci
 
 ### [Cesium for Unreal Plug-in on UE Marketplace (free)](https://www.unrealengine.com/marketplace/en-US/product/87b0d05800a545d49bf858ef3458c4f7)
 
-### If you go the Unreal road, you can do pretty much everything, in Unreal Engine 5 quality, and thanks to Cesium for Unreal, inside real-world environments. Without being a coder at all. 🤯 But if you a coder: Double 🤯🤯
-### And then connect it to that long/lat dot (point) on the globe and render it there 🤯🥳 (explained in the Quickstart section)
+### If you choose to use Unreal Engine, you can create high-quality content with real-world environments using Cesium for Unreal, even if you don't know how to code at all. This is already impressive, but if you are a coder, it's even more mind-blowing! You can then connect your creation to a specific location on the globe using longitude and latitude coordinates with a tap or a mouseclick, as explained in the Quickstart section.
 
-### So no matter if you are a super experienced coder or a coding beginner or not even a coder, just have fun being creative and hit me on [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any question or want to publish your component or dapp.
-
+### Whether you're an experienced coder or just starting out, you can have fun being creative and join the  [METAVERSE-DAO | CLOUD ATLAS Community Chat](https://gitter.im/METAVERSE-GUN/community) if you have any questions or want to share your component or dapp.
 <br>
 
 # GUN Relays
@@ -96,24 +93,17 @@ Cloud Atlas also provides a social network where people from different social ci
 <br>
 
 ## For end-users
-### A decentralised, open-sourced, interactive, digital twin of the real-world (CesiumJS), which connects to Unreal Engine 5.<br>
-### Combined with decentralised, planet-wide, text, file, voice and video communication (Iris + GUN + Webtorrent) right from the start, at your command.
+### The project is an open-source, decentralised digital twin of the real-world using CesiumJS, with the ability to connect to Unreal Engine 5. It also includes decentralised communication capabilities through Iris, GUN, and Webtorrent, allowing for text, file, voice, and video communication from anywhere on the planet.
 
-### A Big Thank You to the Iris Community, the Cesium Community, the Gun Community, and all the communities behind the mouthwatering libraries and protocols we use. 🙏
-
-### Such great projects to start building an open-source metaverse from, don't you think?
+### The project owes a big thank you to the communities behind the Iris, Cesium, and Gun libraries and protocols that make this possible. It's an excellent foundation for building an open-source metaverse, don't you agree?
 <br>
 
 ## For developers and creators
-### METAVERSE-DAO includes the basic programs needed to create a meta-verse, such as the audio and video system, as well as downsized, digital versions of governments, banking-system and Web 2.0, which is used to help in the development and to maintain control of the world.
+### METAVERSE-DAO is a platform that includes the necessary programs to create a meta-verse, such as audio and video systems, as well as digital versions of governments, banking systems, and Web 2.0 tools. These tools help in the development and maintenance of the created world, and the platform is built on Web 3.0 technology so that it can run on multiple smaller servers instead of relying on one large server or farm like centralized services. (plus every user device(client) becomes a server too)
 
-### It is made Web 3.0 so that the created world does not require one large server or farm like centralized services today, but can run on multiple smaller servers, even the end-user devices itself will become servers.<br>(More User = More Server!)
+### One exciting feature of METAVERSE-DAO is that it allows accounts to transfer data from one Seed-based world to another, preserving their stats and progress. This means that users don't have to start from scratch when switching between worlds that use METAVERSE-DAO as their "game" engine.
 
-### All meta-verses using 'METAVERSE-DAO' as their "game" engine allow the conversion of an account from one Seed-based world to another.
-
-### It allows an account to transfer their data from one verse into another and keep their stats instead of having to start from scratch.
-
-### The whole interconnected network of meta-(uni)verses is called META-VERSE-NEXUS.
+### All meta-verses created using METAVERSE-DAO are part of the interconnected network called META-VERSE-NEXUS.
 <br>
 
 # QUICKSTART for components and dapps (the decentralized back-end)
@@ -135,6 +125,9 @@ Cloud Atlas also provides a social network where people from different social ci
 
 He says today:
 "Yes, I am still using Blueprints to work on my game development. Because I have only worked as a 3D environment artist but I have no programming experience. So I am also very grateful that the Unreal engine supports a strong Blueprints system."
+<br>
+
+![image](https://user-images.githubusercontent.com/67427045/225004923-6be4b90f-095a-45a4-bf26-fd863ebe30ca.png)
 <br>
 
 # QUICKSTART FOR UNREAL ENGINE
