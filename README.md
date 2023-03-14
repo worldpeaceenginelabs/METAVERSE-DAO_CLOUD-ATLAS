@@ -7,12 +7,8 @@
 
 ### We are currently in the Beta phase of developing our platform and creating the first decentralized applications (dApps). We are eagerly awaiting the developer community to join us with their ideas and concepts. During this Beta phase, the globe will only be displayed as a 2D surface. However, once we or our users release dApps, we will unlock the map data in accordance with the needs of the dApp with the most demand for spatial detail. This means that if a 2D model is sufficient for the intended use of a dApp, we will not unlock the more resource-intensive 3D option, which "costs" bandwidth in terms of performance and sustainability. We are working on a step-by-step realization of our [DTile](https://github.com/worldpeaceenginelabs/DTILE) concept.
 
-##### This is the globe in 3D
-![image](https://user-images.githubusercontent.com/67427045/225013124-ccad6c06-bbea-4d6c-b47d-5ed9dea4392d.png)
-<br>
-
-##### This is your application in 3D
-![image](https://user-images.githubusercontent.com/67427045/225017637-b003e5c2-ace2-4dfb-ac30-3d74747bd116.png)
+##### This is what the globe and your applications looks like in 3D
+![ue5 samples](https://user-images.githubusercontent.com/67427045/225027902-e48f4ef6-47ca-4cbc-a397-84650a47e1b5.png)
 <br>
 
 # STARTERKIT NEWS (last updated 23.02.2023)
@@ -24,6 +20,8 @@
 #### NEW! [Webcontainers](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app) - NodeJS in browser
 
 #### NEW! [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly)  - Write C/C++/Rust for browser
+
+#### NEW! [Unreal Engine 5 Guide](https://github.com/mikeroyal/Unreal-Engine-Guide) - There is an awesome compendium available on Github that describes everything about UE5 in detail.
 
 #### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING) - Everything you need to know to develop dapps for METAVERSE-DAO
 
