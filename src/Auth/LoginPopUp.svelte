@@ -14,7 +14,7 @@ export let showLogin = false;
 
 {:else}
 <div>
-    <button class="SignUpLoginText"  on:click="{() => {showLogin = false}}" on:keydown="{() => {showLogin = false}}">Sign up | Login</button>
+    <button class="SignUpLoginText"  on:click="{() => {showLogin = false}}" on:keydown="{() => {showLogin = false}}">BETA 2D</button> <!-- Sign up | Login ;coming with the first dApp-->
 </div>
 {/if}
 
