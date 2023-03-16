@@ -48,7 +48,7 @@ We believe that the potential for Metaverse-DAO is enormous, and we're excited t
 Join us on Cloud Atlas and be a part of this exciting new community today. Together, we can create a better world for ourselves and future generations.
 <br>
 
-# METAVERSE-DAO | CLOUD ATLAS and T.E.A.C.H.E.R.<br>will be run separately but merged into the project named DarkMatterResponse (inspired by His Dark Materials)
+# METAVERSE-DAO | CLOUD ATLAS and T.E.A.C.H.E.R. will be run separately but merged into the project named DarkMatterResponse (inspired by His Dark Materials)
 
 ![image](https://user-images.githubusercontent.com/67427045/225636646-e34d3022-bb91-4b5b-a2f3-0964a4c39e5c.png)
 
