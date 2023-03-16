@@ -30,7 +30,9 @@
 
 # PITCH
 
-Introducing Cloud Atlas, the [Digital Earth](https://en.wikipedia.org/wiki/Digital_Earth#Next-generation_digital_Earth) ([EU DE](https://joint-research-centre.ec.europa.eu/scientific-activities-z/digital-earth_en)) developed by World Peace Engine Labs that is set to revolutionize the way we interact with the world around us. Think of it as a decentralized version of Google Earth, but with a lot more capabilities.
+![image](https://user-images.githubusercontent.com/67427045/225643126-64c5814f-87af-434c-8655-dc297333ebf8.png)
+
+Introducing Cloud Atlas, the [Digital Earth](https://en.wikipedia.org/wiki/Digital_Earth#Next-generation_digital_Earth) ([EU Digital Earth concept](https://joint-research-centre.ec.europa.eu/scientific-activities-z/digital-earth_en)) developed by World Peace Engine Labs that is set to revolutionize the way we interact with the world around us. Think of it as a decentralized version of Google Earth, but with a lot more capabilities.
 
 With Cloud Atlas, you can explore stunning UE5 content, games, and applications on any device, including browser, mobile, desktop, and VR. But that's not all. You can also experience Wikipedia articles in 3D and engage with them on a whole new level. Each article has an artificial identity, which means they can communicate with each other and identify conflicting information, which they will forward as pull-requests to the Wikipedia community. This helps maintain the accuracy of Wikipedia and promotes collaboration on knowledge among users.
 
