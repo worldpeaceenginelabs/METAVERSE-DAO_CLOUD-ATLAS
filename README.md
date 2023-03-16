@@ -30,7 +30,7 @@
 
 # PITCH
 
-Introducing Cloud Atlas, the Digital Earth developed by World Peace Engine Labs that is set to revolutionize the way we interact with the world around us. Think of it as a decentralized version of Google Earth, but with a lot more capabilities.
+Introducing Cloud Atlas, the [Digital Earth](https://en.wikipedia.org/wiki/Digital_Earth#Next-generation_digital_Earth) ([EU DE](https://joint-research-centre.ec.europa.eu/scientific-activities-z/digital-earth_en)) developed by World Peace Engine Labs that is set to revolutionize the way we interact with the world around us. Think of it as a decentralized version of Google Earth, but with a lot more capabilities.
 
 With Cloud Atlas, you can explore stunning UE5 content, games, and applications on any device, including browser, mobile, desktop, and VR. But that's not all. You can also experience Wikipedia articles in 3D and engage with them on a whole new level. Each article has an artificial identity, which means they can communicate with each other and identify conflicting information, which they will forward as pull-requests to the Wikipedia community. This helps maintain the accuracy of Wikipedia and promotes collaboration on knowledge among users.
 
@@ -45,6 +45,20 @@ And the best part? All updates and new apps are available to all users for free!
 We believe that the potential for Metaverse-DAO is enormous, and we're excited to see it evolve into the future of app development. 
 Join us on Cloud Atlas and be a part of this exciting new community today. Together, we can create a better world for ourselves and future generations.
 <br>
+
+# METAVERSE-DAO | CLOUD ATLAS and T.E.A.C.H.E.R.<br>will be run seperated but merged into Projectname: DarkMatterResponse
+
+In most countries, homeschooling is allowed under certain conditions, generally speaking, if the teacher is qualified. What could be more obvious than a digital teacher that can be programmed to meet these qualifications?
+
+Welcome T.E.A.C.H.E.R - an innovative educational system that revolutionizes the way we educate our children. With T.E.A.C.H.E.R, children can interact with AI according to their interests, and the learning speed is entirely up to the child. What's more, discussed topics are stored in their personal curriculum, and if there are any missing topics compared to the general curriculum, they are suggested more often to the child.
+
+Imagine your child completing 13 years of school in just 5 years, studying topics like quantum physics and rocket-science for fun, or even becoming a doctor at the age of 14. With T.E.A.C.H.E.R, that's not just a dream, it's a possibility!
+
+But that's not all - our system offers many advantages over traditional schooling. The curriculum is accessible online to parents and the public, making it more democratic, and allowing for feedback through surveys, petitions, and crowdfunding. It's also verifiable that the system is child-friendly, and social circles are not compulsively mixed, which can lead to problems and bullying. Children can strengthen their own social circles by spending more time with family and friends.
+
+We understand that social mixing is essential for the natural development of adolescents, but we believe it should be voluntary with the option to leave the scene, which is not always possible in traditional schools. And the ultimate feature for kids in our system is that they can design the teacher's look with Unreal's META-HUMAN, which will give them their first contact with information technology and AI that they can develop from day one.
+
+In summary, T.E.A.C.H.E.R offers a more personalized and efficient approach to education, allowing children to explore their interests and reach their full potential. With our system, your child decides topics and speed. Join us in revolutionizing education for a better future.
 
 # GENERAL
 
