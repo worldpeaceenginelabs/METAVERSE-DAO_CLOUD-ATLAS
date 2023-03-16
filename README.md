@@ -64,7 +64,7 @@ We understand that social mixing is essential for the natural development of ado
 
 In summary, T.E.A.C.H.E.R offers a more personalized and efficient approach to education, allowing children to explore their interests and reach their full potential. With our system, your child decides topics and speed. Join us in revolutionizing education for a better future.
 
-# Matter (a cluster of atoms), ChatGPT, and humans are alike in that we are all defined by our connectome. "I AM MY CONNECTOME"
+# Matter (a cluster of atoms), ChatGPT, and humans are alike in that we are all defined by our connectome.<br>"I AM MY CONNECTOME"
 
 ![image](https://user-images.githubusercontent.com/67427045/225616299-0a6e2dee-39fd-4578-9d20-654fc6d218cd.png)
 This is a human connectome.
