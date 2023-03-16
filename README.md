@@ -46,7 +46,7 @@ We believe that the potential for Metaverse-DAO is enormous, and we're excited t
 Join us on Cloud Atlas and be a part of this exciting new community today. Together, we can create a better world for ourselves and future generations.
 <br>
 
-# METAVERSE-DAO | CLOUD ATLAS and T.E.A.C.H.E.R.<br>will be run seperated but merged into Projectname: DarkMatterResponse
+# METAVERSE-DAO | CLOUD ATLAS and T.E.A.C.H.E.R.<br>will be run seperated but merged into Projectname:<br>DarkMatterResponse (His Dark Materials)
 
 In most countries, homeschooling is allowed under certain conditions, generally speaking, if the teacher is qualified. What could be more obvious than a digital teacher that can be programmed to meet these qualifications?
 
