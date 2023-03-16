@@ -60,6 +60,21 @@ We understand that social mixing is essential for the natural development of ado
 
 In summary, T.E.A.C.H.E.R offers a more personalized and efficient approach to education, allowing children to explore their interests and reach their full potential. With our system, your child decides topics and speed. Join us in revolutionizing education for a better future.
 
+# Matter(Cluster of Atoms), ChatGPT and humans are alike:<br>I AM MY CONNECTOME
+
+![image](https://user-images.githubusercontent.com/67427045/225616299-0a6e2dee-39fd-4578-9d20-654fc6d218cd.png)
+This is a human connectome.
+
+Cloud Atlas is a revolutionary new platform that combines the concept of the connectome with the cutting-edge technology of ChatGPT to create a virtual world of collective knowledge. Like humans, ChatGPT processes vast amounts of information and generates responses based on its accumulated knowledge and understanding of the world. The structure in which the "dataset" is stored is the connectome.
+
+By making ChatGPT and humans share one united connectome, the Cloud Atlas creates a Digital Earth of interconnected knowledge. Using browser technology, Cloud Atlas renders the complex interconnections of connectomes as visible connections between Wikipedia articles, creating a holistic virtual world where updates to Wikipedia articles are reflected in real-time changes to the environment.
+
+Cloud Atlas promises to revolutionize the way we access and share information, and has the potential to increase participation and collaboration in the pursuit of knowledge and understanding oneself and the world around us. This will raise the overall participation in knowledge in general and the extension and correction of Wikipedia articles especially.
+
+Imagine being able to walk through a virtual world of interconnected information, where every step leads to a new discovery, and every interaction contributes to the collective understanding of our world. With Cloud Atlas, the possibilities are endless.
+
+We believe that this platform will have a significant impact on the way we learn and share information, bringing us closer to a future where knowledge is accessible to all. Join us on this exciting journey towards a future of shared knowledge and collective intelligence.
+ 
 # GENERAL
 
 ### [Watch METAVERSE-DAO | CLOUD ATLAS development](https://cloudatlas.club/) ![Live](https://user-images.githubusercontent.com/67427045/174406382-236a2b66-0cd8-4545-8453-74c76bd581ef.png)
