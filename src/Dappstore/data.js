@@ -48,7 +48,7 @@ export default
     categorytext:'DEVELOP'},
     
     { key: `3`,
-    title: 'AAA like a polymath, even if you aren\'t one, until now! Evolve this digital twin of the real-world to evolve the real-world, and your self...',
+    title: 'AAA and evolve this digital twin of the real world to evolve the real world, and yourself',
     content: 'Are you a creative, developer, maker, activist, or non-profit/for-profit entrepreneur? Bring the real world into Unreal Engine 5 and then back into reality, whether it\'s through browser, mobile, desktop, VR or WebVR -apps, -games. Don\'t know how to code? No problem! You can code whole games and application without knowing to code at all. Have you already created a DApp? Submit it on https://github.com/METAVERSE-DAO-CLOUD-ATLAS/issues/ and use the green label "DAPP STORE" so that I can add it to our DApp store or make it part of our upcoming basic DApps (for now, manually).',
     href: 'https://cesium.com/platform/cesium-for-unreal/',
     target: '_blank',
@@ -139,7 +139,7 @@ export default
 
 
   { key: `11`,
-    title: 'AAA like a polymath, even if you aren\'t one? The emerging story of our time... ',
+    title: 'AAA like a polymath, even if you aren\'t one! The emerging story of our time... ',
     content: 'The planetary collective-computer envisioned in this science-fiction-like project is dependent on only two main factors: FIRST, the coding and design community adding dapps, web apps, and components (decentralized or sustainable or both); and SECOND, the World Peace Game! (coming/help wanted) STORY: The Cloud Atlas (this web app), which is a distorted dimension (click this dapp card to have a look), is informatically not connected and is distributed all over the internet. YOUR TASK: Photograph and describe places to fight the distortion and to create detail. Connect and render playful from Wikipedia articles (places, POIs, animals, plants, objects, materials, physics, chemistry, even psychology and history articles) to their right counterparts/locations on the globe, to the right objects, and to the right places in time (spatial timelapse), and visually verify that the contents of the articles match reality. Don\'t forget to keep the Wikipedia articles up to date and reliable! Let\'s add ChatGPT, in turn, the Virtual Encyclopedia will be able to describe itself on command (Oracular non-AI - QA - friendly AI-complete). Let\'s feed it with human rights, laws, sustainable development goals, medical records, STEM, HASS, and crafting, etc., and then let it compare our daily authorities\' behavior and decisions with these rules as a service on your mobile, right when it happens (government and police, your judge, your boss, your doctor, your teacher, your parents, even your friend...). There are no penalties, because it\'s only about clearing the question of who is right! The following decisions are up to the participants, but this time based on impartial truth (True Oracular AI - friendly AI-complete (both AI and user)). "Oh, it\'s a brain for both an AI and humanity, through which you can walk through! Woooow..." 😂 You\'ll get the idea... Decentralize! ✊',
     href: 'https://youtu.be/JneJa7aOk8I',
     target: '_blank',
