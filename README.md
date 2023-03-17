@@ -16,16 +16,18 @@
 #### CesiumJS is now published alongside two smaller packages (this repo was updated to 1.102.0) (23.02.2023)
 <br>
 
-# NEW FEATURES (last updated 07.03.2023)
+# NEW FEATURES (last updated 18.03.2023)
+#### NEW! [Cesium for Unity 3D](https://cesium.com/platform/cesium-for-unity/) Unleash your creativity with the power of Unity 3D
+
+#### NEW! [Unreal Engine 5 Guide](https://github.com/mikeroyal/Unreal-Engine-Guide) - There is an awesome compendium available on Github that describes everything about UE5 in detail.
+
 #### NEW! [Webcontainers](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app) - NodeJS in browser
 
 #### NEW! [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly)  - Write C/C++/Rust for browser
 
-#### NEW! [Unreal Engine 5 Guide](https://github.com/mikeroyal/Unreal-Engine-Guide) - There is an awesome compendium available on Github that describes everything about UE5 in detail.
-
 #### NEW! [GunJS Starterkit with Quickstart and Artificial Intelligence Pair Programming](https://github.com/worldpeaceenginelabs/GUNJS-STARTERKIT-QUICKSTART-ARTIFICIAL-INTELLIGENCE-PAIR-CODING) - Everything you need to know to develop dapps for METAVERSE-DAO
 
-#### NEW! [DAPP Blueprints](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/dapps.md) - Helpful templates to inspire you
+#### NEW! [dApp Blueprints](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/blob/master/dapps.md) - Helpful templates to inspire you
 <br>
 
 # PITCH
