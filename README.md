@@ -1,17 +1,26 @@
 Don't worry too much - the latest updates have only been text-based, because with this starter kit, we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. The globe has actually been ready-to-go for some time now! I've been working hard to find the simplest way for us to share our separate digital worlds (our dApps), while uniting them all in one Digital Earth. And I've finally found it.
 
+Picture this: your UE5/Unity3D dApp wrapped in a bubble and placed on the Digital Earth's surface. With our platform, your app will be easily discoverable by users around the globe. Our goal is to ensure a seamless experience for users as they transition between bubbles, with no perceivable loading time for the new bubble they're about to enter. This way, your users can enjoy a smooth and uninterrupted experience.
+
 This starter kit is perfect for any creator or developer who wants to build dApps, add features, fix bugs, and make improvements for the Cloud Atlas community, their own community, or just for themselves. You don't need coding skills to use this kit - your creativity won't be limited compared to someone who can code. So, go ahead and start creating your own digital world on our Digital Earth!
 
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
 
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 ![image](https://user-images.githubusercontent.com/67427045/226168855-132f6d0b-89c4-43ec-9749-dbc3384c9790.png)
+<br>
+
+# Get started by firing up your engine and fetching the necessary tiles for your dApp. Cesium offers a generous free tier to get you started, and if you need more detailed map-tiles, their high-quality options are available for purchase. With these resources at your fingertips, you can start creating your dApp right away!
+## NEW! [Cesium for Unreal Quickstart](https://cesium.com/learn/unreal/unreal-quickstart/)
+## NEW! [Cesium for Unity 3D Quickstart](https://cesium.com/learn/unity/unity-quickstart/)
+<br>
+
 ![image](https://user-images.githubusercontent.com/67427045/226198123-26fa3ed1-2193-46b3-a1a3-f0502eb9b5d7.png)
+<br>
 
-Get started by firing up your engine and fetching the necessary tiles for your dApp. Cesium offers a generous free tier to get you started, and if you need more detailed map-tiles, their high-quality options are available for purchase. Cloud Atlas will soon be distributing tiles for the entire globe, and we're committed to providing tiles for your apps in a decentralized way. With these resources at your fingertips, you can start creating your dApp right away!
-
-#### NEW! [Cesium for Unreal Quickstart](https://cesium.com/learn/unreal/unreal-quickstart/)
-#### NEW! [Cesium for Unity 3D Quickstart](https://cesium.com/learn/unity/unity-quickstart/)
+# Cloud Atlas will soon be distributing tiles for the entire globe, and we're committed to providing tiles for your apps in a decentralized way.
+![image](https://user-images.githubusercontent.com/67427045/226211052-7461f775-8c94-479b-9bd7-ad2f6341b80d.png)
+<br>
 
 # ATTENTION
 
@@ -27,11 +36,11 @@ Get started by firing up your engine and fetching the necessary tiles for your d
 <br>
 
 # NEW FEATURES/LIBRARIES/DOCUMENTATION (last updated 19.03.2023)
-#### NEW! [Cesium for Unity 3D](https://cesium.com/platform/cesium-for-unity/) Unleash your creativity with the power of Unity 3D
-
 #### NEW! [Cesium for Unreal Quickstart](https://cesium.com/learn/unreal/unreal-quickstart/)
 #### NEW! [Unreal Engine 5 Guide](https://github.com/mikeroyal/Unreal-Engine-Guide) - There is an awesome compendium available on Github that describes everything about UE5 in detail.
 #### NEW! [UE5 Blueprint Tutorials for Beginners](https://dev.epicgames.com/community/learning/tutorials/DY51/ue5-blueprint-tutorials-for-beginners-in-2022) An excellent, easy understandable tutorial. You can master Unreal Engine 5 without any coding knowledge at all. It's that easy!
+#### NEW! [Cesium for Unity 3D](https://cesium.com/platform/cesium-for-unity/) Unleash your creativity with the power of Unity 3D
+#### NEW! [Cesium for Unity 3D Quickstart](https://cesium.com/learn/unity/unity-quickstart/)
 
 #### NEW! [Webcontainers](https://webcontainers.io/tutorial/1-build-your-first-webcontainer-app) - NodeJS in browser
 
