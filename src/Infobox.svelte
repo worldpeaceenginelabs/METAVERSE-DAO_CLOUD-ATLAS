@@ -8,7 +8,7 @@
         Calling all developers to unleash your wildest developer dreams on our playground!<br><br>
         Want to support decentralization? Get involved...<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">@Github</a>
-        <a href="https://matrix.to/#/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
+        <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
         <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
         
