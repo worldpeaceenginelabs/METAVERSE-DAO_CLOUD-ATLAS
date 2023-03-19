@@ -1,3 +1,7 @@
+Don't worry too much - the latest updates have only been text-based, because with this starter kit, we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. The globe has actually been ready-to-go for some time now! I've been working hard to find the simplest way for us to share our separate digital worlds (our dApps), while uniting them all in one Digital Earth. And I've finally found it.
+
+This starter kit is perfect for any creator or developer who wants to build dApps, add features, fix bugs, and make improvements for the Cloud Atlas community, their own community, or just for themselves. You don't need coding skills to use this kit - your creativity won't be limited compared to someone who can code. So, go ahead and start creating your own digital world on our Digital Earth!
+
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
 
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
