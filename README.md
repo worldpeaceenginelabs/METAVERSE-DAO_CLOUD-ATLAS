@@ -6,7 +6,7 @@ This starter kit is perfect for any creator or developer who wants to build dApp
 
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
 
-![image](https://user-images.githubusercontent.com/67427045/226298158-ebfb6668-90af-4fec-8df7-f31884ed83c7.png)
+![image](https://user-images.githubusercontent.com/67427045/226301025-f28601d1-5535-476f-a9d8-d0476116dd4f.png)
 
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 
