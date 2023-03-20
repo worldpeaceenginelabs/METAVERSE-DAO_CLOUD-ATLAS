@@ -12,7 +12,7 @@ Your JAMstack, Webcontainers and WASM creations will be seamless by nature.
 
 Although we are still working on perfecting it, we are fully committed to ensuring a seamless user experience as they transition between different bubbles. Our goal is to eliminate any perceived loading time for the new bubble, allowing your users to effortlessly move between the globe, games, and serious applications. (Users will have the option to preserve their stats and items as they transition between bubbles)
 
-We aim to provide a Metaverse, Astrometrics, Holodeck-like experience.
+We aim to provide a Metaverse, Sword Art Online, Astrometrics, Holodeck-like experience.
 
 Our platform is designed to enable decentralization, so your creative projects are not limited to our platform. We will always guide you in making your UE/Unity3D bubbles, JAMstack, Webcontainers, and WASM creations standalone products that can be used independently. Your dapp card, available in the dapp-store, will provide a simple and interactive way for you to connect with your favorite networks, such as Steam, Epic Games, Windows Store, Green Man Gaming,  and more, and even everywhere a PWA can be listed (mobile and desktop stores). This will help to promote your work and reach a broader audience.
 
