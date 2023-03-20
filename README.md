@@ -1,8 +1,26 @@
-Don't worry too much - the latest updates have only been text-based, because with this starter kit, we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. The globe has actually been ready-to-go for some time now! I've been working hard to find the simplest way for us to share our separate digital worlds (our dApps), while uniting them all in one Digital Earth. And I've finally found it.
+# What's stopping you from creating right now? Your creations will never be limited to just one environment again.
 
-Picture this: your UE5/Unity3D dApp wrapped in a bubble and placed on the Digital Earth's surface. With our platform, your app will be easily discoverable by users around the globe. Our goal is to ensure a seamless experience for users as they transition between bubbles, with no perceivable loading time for the new bubble they're about to enter. This way, your users can enjoy a smooth and uninterrupted experience.
+Welcome to Metaverse-DAO | Cloud Atlas.
 
-This starter kit is perfect for any creator or developer who wants to build dApps, add features, fix bugs, and make improvements for the Cloud Atlas community, their own community, or just for themselves. You don't need coding skills to use this kit - your creativity won't be limited compared to someone who can code. So, go ahead and start creating your own digital world on our Digital Earth!
+We've created a starter kit that empowers creators like you to build their own dApps, add features, fix bugs, and make improvements for the Cloud Atlas community, your own community, or just for yourself. Our goal is to make it easy for anyone to create their own digital world on our Digital Earth, regardless of coding skills or experience.
+
+And we have some exciting news to share: we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. So don't worry too much - the latest updates of this repository have only been text-based.
+
+With our platform, your UE5/Unity3D dApp can be wrapped in a bubble and placed on the Digital Earth's surface, making it easily discoverable by users around the globe.
+
+Your JAMstack, Webcontainers and WASM creations will be seamless by nature.
+
+Although we are still working on perfecting it, we are fully committed to ensuring a seamless user experience as they transition between different bubbles. Our goal is to eliminate any perceived loading time for the new bubble, allowing your users to effortlessly move between the globe, games, and serious applications. (Users will have the option to preserve their stats and items as they transition between bubbles)
+
+We aim to provide a Metaverse, Astrometrics, Holodeck-like experience.
+
+Our platform is designed to enable decentralization, so your creative projects are not limited to our platform. We will always guide you in making your UE/Unity3D bubbles, JAMstack, Webcontainers, and WASM creations standalone products that can be used independently. Your dapp card, available in the dapp-store, will provide a simple and interactive way for you to connect with your favorite networks, such as Steam, Epic Games, Windows Store, Green Man Gaming,  and more, and even everywhere a PWA can be listed (mobile and desktop stores). This will help to promote your work and reach a broader audience.
+
+So what's stopping you from creating right now? Your creations will never be limited to just one environment again.
+
+ We've been working hard to find the simplest way for us to share our separate digital worlds (our dApps), while uniting them all in one Digital Earth. And we've finally found it.
+
+Join us today and start realizing your creative potential!
 
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
 
