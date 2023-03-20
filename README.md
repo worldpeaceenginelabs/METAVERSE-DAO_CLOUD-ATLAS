@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/67427045/226301608-e9fb81c7-22b9-41a9-81e3-8cedafa4e224.png)
+
+
+
 # What's stopping you from creating right now? Your creations will never be limited to just one environment again.
 
 Welcome to Metaverse-DAO | Cloud Atlas.
@@ -24,7 +28,6 @@ Join us today and start realizing your creative potential!
 
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
 
-![image](https://user-images.githubusercontent.com/67427045/226301608-e9fb81c7-22b9-41a9-81e3-8cedafa4e224.png)
 
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 
