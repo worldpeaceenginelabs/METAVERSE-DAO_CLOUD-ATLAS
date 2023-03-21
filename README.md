@@ -1,7 +1,5 @@
 ![image](https://user-images.githubusercontent.com/67427045/226301608-e9fb81c7-22b9-41a9-81e3-8cedafa4e224.png)
 
-
-
 # What's stopping you from creating right now? Your creations will never be limited to just one environment again.
 
 Welcome to Metaverse-DAO | Cloud Atlas.
@@ -14,7 +12,7 @@ With our platform, your UE5/Unity3D dApp can be wrapped in a bubble and placed o
 
 Your JAMstack, Webcontainers and WASM creations will be seamless by nature.
 
-Although we are still working on perfecting it, we are fully committed to ensuring a seamless user experience as they transition between different bubbles. Our goal is to eliminate any perceived loading time for the new bubble, allowing your users to effortlessly move between the globe, games, and serious applications. (Users will have the option to preserve their stats and items as they transition between bubbles)
+Although we are still working on perfecting it, we are fully committed to ensuring a seamless user experience as they transition between different bubbles. Our goal is to eliminate any perceived loading time for the new bubble, allowing your users to effortlessly move between the globe, games, and serious applications. (Devs and Users will have the option to preserve their stats and items as they transition between bubbles. We utilize GunJS mostly as a decentralized alternative to Dropbox or Firebase for sharing stats and items across various bubbles.)
 
 We aim to provide a Metaverse, Sword Art Online, Astrometrics, Holodeck-like experience.
 
@@ -27,7 +25,6 @@ So what's stopping you from creating right now? Your creations will never be lim
 Join us today and start realizing your creative potential!
 
 # We are building the world&#8217;s first Virtual Online Encyclopedia, but of a very special kind&#8230; Science fiction meets the real-world
-
 
 ![AGI](https://user-images.githubusercontent.com/67427045/223441469-ac26d6a0-9c61-4fae-ab61-605a7f0742b9.png)
 
@@ -183,6 +180,11 @@ Best regards, Bo
 <br>
 
 # GUN Relays
+
+Using public (stranger) relays can pose a risk because they may be wiped at any time. However, this may not necessarily be a significant problem. Instead, developers of gun applications should prioritize the local graph on the client-side, as the relay primarily serves the purpose of syncing, not long-term storage. If the intention is to rely on relays for long-term storage, this technology is not yet mature enough for that purpose. But again, the local graph client-side is your long-term storage. Find the balance between deduplication and availablility.
+
+At Cloud Atlas, we utilize GunJS mostly as a decentralized alternative to Dropbox or Firebase for sharing stats and items across various bubbles. Devs and users will have the option to preserve their stats and items as they transition between bubbles.
+
 ### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
 ### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
 ### [Gun Relay Donation Tool (Donate Decentralize UI)](https://github.com/worldpeaceenginelabs/DONATE-DECENTRALIZE-UI)
