@@ -185,7 +185,7 @@ Using public (stranger) relays can pose a risk because they may be wiped at any 
 
 At Cloud Atlas, we utilize GunJS mostly as a decentralized alternative to Dropbox or Firebase for sharing stats and items across various bubbles. Devs and users will have the option to preserve their stats and items as they transition between bubbles.
 
-By the way, have you considered thinking outside the box? For example, for long-term storage, why not encrypt the user profile and store it on Github? A repository could contain all the necessary data, history, pictures, and more. Combined with Github's versioning, the possibilities are endless!
+By the way, have you considered thinking outside the box? For example, for long-term storage, why not encrypt the user profile and store it on Github? A repository could contain all the necessary data, history, pictures, and more. Combined with Github's versioning, the possibilities are endless! (With a combination from this and Webtorrents magnetlinks you could even provide videostreaming for a decentralized Youtube or socialnetwork etc.)
 
 ### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
 ### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
