@@ -242,7 +242,7 @@ export default
   avatar: 'fuzzy-avatar/key20.jpg?auto=compress',
   color: '#ffffff',
   categorypic:'./fuzzy-category/globe.jpg',
-  href: 'https://docs.google.com/presentation/d/1ggUIgoxqwPpXG3FYWsmeZadG5xHifqq3HwUNmn1cvjo/edit?usp=sharing',
+  href: 'https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#readme',
   target: '_blank'
 }
 
