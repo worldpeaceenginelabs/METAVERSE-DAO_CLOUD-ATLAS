@@ -181,9 +181,11 @@ Best regards, Bo
 
 # GUN Relays
 
-Using public (stranger) relays can pose a risk because they may be wiped at any time. However, this may not necessarily be a significant problem. Instead, developers of gun applications should prioritize the local graph on the client-side, as the relay primarily serves the purpose of syncing, not long-term storage. If the intention is to rely on relays for long-term storage, this technology is not yet mature enough for that purpose. But again, the local graph client-side is your long-term storage. Find the balance between deduplication and availablility.
+Using public (stranger) relays can pose a risk because they may be wiped at any time. However, this may not necessarily be a significant problem. Instead, developers of gun applications should prioritize the local graph on the client-side, as the relay primarily serves the purpose of syncing, not long-term storage. If the intention is to rely on relays for long-term storage, this technology is not yet mature enough for that purpose. But again, the local graph client-side is your long-term storage. Striking a balance between deduplication, availability, and consistency is crucial.
 
 At Cloud Atlas, we utilize GunJS mostly as a decentralized alternative to Dropbox or Firebase for sharing stats and items across various bubbles. Devs and users will have the option to preserve their stats and items as they transition between bubbles.
+
+By the way, have you considered thinking outside the box? For example, for long-term storage, why not encrypt the user profile and store it on Github? A repository could contain all the necessary data, history, pictures, and more. Combined with Github's versioning, the possibilities are endless!
 
 ### [Gun Relay (How to run a node - Deploy a GUN relay server everywhere on GUN WIKI)](https://github.com/amark/gun/wiki#how-to-run-a-node---deploy-a-gun-relay-server-everywhere)
 ### [Gun Relay Desktop (Electron Gun)](https://github.com/worldpeaceenginelabs/ELECTRON-GUN)
