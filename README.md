@@ -31,7 +31,7 @@ Join us today and start realizing your creative potential!
 ![image](https://user-images.githubusercontent.com/67427045/226168855-132f6d0b-89c4-43ec-9749-dbc3384c9790.png)
 <br>
 
-# Get started by firing up your engine and fetching the necessary tiles for your dApp. Cesium offers a generous free tier to get you started, and if you need more detailed map-tiles, their high-quality options are available for purchase. With these resources at your fingertips, you can start creating your dApp right away!
+# Get started by firing up your engine and fetching the necessary tiles for your dApp. Cesium offers a generous free tier for non-commercial projects (hobby, proof-of-concept, non-profit) to get you started, and if you go commercial, they offer plans for purchase. With these resources at your fingertips, you can start creating your dApp right away!
 ## NEW! [Cesium for Unreal Quickstart](https://cesium.com/learn/unreal/unreal-quickstart/)
 ## NEW! [Cesium for Unity 3D Quickstart](https://cesium.com/learn/unity/unity-quickstart/)
 <br>
