@@ -7,7 +7,7 @@
         🔥⚠️OPEN BETA⚠️🔥<br>
         What's stopping you from creating right now? Your creations will never be limited to just one environment again!<br><br>
         Want to support decentralization? Get involved...<br>
-        <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">@Github</a>
+        <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#readme" target="blank">@Github</a>
         <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
         <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
