@@ -3,16 +3,16 @@
 
 <div class="main_div" >
 <div class="sub_div">
-    <h4>
+    <h5>
         🔥⚠️OPEN BETA⚠️🔥<br>
-        Calling all developers to unleash your wildest developer dreams on our playground!<br><br>
+        What's stopping you from creating right now? Your creations will never be limited to just one environment again!<br><br>
         Want to support decentralization? Get involved...<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO" target="blank">@Github</a>
         <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
         <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
         
-    </h4>
+    </h5>
 </div>
 </div>
 
@@ -29,7 +29,7 @@
         text-decoration: none;           
         }
 
-    h4  {
+    h5  {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         -webkit-font-smoothing: antialiased;
