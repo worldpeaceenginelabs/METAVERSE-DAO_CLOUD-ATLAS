@@ -1,4 +1,4 @@
-[![image](https://user-images.githubusercontent.com/67427045/226769234-e2b84624-e0b3-4826-a24d-a268eae158e6.png)](https://youtu.be/lHB_G_zWTbc)
+[![image](https://user-images.githubusercontent.com/67427045/226769715-7e6814c2-a801-40d4-a3a9-d8e62d46f86e.png)](https://youtu.be/lHB_G_zWTbc)
 
 # What's stopping you from creating right now? Your creations will never be limited to just one environment again.
 
