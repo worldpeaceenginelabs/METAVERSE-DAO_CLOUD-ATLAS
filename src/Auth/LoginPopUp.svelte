@@ -14,7 +14,9 @@ export let showLogin = false;
 
 {:else}
 <div>
+    <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#attention" target="blank">
     <button class="SignUpLoginText"  on:click="{() => {showLogin = false}}" on:keydown="{() => {showLogin = false}}">BETA (2D Mode)</button> <!-- Sign up | Login ;coming with the first dApp-->
+    </a>
 </div>
 {/if}
 
