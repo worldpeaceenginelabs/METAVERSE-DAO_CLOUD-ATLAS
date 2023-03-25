@@ -1,5 +1,5 @@
 [![image](https://user-images.githubusercontent.com/67427045/227415960-8cf04902-d71a-40ee-a4e4-ee7a61e7fe1b.png)](https://youtu.be/lHB_G_zWTbc)
-![image](https://user-images.githubusercontent.com/67427045/227294428-f58c80ef-8efb-4aeb-b861-cb41451b4abe.png)
+![image](https://user-images.githubusercontent.com/67427045/227712417-8c44787c-e5f9-46a1-b116-44cb0898d2c9.png)
 
 1. Simply create your UE5 or Unity3D bubble, and leave the rest to us. (Quickstarts available in this document)
 2. We help you publish it to multiple metaverses and stores.
