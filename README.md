@@ -11,7 +11,7 @@ Welcome to Metaverse-DAO | Cloud Atlas.
 
 We've created a starter kit that empowers creators like you to build their own dApps, add features, fix bugs, and make improvements for the Cloud Atlas community, your own community, or just for yourself. Our goal is to make it easy for anyone to create their own digital world on our Digital Earth, regardless of coding skills or experience.
 
-And we have some exciting news to share: we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. So don't worry too much - the latest updates of this repository have only been text-based.
+And we have some exciting news to share: we're shifting all the work to Unreal Engine 5, Unity 3D and O3DE from now on. So don't worry too much - the latest updates of this repository have only been text-based.
 
 With our platform, your UE5/Unity3D/O3DE dApp can be wrapped in a bubble and placed on the Digital Earth's surface, making it easily discoverable by users around the globe.
 
