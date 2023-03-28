@@ -1,5 +1,5 @@
 [![image](https://user-images.githubusercontent.com/67427045/227714433-081f2adb-0e32-4b80-a622-e857482e7c6d.png)](https://youtu.be/lHB_G_zWTbc)
-![image](https://user-images.githubusercontent.com/67427045/228252486-b8f73eea-228a-4fad-833e-7167cad75d33.png)
+![image](https://user-images.githubusercontent.com/67427045/228252486-b8f73eea-228a-4fad-833e-7167cad75d33.png)<br><br>
 ![image](https://user-images.githubusercontent.com/67427045/227714660-8fdefc73-dfdd-464f-a703-bc718f60c1f5.png)
 
 1. Simply create your UE5 or Unity3D or O3D bubble, and leave the rest to us. (Quickstarts available in this document)
@@ -13,7 +13,7 @@ We've created a starter kit that empowers creators like you to build their own d
 
 And we have some exciting news to share: we're shifting all the work to Unreal Engine 5 and Unity 3D from now on. So don't worry too much - the latest updates of this repository have only been text-based.
 
-With our platform, your UE5/Unity3D dApp can be wrapped in a bubble and placed on the Digital Earth's surface, making it easily discoverable by users around the globe.
+With our platform, your UE5/Unity3D/O3DE dApp can be wrapped in a bubble and placed on the Digital Earth's surface, making it easily discoverable by users around the globe.
 
 Your JAMstack, Webcontainers and WASM creations will be seamless by nature.
 
