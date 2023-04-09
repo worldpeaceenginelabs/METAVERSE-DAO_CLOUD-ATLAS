@@ -10,9 +10,6 @@
         <br><br>
         🔥⚠️OPEN BETA⚠️🔥<br>
         What's stopping you from creating right now? Your creations will never be limited to just one environment again!<br><br>
-        <a href="https://cesium.com/learn/unreal/unreal-quickstart/" target="blank">Cesium for Unreal Quickstart</a> |
-        <a href="https://cesium.com/learn/unity/unity-quickstart/" target="blank">Cesium for Unity 3D Quickstart</a>
-        <br><br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#readme" target="blank">@Github</a>
         <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
