@@ -7,14 +7,12 @@
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r1y6uOEzkYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lHB_G_zWTbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f4iTRGRyEjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <br><br>
-        🔥⚠️OPEN BETA⚠️🔥<br>
-        What's stopping you from creating right now? Your creations will never be limited to just one environment again!<br><br>
+        <br>
+        🔥⚠️ Desktop and Mobile Apps coming Q2/23⚠️🔥<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#readme" target="blank">@Github</a>
         <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
         <a href="https://www.youtube.com/@worldpeaceenginelabs3955/videos" target="_blank">@YouTube</a>
-        
     </h5>
 </div>
 </div>
@@ -28,7 +26,8 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: white;
-        padding: 0%;        
+        padding: 0%;
+        margin: 0%;        
         text-decoration: none;           
         }
 
@@ -46,7 +45,7 @@
 		* otherwise the text is too close to the radius.
 		* on a smaller radius/font it may not be necessary
 		*/
-		padding: 0px 25px;
+		padding: 0px 10px;
 		
 		/* only needed for webkit browsers which show a rectangular outline;
 		* others do not do outline when radius used.
