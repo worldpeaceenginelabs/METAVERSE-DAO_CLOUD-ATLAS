@@ -10,7 +10,8 @@ import LoginPopUp from "./Auth/LoginPopUp.svelte";
 <!-- Here starts the app-->
 <div>
 <Cesium/>
-<Appsearch/>
+
 <LoginPopUp/>
 <Infobox/>
+<Appsearch/>
 </div>
