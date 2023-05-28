@@ -1,3 +1,8 @@
+# THE MASTER PLAN
+![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/d04c5cdc-b8e5-4346-bdcb-329aa9481f03)
+<br>
+
+# THE STORY ENFOLDS...
 [![image](https://user-images.githubusercontent.com/67427045/230776315-ab2ee01c-81ba-4e44-b346-aa355200cf34.png)](https://youtu.be/r1y6uOEzkYI)
 [![image](https://user-images.githubusercontent.com/67427045/227714433-081f2adb-0e32-4b80-a622-e857482e7c6d.png)](https://youtu.be/lHB_G_zWTbc)
 ![image](https://user-images.githubusercontent.com/67427045/228481952-1c43774a-a1ed-4ff2-b270-129cc56ce1af.png)<br><br>
