@@ -6,6 +6,8 @@
 <br>
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/c5b89221-0cee-4e4a-bd0b-6183bc244446)
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/d231a8f5-cc82-4507-bb0c-d57d8dcb3241)
+
+##### cool thing: if you drop some of the text in the filename (dn=), you can load previews or short texts (around 200 characters max) WITHOUT downloading the torrent upfront or even at all 🤯
 <br>
 
 # Cloud Atlas: A Vision of Decentralized Digital Governance - A decentralized, digital government of the people, run by the people, for the people
