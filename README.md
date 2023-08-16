@@ -24,6 +24,7 @@
 
 ### This is the essence of Cloud Atlas: a glimpse into a world where technology serves as a catalyst for positive evolution, unity, and a shared human experience.
 
+### The first version of Cloud Atlas will contain only The Tools of Change - Reverse Engineering Applied (TOC-RA) in a browser based app, coming 2023, but then...
 <br><br>
 
 # THE STORY ENFOLDS...
