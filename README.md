@@ -12,7 +12,7 @@
 
 ### In this era of profound transformation, we stand poised to embrace a revolutionary paradigm shift that will redefine how we coexist and interact. While navigating daily challenges, a pressing need emerges for a unified platform capable of addressing issues spanning outdoor spaces, homes, schools, workplaces, and the complex domains of law and politics.
 
-### Let us depart from the culture of competition and rigid authority, transcending into an era where the pillars of knowledge, compassion, and collaboration form the foundation of our society. This evolution beckons us to engage our intellect, emotions, and instincts in a holistic manner, guiding our actions and communications.
+### Let us depart from the culture of competition, rigid authority, and everything between from understaffing to sheer ignorance till "an authority owning human being having a bad day/year/life", transcending into an era where the pillars of knowledge, compassion, and collaboration form the foundation of our society. This evolution beckons us to engage our intellect, emotions, and instincts in a holistic manner, guiding our actions and communications.
 
 ### Imagine a platform akin to fixmystreet.com, but elevated to a scale that befits a science fiction utopia—a platform like fixmyworld.com, empowering us to cohesively nurture and elevate our global community. 🌍🚀
 
