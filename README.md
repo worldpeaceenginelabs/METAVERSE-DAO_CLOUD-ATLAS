@@ -4,6 +4,19 @@
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/eff73559-b42c-4fa5-bf13-028d9881c4ae)
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/e4135b0e-4812-406b-a619-c22661500904)
 <br>
+![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/c5b89221-0cee-4e4a-bd0b-6183bc244446)
+![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/d231a8f5-cc82-4507-bb0c-d57d8dcb3241)
+<br>
+
+# Cloud Atlas / A decentralized, digital government of the people, run by the people, for the people
+
+### It's time to embrace a radical shift in our way of living and interacting. Despite encountering daily challenges, we lack a comprehensive platform for addressing issues, whether they occur outdoors, at home, in school, at work, or within the realms of law and politics.
+
+### Let's transition away from a culture of competition, rigid authority and ignorance, and instead, move towards fostering knowledge, compassion, and collaboration. This shift requires us to engage our intellect, emotions, and instincts in every aspect of our actions and communication.
+
+### Imagine an experience similar to fixmystreet.com, but on a larger scale and on science fiction society niveau - a platform like a fixmyworld.com that empowers us to collectively enhance our world. 🤯😜
+
+### The Technological Singularity is something thought to be a future were AI outruns humanity (bad) The definition says: "a technology that causes unfathomable change to a society"
 
 # THE STORY ENFOLDS...
 [![image](https://user-images.githubusercontent.com/67427045/230776315-ab2ee01c-81ba-4e44-b346-aa355200cf34.png)](https://youtu.be/r1y6uOEzkYI)
