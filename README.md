@@ -1,4 +1,5 @@
 # THE MASTER PLAN
+![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/220b5f95-0c27-405d-99f8-6c48ebcaa542)
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/21fcdaf2-8bc5-4584-8cb2-b13b7def1038)
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/f98a9423-fb03-46d0-9e9f-b9a18fe9d1fe)
 ![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/eff73559-b42c-4fa5-bf13-028d9881c4ae)
