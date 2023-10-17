@@ -3,6 +3,7 @@
 # Cloud Atlas: A Vision of Decentralized Digital Governance - A decentralized, digital government of the people, run by the people, for the people
 
 [![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/483b1ab3-58a5-4c71-a793-16ee425adb2c)](https://youtu.be/lHB_G_zWTbc?si=n_pi-shPqHnkKL-T)
+bugged? link to video: https://youtu.be/lHB_G_zWTbc?si=n_pi-shPqHnkKL-T
 <br>
 
 ##### “You never change things by fighting against the existing reality. To change something, build a new model that makes the old model obsolete.” Buckminster Fuller<br>
@@ -29,6 +30,7 @@
 <br>
 
 [![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/8bea545e-545b-49c6-a2a0-502e76dd2a50)](https://youtu.be/f4iTRGRyEjo?si=eP2K3_J46gmYtPUD)
+bugged? link to video: https://youtu.be/f4iTRGRyEjo?si=eP2K3_J46gmYtPUD
 <br>
 
 ### But what if we could engineer a Technological Singularity that defies the ominous scenarios? What if, instead, it embodies values that promote collective well-being, freedom of expression, and harmonious progress?
