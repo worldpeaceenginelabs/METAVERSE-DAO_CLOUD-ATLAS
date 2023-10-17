@@ -2,6 +2,11 @@
 
 # Cloud Atlas: A Vision of Decentralized Digital Governance - A decentralized, digital government of the people, run by the people, for the people
 
+[![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/483b1ab3-58a5-4c71-a793-16ee425adb2c)](https://youtu.be/lHB_G_zWTbc?si=n_pi-shPqHnkKL-T)
+<br>
+
+##### “You never change things by fighting against the existing reality. To change something, build a new model that makes the old model obsolete.” Buckminster Fuller<br>
+
 ### In this era of profound transformation, we stand poised to embrace a revolutionary paradigm shift that will redefine how we coexist and interact. While navigating daily challenges, a pressing need emerges for a unified platform capable of addressing issues spanning outdoor spaces, homes, schools, workplaces, and the complex domains of law and politics.
 
 ### Let us depart from the culture of competition, blind obedience to authority,  understaffing or sheer ignorance, transcending into an era where the pillars of knowledge, compassion, and collaboration form the foundation of our society. This evolution beckons us to engage our intellect, emotions, and instincts in a holistic manner, guiding our actions and communications.
@@ -14,13 +19,23 @@
 
 ### Moreover, this parallels two other well-known entities: money, essentially a mathematical construct designed to shape human behavior, and language, which encompasses rules and rhetoric intended to guide human actions. These, too, can be perceived as distinct forms of Technological Singularities.
 
-### You see, the Technological Singularity is not merely one event in a distant future; it comprises multiple events, some of which we are already experiencing.
+### When a single animal incorporates a newly learned behavior that better adapts to its environment than the overall behavior of its species into its "society", it unintentionally gives rise to unforeseeable changes within that species' "civilization" and, consequently, impacts the civilizations of all other species.
+
+### Still talking about Technological Singularitys, this effect is referred to as non-linear systems. For example, prior to the law against using mobile devices while driving, people were focused on the road while using their phones. However, with the introduction of this law, people began using their mobile devices covertly, diverting their attention away from the road. When a government incorporates a new law into its society, it unintentionally gives rise to unforeseeable changes within that nations' civilization, and consequently, impacts the civilizations of all other nations. (prerole model for other governments, tourists, etc...)
+
+### Statistics serve as evidence for this observation, and decision-makers now comprehend that they could not have predicted this non-linear outcome with todays tools, which Cloud Atlas is about to change!
+
+### You see, the Technological Singularity is not merely one event in a distant future; it comprises multiple, interdisciplinary events, some of which we are already experiencing.
+<br>
+
+[![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/8bea545e-545b-49c6-a2a0-502e76dd2a50)](https://youtu.be/f4iTRGRyEjo?si=eP2K3_J46gmYtPUD)
+<br>
 
 ### But what if we could engineer a Technological Singularity that defies the ominous scenarios? What if, instead, it embodies values that promote collective well-being, freedom of expression, and harmonious progress?
 
 ### This is the essence of Cloud Atlas: a glimpse into a world where technology serves as a catalyst for positive evolution, unity, and a shared human experience.
 
-### The first version of Cloud Atlas will contain only The Tools of Change - Reverse Engineering Applied (TOC-RA) in a browser based app, coming 2023, but then...
+### The first version of Cloud Atlas will contain only The Tools of Change in a browser based app, coming 2023, but then...
 <br><br>
 
 # THE STORY ENFOLDS...
@@ -52,7 +67,7 @@ Introducing Cloud Atlas, the [Digital Earth](https://en.wikipedia.org/wiki/Digit
 
 With Cloud Atlas, you can explore stunning UE5 content, games, and applications on any device, including browser, mobile, desktop, and VR. But that's not all. You can also experience Wikipedia articles in 3D and engage with them on a whole new level. Each article has an artificial identity, which means they can communicate with each other and identify conflicting information, which they will forward as pull-requests to the Wikipedia community. This helps maintain the accuracy of Wikipedia and promotes collaboration on knowledge among users.
 
-But Cloud Atlas is more than just a platform for exploration and learning. It also provides a social network where people from different backgrounds can come together to brainstorm solutions to local and global issues. With the power of in-person meetups, crowdfunding, and petitions, you can turn your ideas into reality and make a difference in the world.
+But Cloud Atlas is more than just a platform for exploration and learning. It also provides a social network called 'Tools of Change' where people from different backgrounds can come together to brainstorm solutions to local and global issues. With the power of in-person meetups to put your brainstorming results into action, crowdfunding, and petitions, you can turn your ideas into reality and make a difference in the world.
 
 And that's not all. Cloud Atlas also features MissionTV, a decentralized platform similar to YouTube or Twitch, but with a focus on showcasing good deeds. With built-in live-chat and donation options, MissionTV provides an easy way to share your achievements and inspire others to do good.
 
@@ -70,7 +85,7 @@ Join us on Cloud Atlas and be a part of this exciting new community today. Toget
 
 In most countries, homeschooling is allowed under certain conditions, generally speaking, if the teacher is qualified. What could be more obvious than a digital teacher that can be programmed to meet these qualifications?
 
-Welcome T.E.A.C.H.E.R - an innovative educational system that revolutionizes the way we educate our children. With T.E.A.C.H.E.R, children can interact with AI according to their interests, and the learning speed is entirely up to the child. What's more, discussed topics are stored in their personal curriculum, and if there are any missing topics compared to the general curriculum, they are suggested more often to the child.
+Welcome T.E.A.C.H.E.R - an innovative educational system that revolutionizes the way we educate our children. With T.E.A.C.H.E.R, children can interact with AI according to their interests, and the learning speed is entirely up to the child. What's more, the discussed topics are marked as "done" in a child's personal curriculum. If there are any missing topics compared to the official school curriculum for children of their age in traditional schools, these topics are simply suggested more frequently to a child of the same age. The T.E.A.C.H.E.R. adapts to the child, and not the other way around. That's what we desire and will love!
 
 Imagine your child completing 13 years of school in just 5 years, studying topics like quantum physics and rocket-science for fun, or even becoming a doctor at the age of 14. With T.E.A.C.H.E.R, that's not just a dream, it's a possibility!
 
