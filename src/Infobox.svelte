@@ -4,11 +4,7 @@
 <div class="main_div" >
 <div class="sub_div">
     <h5>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r1y6uOEzkYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lHB_G_zWTbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f4iTRGRyEjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <br>
-        🔥⚠️Digital Government coming 2023⚠️🔥<br>
+	🔥⚠️Digital Government coming 2023⚠️🔥<br>
         <a href="https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS#readme" target="blank">@Github</a>
         <a href="https://app.gitter.im/#/room/#METAVERSE-DAO_CLOUD-ATLAS_community:gitter.im" target="_blank">@DEVChat</a>
         <a href="https://twitter.com/peace_engine" target="blank">@Twitter</a>
