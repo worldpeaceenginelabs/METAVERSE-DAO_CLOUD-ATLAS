@@ -1,12 +1,29 @@
+### In ten years' time, the world will be a different place. Everyone will be a user or follower in this digital network. Everyone likes instructions on how we should think or live. But what if this technology that connects us so closely can actually help us instead of harming us?
+
+### I stand before you today not just as a dreamer but as the creator of a vision, a future in which technology is not our downfall but our salvation. I have created a concept that is not only revolutionary but also life-changing.
+
+### It's an app that evolves with us and supports us in ways that previously seemed unimaginable. An app that not only stands for individual success but for the cohesion of an entire society. How? Through a groundbreaking engine that puts the traditional practices of indigenous tribes at the center - community care and cohesion.
+
+### This app inspires helpful deeds, mobilizing each and every one of us to do good. But that's not all. It's done through the lens of social justice, guided by ethical methods. We are creating a platform that is not just based on algorithms but on values deeply rooted in our humanity.
+
+### I have created the future - an app that helps us without harming us. A place we can turn to for fair care. A place where everyone is seen and heard. No one will ever be alone again. All our needs will be met, and our lives can be radically transformed.
+
+### Think about how this app, this revolution, can drive not only technology but also humanity. We have the power to shape a future characterized not just by likes, dislikes, and followers but by compassion and unity. Together, we can create a world where no one is left behind, and everyone can reach their full potential. This is our responsibility; this is our opportunity. Let's shape this future together!
+
+### Inspired by the World Peace Game of Buckminster Fuller: “Make the world work for 100% of humanity in the shortest possible time through spontaneous cooperation, without ecological offense or the disadvantage of anyone.”
+<br>
+
 ![Screenshot 2023-10-16 141342](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/c2fdbdda-5eba-4611-8848-befb59c5df85)
 
-# Cloud Atlas: A Vision of Decentralized Digital Governance - A decentralized, digital government of the people, run by the people, for the people
+<br>
+
+# Cloud Atlas: A Vision of Decentralized Digital Governance - A digital government of the people, run by the people, for the people
 
 [![image](https://github.com/worldpeaceenginelabs/METAVERSE-DAO_CLOUD-ATLAS/assets/67427045/483b1ab3-58a5-4c71-a793-16ee425adb2c)](https://youtu.be/lHB_G_zWTbc?si=n_pi-shPqHnkKL-T)
 bugged? link to video: https://youtu.be/lHB_G_zWTbc?si=n_pi-shPqHnkKL-T
 <br>
 
-##### “You never change things by fighting against the existing reality. To change something, build a new model that makes the old model obsolete.” Buckminster Fuller<br>
+### “You never change things by fighting against the existing reality. To change something, build a new model that makes the old model obsolete.” Buckminster Fuller<br>
 
 ### In this era of profound transformation, we stand poised to embrace a revolutionary paradigm shift that will redefine how we coexist and interact. While navigating daily challenges, a pressing need emerges for a unified platform capable of addressing issues spanning outdoor spaces, homes, schools, workplaces, and the complex domains of law and politics.
 
@@ -37,7 +54,7 @@ bugged? link to video: https://youtu.be/f4iTRGRyEjo?si=eP2K3_J46gmYtPUD
 
 ### This is the essence of Cloud Atlas: a glimpse into a world where technology serves as a catalyst for positive evolution, unity, and a shared human experience.
 
-### The first version of Cloud Atlas will contain only The Tools of Change in a browser based app, coming 2023, but then...
+### The first version of Cloud Atlas will contain only The Tools of Change in a browser based app, coming 2024, but then...
 <br><br>
 
 # THE STORY ENFOLDS...
