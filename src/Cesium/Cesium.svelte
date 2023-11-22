@@ -81,7 +81,7 @@
 
 	// cesium access token
 
-	Cesium.Ion.defaultAccessToken = 'ENV_CESIUM_AT';
+	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ODAzNDEwYS0xOTkwLTQ1MmYtOTMwNi0wNGVjYzVkNzc1ZTIiLCJpZCI6NDcwNzcsImlhdCI6MTcwMDY3MjY4N30.RtapnMjbPxQYYL907JN5hj4L6CGOG-fShopPux-MBBU';
   
 
 
