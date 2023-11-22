@@ -72,7 +72,7 @@
 
     //Use OpenStreetMaps
     // imageryProvider : new Cesium.OpenStreetMapImageryProvider({
-    //    url : 'https://a.tile.openstreetmap.org/'
+    //    url : 'https://tile.openstreetmap.org/'
     // })
     
 		});
