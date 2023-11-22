@@ -81,7 +81,7 @@
 
 	// cesium access token
 
-	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ODAzNDEwYS0xOTkwLTQ1MmYtOTMwNi0wNGVjYzVkNzc1ZTIiLCJpZCI6NDcwNzcsImlhdCI6MTcwMDY3MjY4N30.RtapnMjbPxQYYL907JN5hj4L6CGOG-fShopPux-MBBU';
+	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiOThiNzJiOC1iNDFhLTQ4ZGMtODc0Zi0wYjJmZWIyMjZkNzAiLCJpZCI6NDcwNzcsImlhdCI6MTcwMDY3Mzk1Mn0.5AKEDm3pPCzy9lr4NKYFtK2sLLQKJyEDo2VxQib0A4w';
   
 
 
