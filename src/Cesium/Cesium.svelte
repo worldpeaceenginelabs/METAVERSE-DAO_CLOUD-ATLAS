@@ -228,57 +228,7 @@ const createPulsatingPoint = (
 
 
 
-// Start Svelte Lifecycle
-onMount(async () => {
 
-// Initialize GUN and tell it we will be storing all data local, and sync with relay http://localhost:8765/gun, and under the node 'mapmarker' in the graph.
-var db = Gun(['http://localhost:8765/gun']).get('mapmarker')
-
-
-// fetch latitude, longitude on click and save to Gun
-let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-handler.setInputAction(function(result) {
-
-                                        // pick position
-                                        const cartesian = viewer.scene.pickPosition(result.position);
-                                        // save Cartesian coordinates (x,y,z)
-                                        const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
-                                        
-                                        // convert from Cartesian to Degrees and shorten the numbers to 7 digits after comma
-                                        const longitudeString = Cesium.Math.toDegrees(cartographic.longitude).toFixed(7);
-                                        const latitudeString = Cesium.Math.toDegrees(cartographic.latitude).toFixed(7);
-
-                                        // Generate random ID
-                                        var randomid = nanoid(); 
-
-                                        // Save coordinates to Gun - in this example under mapmarker.randomid.longitude:number&latitude:number(pseudocode)
-                                        // The random ID is generated every time the function is executed. This equals naming every record differently.                                       
-                                        db.get(randomid).put({longitude: longitudeString, latitude: latitudeString});
-                                        
-                                        },
-Cesium.ScreenSpaceEventType.LEFT_CLICK);
-
-
-// Fetch Gun data db.on(data => {//your function here});
-db.on(data => { 
-
-// Cesium constructor
-
-let reddot = viewer.entities.add({
-			name: "red dot",
-			position: Cartesian3.fromDegrees(
-                                      Number(data.longitude),
-                                      Number(data.latitude),
-                                      0
-                                      ),
-                                      
-			point: {pixelSize : 10, color : Cesium.Color.RED, outlineColor : Cesium.Color.GREEN, outlineWidth : 3},
-
-});
-
-});
-
-});
 
 </script>
 
