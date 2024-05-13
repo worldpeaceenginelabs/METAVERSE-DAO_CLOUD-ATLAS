@@ -15,9 +15,7 @@
   import * as Cesium from 'cesium';
   import "cesium/Build/Cesium/Widgets/widgets.css";
   
-  import Gun from 'gun';
-  import { nanoid } from 'nanoid';
-  
+
    // Get user location from browser api
   const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
     return new Promise((resolve, reject) => {
@@ -44,7 +42,8 @@
 		// browser code
 	}
 	
-
+// The URL on your server where CesiumJS's static files are hosted.
+window.CESIUM_BASE_URL = '/build/';
 
   // cesium viewer
   let viewer: Viewer;
